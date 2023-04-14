@@ -1,0 +1,68 @@
+.edo3-Browser .edo3-Browser-browser .ws-fragment,.edo3-Browser-browser {
+    height: 100%
+}
+
+.edo3-Browser-full-height {
+    height: 100%
+}
+
+.edo3-Browser-scroll-container {
+    height: 100%
+}
+
+.edo3-Browser-master_item_padding-top {
+    padding-top: 5px
+}
+
+.edo3-Browser__inputSearch+.edo3-Browser__operationsPanelButton {
+    margin-left: var(--offset_m)
+}
+
+.edo3-Browser-empty-template {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.edo3-Browser-empty-template__header {
+    font-size: 22px;
+    color: #aab0c1
+}
+
+.edo3-Browser-empty-template__description {
+    margin: var(--offset_m) var(--offset_m) 0 var(--offset_m);
+    font-size: var(--font-size_l);
+    color: #aab0c1;
+    white-space: normal
+}
+
+.edo3-Browser-empty-template__image {
+    width: 220px;
+    height: 220px
+}
+
+.edo3-Browser-empty-template__image-container {
+    margin-top: 40px
+}
+
+.edo3-Browser-empty-template__link {
+    color: var(--link_text-color)
+}
+
+.edo3-Browser-empty-template__link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--link_hover_text-color)
+}
+
+.edo3-Browser .edo3-Browser__actionsContainer {
+    display: none
+}
+
+.edo3-FilterContainerData__hintPopup {
+    width: 100%;
+    min-width: 0
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module for_cdn="1" id="70fd296c-ed07-4fe5-9393-f8fdc9fc7df3" package="Wasaby" name="Highcharts" responsible="Угриновский Н.В." version="1.00">
+
+  <description>Библиотека Highcharts</description>
+
+  <depends/>
+
+  <load_after/>
+
+  <parameters/>
+
+  <resources/>
+
+  <preload/>
+
+</ui_module>

@@ -1,0 +1,52 @@
+.OverlayControl {
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 99999;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0
+}
+
+.OverlayControl .OverlayControlContent__Center {
+    margin-top: -175px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.OverlayControl .OverlayControlContent__Center .OverlayControlContent__Center__Message {
+    text-align: center;
+    color: #fff;
+    width: 500px
+}
+
+.OverlayControlContent__p {
+    font-size: 15px
+}
+
+.OverlayControlContent__h2 {
+    font-size: 24px
+}
+
+.OverlayControlContent__Right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3px 3px 4px 4px;
+    display: inline-block;
+    text-align: right;
+    cursor: pointer
+}
+
+.OverlayControlContent__Right:hover .controls-Button__icon {
+    fill: #fff;
+    color: var(--contrast_text-color);
+}
+
+.ws-is-desktop-safari .OverlayControlContent__Right, .ws-is-mobile-safari .OverlayControlContent__Right {
+    display: none
+}

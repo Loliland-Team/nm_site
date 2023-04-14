@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module for_cdn="1" id="60eab040-41dd-42ed-907d-1efa033282dd" name="TensorFont-IE" package="Wasaby" responsible="Бегунов А.В." version="1.00">
+
+  <description>TensorFont для IE</description>
+
+  <depends/>
+
+  <load_after/>
+
+  <parameters/>
+
+  <resources/>
+
+  <preload/>
+
+</ui_module>

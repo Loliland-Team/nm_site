@@ -1,0 +1,160 @@
+.auth-MainWithSteps {
+    min-height: 590px
+}
+
+.auth-MainWithSteps__autoHeight {
+    height: auto
+}
+
+.auth-MainWithSteps__scrollContainer {
+    width: 100%;
+    height: 100%
+}
+
+.auth-MainWithSteps__icons {
+    background-repeat: no-repeat
+}
+
+.auth-MainWithSteps__icons_phone {
+    background-image: url("http://localhost:25002/AuthControlsCDN/1.0.0/icons/phone_icon.svg");
+    background-size: cover
+}
+
+.auth-MainWithSteps__icons_email {
+    background-image: url("http://localhost:25002/AuthControlsCDN/1.0.0/icons/mail_icon.svg");
+    background-size: contain;
+    background-position-y: center;
+    margin-top: 1px
+}
+
+@media (max-height: 667px) {
+    .auth-MainWithSteps {
+        min-height:530px
+    }
+}
+
+.auth-AdaptiveLoginForm {
+    height: 100%;
+    width: 100%;
+    max-width: 355px
+}
+
+.auth-AdaptiveLoginForm-offsetTop-default {
+    padding-top: 29px
+}
+
+.auth-AdaptiveLoginForm__allWidth {
+    width: 100%
+}
+
+.auth-AdaptiveLoginForm__inputBlock {
+    margin-top: 106px;
+    height: 44px
+}
+
+.auth-AdaptiveLoginForm__password {
+    margin-top: 28px
+}
+
+.auth-AdaptiveLoginForm__loginButton {
+    width: 72px
+}
+
+.auth-AdaptiveLoginForm__loginButtonImage {
+    background: url("http://localhost:25002/AuthControlsCDN/1.0.0/icons/login_button.svg") no-repeat;
+    background-position: center
+}
+
+.auth-AdaptiveLoginForm__loginButtonImage_disable {
+    background: url("http://localhost:25002/AuthControlsCDN/1.0.0/icons/login_button_disable.svg") no-repeat;
+    background-position: center
+}
+
+.auth-AdaptiveLoginForm__demoIcon {
+    background: url("http://localhost:25002/AuthControlsCDN/1.0.0/icons/demo.png") no-repeat;
+    background-position: center
+}
+
+.auth-AdaptiveLoginForm__partnerIcon {
+    background: url("http://localhost:25002/AuthControlsCDN/1.0.0/icons/partner.svg") no-repeat;
+    background-position: center
+}
+
+.auth-AdaptiveLoginForm__partnerLink {
+    margin-top: 44px
+}
+
+.auth-AdaptiveLoginForm__link {
+    text-decoration: underline;
+    color: var(--unaccented_color)
+}
+
+.auth-AdaptiveLoginForm__demoLink {
+    margin-bottom: 63px
+}
+
+.auth-AdaptiveLoginForm__registrationMain {
+    width: 100%;
+    margin-top: 78px
+}
+
+[dir=rtl] .auth-AdaptiveLoginForm__loginButtonImage {
+    transform: scaleX(-1)
+}
+
+@media (max-height: 667px) {
+    .auth-AdaptiveLoginForm__inputBlock {
+        margin-top:78px
+    }
+
+    .auth-AdaptiveLoginForm__registrationMain {
+        margin-top: 46px
+    }
+}
+
+.auth-AuthDialog__content {
+    height: 470px
+}
+
+.auth-Tabs__tab {
+    border-bottom: 2px solid var(--border-color_block);
+    cursor: pointer
+}
+
+.ws-is-hover .auth-Tabs__tab:hover {
+    color: var(--hover_text-color)
+}
+
+.auth-Tabs__tab_current {
+    border-bottom: 2px solid var(--primary_contrast_background-color);
+    cursor: pointer
+}
+
+.auth-CertAndOauth__oauthBlock {
+    width: 100%;
+    align-self: flex-start;
+    justify-content: space-between
+}
+
+.auth-CertAndOauth__flashDriveIcon {
+    background: url("http://localhost:25002/AuthControlsCDN/1.0.0/icons/flash_drive.svg") no-repeat;
+    background-position: center;
+    background-color: var(--unaccented_background-color);
+    border: 1px solid var(--separator_color_block);
+    border-radius: 8px
+}
+
+.ws-is-hover .auth-CertAndOauth__certLink:hover .auth-AdaptiveLoginForm__flashDriveIcon {
+    background-color: var(--pale_hover_contrast_background-color)
+}
+
+@media (max-width: 530px) {
+    .auth-CertAndOauth__oauthBlock {
+        flex-direction:column;
+        align-items: center
+    }
+
+    .auth-CertAndOauth__oauthList {
+        margin-top: var(--offset_l)
+    }
+}

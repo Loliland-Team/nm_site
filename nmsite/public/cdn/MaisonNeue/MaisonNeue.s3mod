@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module for_cdn="1" id="f161d674-43e5-4634-94d6-9e26430d08b3" name="MaisonNeue" package="Wasaby" responsible="Бегунов А.В." version="1.00">
+
+  <description>MaisonNeue</description>
+
+  <depends/>
+
+  <load_after/>
+
+  <parameters/>
+
+  <resources/>
+
+  <preload/>
+
+</ui_module>

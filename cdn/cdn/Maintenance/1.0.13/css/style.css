@@ -1,0 +1,139 @@
+.SbisEnv-ParkingPage {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+.SbisEnv-ParkingPage__header {
+  font-size: 18px;
+  color: #999;
+}
+.SbisEnv-ParkingContent {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 650px;
+}
+.SbisEnv-ParkingDialog {
+  color: #000 !important;
+}
+.SbisEnv-ParkingBody {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  color: #999;
+  padding-top: 12px;
+  padding-bottom: 0;
+  white-space: normal;
+}
+.SbisEnv-Parking__size_medium {
+  padding-top: 24px;
+}
+.SbisEnv-Parking__size_dialog {
+  padding-top: 0;
+}
+.SbisEnv-Parking__size_large {
+  padding-top: 64px;
+  padding-bottom: 0px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.SbisEnv-ParkingBody__image {
+  color: #ccc;
+  height: 96px;
+}
+.SbisEnv-Parking__size_large .SbisEnv-ParkingBody__image {
+  height: 300px;
+}
+.SbisEnv-Parking__size_medium .SbisEnv-ParkingBody__image,
+.SbisEnv-Parking__size_dialog .SbisEnv-ParkingBody__image {
+  height: 144px;
+}
+.SbisEnv-ParkingBody__message {
+  font-size: 14px;
+  height: 32px;
+  margin: 12px auto 0;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.SbisEnv-Parking__size_medium .SbisEnv-ParkingBody__message {
+  font-size: 15px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.SbisEnv-Parking__size_dialog .SbisEnv-ParkingBody__message {
+  font-size: 18px;
+  margin-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.SbisEnv-Parking__size_large .SbisEnv-ParkingBody__message {
+  font-size: 24px;
+  margin-top: 32px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.SbisEnv-ParkingBody__details {
+  font-size: 14px;
+  margin-top: 0px;
+}
+.SbisEnv-Parking__size_dialog .SbisEnv-ParkingBody__details,
+.SbisEnv-Parking__size_medium .SbisEnv-ParkingBody__details {
+  font-size: 14px;
+  margin-top: 8px;
+}
+.SbisEnv-Parking__size_large .SbisEnv-ParkingBody__details {
+  font-size: 18px;
+  margin-top: 12px;
+}
+.SbisEnv-ParkingBody__action {
+  margin-top: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.SbisEnv-ParkingBody__action a {
+  font-size: 12px;
+  cursor: pointer;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #0055BB;
+}
+.SbisEnv-ParkingBody__action a:hover {
+  text-decoration: underline;
+  color: #313E78;
+}
+.SbisEnv-Parking__size_medium .SbisEnv-ParkingBody__action {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.SbisEnv-Parking__size_large .SbisEnv-ParkingBody__action {
+  margin-top: 32px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.SbisEnv-Parking__size_large .SbisEnv-ParkingBody__action a {
+  font-size: 15px;
+}
+.SbisEnv-ParkingBody__footer {
+  min-height: 8px;
+}
+.SbisEnv-Parking__size_dialog .SbisEnv-ParkingBody__footer {
+  min-height: 0px;
+}
+.SbisEnv-Parking__size_large .SbisEnv-ParkingBody__footer {
+  min-height: 32px;
+}

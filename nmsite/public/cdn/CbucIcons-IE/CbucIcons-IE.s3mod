@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module for_cdn="1" id="938d0978-3fca-4c9d-9946-ba3ae46255a6" name="CbucIcons-IE" package="Wasaby" responsible="Бегунов А.В." version="1.00">
+
+  <description>CbucIcons-IE</description>
+
+  <depends/>
+
+  <load_after/>
+
+  <parameters/>
+
+  <resources/>
+
+  <preload/>
+
+</ui_module>

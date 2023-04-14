@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module for_cdn="1" id="8755d022-a014-42a3-8023-fb90f98c0edc" package="Wasaby" name="Codemirror" responsible="Башмаков И.Н." version="1.00">
+
+  <description>Библиотека Codemirror</description>
+
+  <depends/>
+
+  <load_after/>
+
+  <parameters/>
+
+  <resources/>
+
+  <preload/>
+
+</ui_module>

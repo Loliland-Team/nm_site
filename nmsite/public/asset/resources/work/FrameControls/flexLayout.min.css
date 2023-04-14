@@ -1,0 +1,58 @@
+.frameControls-flexLayout {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    gap: var(--gap_flexLayoutItems)
+}
+
+.frameControls-flexLayout_row {
+    flex-direction: row
+}
+
+.frameControls-flexLayout_column {
+    flex-direction: column
+}
+
+.frameControls-flexLayout_justify-start {
+    justify-content: flex-start
+}
+
+.frameControls-flexLayout_justify-end {
+    justify-content: flex-end
+}
+
+.frameControls-flexLayout_justify-center {
+    justify-content: center
+}
+
+.frameControls-flexLayout_justify-space-between {
+    justify-content: space-between
+}
+
+.frameControls-flexLayout_justify-space-around {
+    justify-content: space-around
+}
+
+.frameControls-flexLayout_justify-space-evenly {
+    justify-content: space-evenly
+}
+
+.frameControls-flexLayout_align-start {
+    align-items: flex-start
+}
+
+.frameControls-flexLayout_align-end {
+    align-items: flex-end
+}
+
+.frameControls-flexLayout_align-center {
+    align-items: center
+}
+
+.frameControls-flexLayout_align-stretch {
+    align-items: stretch
+}
+
+.frameControls-flexLayout_align-baseline {
+    align-items: baseline
+}

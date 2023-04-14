@@ -1,0 +1,1774 @@
+.controls-ListViewV {
+    height: 100%;
+    position: relative
+}
+
+.controls-ListView__itemV-relative {
+    position: relative
+}
+
+.controls-ListView__itemV_marker {
+    position: absolute;
+    display: inline-flex;
+    z-index: 2;
+    left: 0
+}
+
+.controls-ListView__itemV_marker_with_image::after {
+    margin-top: var(--marker_image_padding);
+    margin-bottom: var(--marker_image_padding)
+}
+
+.controls-ListView__itemV_marker::before {
+    content: '\200b'
+}
+
+.controls-ListView__itemV_marker-baselineWithEditingTemplate::before {
+    font-size: var(--baseline_list)
+}
+
+.controls-ListView__itemV_marker::after {
+    content: '';
+    background-color: var(--marker_color);
+    border-radius: var(--border-radius_2xs)
+}
+
+.controls-ListView__itemV_marker_size_content-xs {
+    align-items: center
+}
+
+.controls-ListView__itemContent {
+    z-index: 1
+}
+
+.ws-is-ie .controls-ListView__itemV_marker_size_content-xs {
+    top: 0;
+    bottom: 0
+}
+
+.ws-is-ie .controls-StickyBlock .controls-ListView__itemContent {
+    position: relative
+}
+
+.controls-ListView__itemV_marker_outside_content-xs {
+    left: calc(-1 * var(--marker_thickness_content-xs_list))
+}
+
+.controls-ListView__itemV_marker_outside_content-xl {
+    left: calc(-1 * var(--marker_thickness_content-xl_list))
+}
+
+.controls-ListView__itemV_marker_outside_image-l {
+    left: calc(-1 * var(--marker_thickness_image-l_list))
+}
+
+.controls-ListView__itemV_marker_outside_image-mt {
+    left: calc(-1 * var(--marker_thickness_image-mt_list))
+}
+
+.controls-ListView__itemV_marker_outside_image-m {
+    left: calc(-1 * var(--marker_thickness_image-m_list))
+}
+
+.controls-ListView__itemV_marker_outside_image-s {
+    left: calc(-1 * var(--marker_thickness_image-s_list))
+}
+
+.controls-ListView__itemV_marker_size_content-xs::after {
+    height: var(--marker_size_content-xs_list);
+    width: var(--marker_thickness_content-xs_list)
+}
+
+.controls-ListView__itemV_marker_size_content-xl::after {
+    height: var(--marker_size_content-xl_list);
+    width: var(--marker_thickness_content-xl_list)
+}
+
+.controls-ListView__itemV_marker_size_image-l::after {
+    height: var(--marker_size_image-l_list);
+    width: var(--marker_thickness_image-l_list)
+}
+
+.controls-ListView__itemV_marker_size_image-mt::after {
+    height: var(--marker_size_image-mt_list);
+    width: var(--marker_thickness_image-mt_list)
+}
+
+.controls-ListView__itemV_marker_size_image-m::after {
+    height: var(--marker_size_image-m_list);
+    width: var(--marker_thickness_image-m_list)
+}
+
+.controls-ListView__itemV_marker_size_image-s::after {
+    height: var(--marker_size_image-s_list);
+    width: var(--marker_thickness_image-s_list)
+}
+
+.controls-ListViewV .controls-ListView__itemV_marker-default_topPadding-null,.controls-ListViewV .controls-ListView__itemV_marker-master_topPadding-null {
+    padding-top: 0
+}
+
+.controls-ListViewV .controls-ListView__itemV_marker-default_topPadding-s,.controls-ListViewV .controls-ListView__itemV_marker-master_topPadding-s {
+    padding-top: calc(var(--item_padding-top_s_list) + var(--item-separator_s_thickness_list))
+}
+
+.controls-ListViewV .controls-ListView__itemV_marker-default_topPadding-s.controls-ListView__rowSeparator_size-s,.controls-ListViewV .controls-ListView__itemV_marker-master_topPadding-s.controls-ListView__rowSeparator_size-s {
+    padding-top: var(--item_padding-top_s_list)
+}
+
+.controls-ListViewV .controls-ListView__itemV_marker-default_topPadding-s.controls-ListView__rowSeparator_size-l,.controls-ListViewV .controls-ListView__itemV_marker-master_topPadding-s.controls-ListView__rowSeparator_size-l {
+    padding-top: calc(var(--item_padding-top_s_list) + var(--item-separator_s_thickness_list) - var(--item-separator_l_thickness_list))
+}
+
+.controls-ListViewV .controls-ListView__itemV_marker-default_topPadding-default,.controls-ListViewV .controls-ListView__itemV_marker-default_topPadding-l,.controls-ListViewV .controls-ListView__itemV_marker-master_topPadding-l {
+    padding-top: calc(var(--item_padding-top_l_list) + var(--item-separator_s_thickness_list))
+}
+
+.controls-ListViewV .controls-ListView__itemV_marker-default_topPadding-default.controls-ListView__rowSeparator_size-s,.controls-ListViewV .controls-ListView__itemV_marker-default_topPadding-l.controls-ListView__rowSeparator_size-s,.controls-ListViewV .controls-ListView__itemV_marker-master_topPadding-l.controls-ListView__rowSeparator_size-s {
+    padding-top: var(--item_padding-top_l_list)
+}
+
+.controls-ListViewV .controls-ListView__itemV_marker-default_topPadding-default.controls-ListView__rowSeparator_size-l,.controls-ListViewV .controls-ListView__itemV_marker-default_topPadding-l.controls-ListView__rowSeparator_size-l,.controls-ListViewV .controls-ListView__itemV_marker-master_topPadding-l.controls-ListView__rowSeparator_size-l {
+    padding-top: calc(var(--item_padding-top_l_list) + var(--item-separator_s_thickness_list) - var(--item-separator_l_thickness_list))
+}
+
+.controls-ListViewV .controls-ListView__itemV_marker-master_topPadding-default {
+    padding-top: var(--master_item_padding-top_list)
+}
+
+.controls-ListView__itemV_marker-default_topPadding-3xl,.controls-ListView__itemV_marker-master_topPadding-3xl {
+    padding-top: var(--offset_3xl)
+}
+
+.controls-ListView__itemV_marker-default_topPadding-2xl,.controls-ListView__itemV_marker-master_topPadding-2xl {
+    padding-top: var(--offset_2xl)
+}
+
+.controls-ListView__itemV_marker-default_topPadding-xl,.controls-ListView__itemV_marker-master_topPadding-xl {
+    padding-top: var(--offset_xl)
+}
+
+.controls-ListView__itemV_marker-default_topPadding-m,.controls-ListView__itemV_marker-master_topPadding-m {
+    padding-top: var(--offset_m)
+}
+
+.controls-ListView__itemV_marker-default_topPadding-xs,.controls-ListView__itemV_marker-master_topPadding-xs {
+    padding-top: var(--offset_xs)
+}
+
+.controls-ListView__itemV_marker-default_topPadding-2xs,.controls-ListView__itemV_marker-master_topPadding-2xs {
+    padding-top: var(--offset_2xs)
+}
+
+.controls-ListView__itemV_marker-default_topPadding-3xs,.controls-ListView__itemV_marker-master_topPadding-3xs {
+    padding-top: var(--offset_3xs)
+}
+
+.controls-ListView__itemV_marker_default_height_text-2xl-padding-default,.controls-ListView__itemV_marker_default_height_text-2xl-padding-l,.controls-ListView__itemV_marker_master_height_text-2xl-padding-default,.controls-ListView__itemV_marker_master_height_text-2xl-padding-l {
+    height: var(--marker_height_padding-l_text-2xl_list)
+}
+
+.controls-ListView__itemV_marker_default_height_text-2xl-padding-null,.controls-ListView__itemV_marker_default_height_text-2xl-padding-s,.controls-ListView__itemV_marker_master_height_text-2xl-padding-null,.controls-ListView__itemV_marker_master_height_text-2xl-padding-s {
+    height: var(--marker_height_padding-s_text-2xl_list)
+}
+
+.controls-ListView__itemV_marker_default_height_text-xl-padding-default,.controls-ListView__itemV_marker_default_height_text-xl-padding-l,.controls-ListView__itemV_marker_master_height_text-xl-padding-default,.controls-ListView__itemV_marker_master_height_text-xl-padding-l {
+    height: var(--marker_height_padding-l_text-xl_list)
+}
+
+.controls-ListView__itemV_marker_default_height_text-xl-padding-null,.controls-ListView__itemV_marker_default_height_text-xl-padding-s,.controls-ListView__itemV_marker_master_height_text-xl-padding-null,.controls-ListView__itemV_marker_master_height_text-xl-padding-s {
+    height: var(--marker_height_padding-s_text-xl_list)
+}
+
+.controls-ListView__itemV_marker_default_height_text-l-padding-default,.controls-ListView__itemV_marker_default_height_text-l-padding-l,.controls-ListView__itemV_marker_master_height_text-l-padding-default,.controls-ListView__itemV_marker_master_height_text-l-padding-l {
+    height: var(--marker_height_padding-l_text-l_list)
+}
+
+.controls-ListView__itemV_marker_default_height_text-l-padding-null,.controls-ListView__itemV_marker_default_height_text-l-padding-s,.controls-ListView__itemV_marker_master_height_text-l-padding-null,.controls-ListView__itemV_marker_master_height_text-l-padding-s {
+    height: var(--marker_height_padding-s_text-l_list)
+}
+
+.controls-ListView__itemV_marker_default_height_text-m-padding-default,.controls-ListView__itemV_marker_default_height_text-m-padding-l,.controls-ListView__itemV_marker_master_height_text-m-padding-default,.controls-ListView__itemV_marker_master_height_text-m-padding-l {
+    height: var(--marker_height_padding-l_text-m_list)
+}
+
+.controls-ListView__itemV_marker_default_height_text-m-padding-null,.controls-ListView__itemV_marker_default_height_text-m-padding-s,.controls-ListView__itemV_marker_master_height_text-m-padding-null,.controls-ListView__itemV_marker_master_height_text-m-padding-s {
+    height: var(--marker_height_padding-s_text-m_list)
+}
+
+.controls-ListView__itemV_marker_default_height_text-xs-padding-default,.controls-ListView__itemV_marker_default_height_text-xs-padding-l,.controls-ListView__itemV_marker_master_height_text-xs-padding-default,.controls-ListView__itemV_marker_master_height_text-xs-padding-l {
+    height: var(--marker_height_padding-l_text-xs_list)
+}
+
+.controls-ListView__itemV_marker_default_height_text-xs-padding-null,.controls-ListView__itemV_marker_default_height_text-xs-padding-s,.controls-ListView__itemV_marker_master_height_text-xs-padding-null,.controls-ListView__itemV_marker_master_height_text-xs-padding-s {
+    height: var(--marker_height_padding-s_text-xs_list)
+}
+
+.controls-ListView__itemV_marker_default_height_text-2xs-padding-default,.controls-ListView__itemV_marker_default_height_text-2xs-padding-l,.controls-ListView__itemV_marker_master_height_text-2xs-padding-default,.controls-ListView__itemV_marker_master_height_text-2xs-padding-l {
+    height: var(--marker_height_padding-l_text-2xs_list)
+}
+
+.controls-ListView__itemV_marker_default_height_text-2xs-padding-null,.controls-ListView__itemV_marker_default_height_text-2xs-padding-s,.controls-ListView__itemV_marker_master_height_text-2xs-padding-null,.controls-ListView__itemV_marker_master_height_text-2xs-padding-s {
+    height: var(--marker_height_padding-s_text-2xs_list)
+}
+
+.controls-ListView__itemV_marker-left {
+    left: 0
+}
+
+.controls-ListView__itemV_marker-right {
+    right: 0
+}
+
+.controls-ListView__itemV .controls-ListView__checkbox_marginTop_default,.controls-ListView__itemV .controls-ListView__checkbox_marginTop_l {
+    margin-top: calc(var(--item_padding-top_l_list) + var(--item-separator_s_thickness_list))
+}
+
+.controls-ListView__itemV .controls-ListView__checkbox_marginTop_s {
+    margin-top: calc(var(--item_padding-top_s_list) + var(--item-separator_s_thickness_list))
+}
+
+.controls-ListView__itemV .controls-ListView__checkbox_marginTop_null {
+    margin-top: var(--item-separator_s_thickness_list)
+}
+
+.controls-ListView__itemV .controls-ListView__checkbox_position-default {
+    float: left;
+    position: absolute
+}
+
+.controls-ListView__itemV .controls-ListView__checkbox_position-custom {
+    display: inline-block
+}
+
+.controls-ListView__checkbox-onhover {
+    visibility: hidden
+}
+
+.ws-is-ie .controls-ListView__checkbox {
+    z-index: 2
+}
+
+.ws-is-hover .controls-ListView__itemV:hover .controls-ListView__checkbox-onhover {
+    visibility: visible
+}
+
+.controls-ListView__multiSelect__circle {
+    -ms-grid-row-align: center;
+    align-self: center;
+    display: inline-block;
+    flex-shrink: 0;
+    top: 0
+}
+
+.controls-ListView__multiSelect__circle_style-default {
+    padding-left: calc((var(--offset_xl) - var(--icon-size_2xs))/ 2)
+}
+
+.controls-ListView__multiSelect__circle_style-master {
+    padding-left: calc((calc(var(--offset_xl) - var(--master_item_horizontal-offset_list)) - var(--icon-size_2xs))/ 2)
+}
+
+.controls-ListView__multiSelect__innerCircle_selected-default {
+    fill: var(--marker_color)
+}
+
+.controls-ListView__multiSelect__innerCircle_unselected {
+    fill: none
+}
+
+.controls-ListView__multiSelect__borderCircle {
+    fill: var(--unaccented_background-color)
+}
+
+.ws-is-hover .controls-ListView__itemV:hover .controls-ListView__multiSelect__borderCircle {
+    stroke: var(--border-color)
+}
+
+.controls-ListView__footer {
+    display: flex;
+    align-items: baseline
+}
+
+.controls-ListView__footer__itemActionsV_outside {
+    min-height: var(--height_outside_itemActions)
+}
+
+.controls-ListView__footer__content {
+    width: 100%
+}
+
+.controls-ListView__footer__user-content:not(.controls-ListView__footer__user-content-height_auto) {
+    min-height: var(--inline_height_m)
+}
+
+.controls-ListView__footer__user-content:not(.controls-ListView__footer__user-content-height_auto)::before {
+    content: '\200b';
+    font-size: var(--font-size_xl)
+}
+
+.controls-ListView__footer__paddingLeft_withCheckboxes {
+    padding-left: calc(var(--checkbox_offset-left_list) + var(--click-area_width_checkbox))
+}
+
+.controls-ListView__footer__paddingLeft_default {
+    padding-left: var(--item_padding-left_m_list)
+}
+
+.controls-ListView__item_default-topPadding_null,.controls-ListView__item_master-topPadding_null {
+    padding-top: 0
+}
+
+.controls-ListView__item_default-topPadding_s,.controls-ListView__item_master-topPadding_s {
+    padding-top: calc(var(--item_padding-top_s_list) + var(--item-separator_s_thickness_list))
+}
+
+.controls-ListView__item_default-topPadding_s.controls-ListView__rowSeparator_size-s,.controls-ListView__item_master-topPadding_s.controls-ListView__rowSeparator_size-s {
+    padding-top: var(--item_padding-top_s_list)
+}
+
+.controls-ListView__item_default-topPadding_s.controls-ListView__rowSeparator_size-l,.controls-ListView__item_master-topPadding_s.controls-ListView__rowSeparator_size-l {
+    padding-top: calc(var(--item_padding-top_s_list) + var(--item-separator_s_thickness_list) - var(--item-separator_l_thickness_list))
+}
+
+.controls-ListView__item_default-topPadding_default,.controls-ListView__item_default-topPadding_l,.controls-ListView__item_master-topPadding_l {
+    padding-top: calc(var(--item_padding-top_l_list) + var(--item-separator_s_thickness_list))
+}
+
+.controls-ListView__item_default-topPadding_default.controls-ListView__rowSeparator_size-s,.controls-ListView__item_default-topPadding_l.controls-ListView__rowSeparator_size-s,.controls-ListView__item_master-topPadding_l.controls-ListView__rowSeparator_size-s {
+    padding-top: var(--item_padding-top_l_list)
+}
+
+.controls-ListView__item_default-topPadding_default.controls-ListView__rowSeparator_size-l,.controls-ListView__item_default-topPadding_l.controls-ListView__rowSeparator_size-l,.controls-ListView__item_master-topPadding_l.controls-ListView__rowSeparator_size-l {
+    padding-top: calc(var(--item_padding-top_l_list) + var(--item-separator_s_thickness_list) - var(--item-separator_l_thickness_list))
+}
+
+.controls-ListView__item_master-topPadding_default {
+    padding-top: var(--master_item_padding-top_list)
+}
+
+.controls-ListView__item_default-bottomPadding_null,.controls-ListView__item_master-bottomPadding_null {
+    padding-bottom: 0
+}
+
+.controls-ListView__item_default-bottomPadding_s,.controls-ListView__item_master-bottomPadding_s {
+    padding-bottom: var(--item_padding-bottom_s_list)
+}
+
+.controls-ListView__item_default-bottomPadding_default,.controls-ListView__item_default-bottomPadding_l,.controls-ListView__item_master-bottomPadding_l {
+    padding-bottom: var(--item_padding-bottom_l_list)
+}
+
+.controls-ListView__item_master-bottomPadding_default {
+    padding-bottom: var(--master_item_padding-bottom_list)
+}
+
+.controls-ListView__groupContent_master {
+    padding-top: var(--offset_s)
+}
+
+.controls-ListView__footer__paddingLeft_withCheckboxes,.controls-ListView__groupContent__leftPadding_withCheckboxes,.controls-ListView__itemContent_withCheckboxes {
+    padding-left: calc(var(--checkbox_offset-left_list) + (var(--marker-box_size_checkbox) + var(--offset_2xs) * 2))
+}
+
+.controls-ListView__itemContent_withCheckboxes.controls-ListView__itemContent_withCheckboxes_master {
+    padding-left: calc(var(--checkbox_offset-left_list) + (var(--marker-box_size_checkbox) + var(--offset_2xs)))
+}
+
+.controls-ListView__footer__paddingLeft_default,.controls-ListView__groupContent__leftPadding_default,.controls-ListView__item-leftPadding_default {
+    padding-left: var(--item_padding-left_default_list)
+}
+
+.controls-ListView__footer__paddingLeft_null,.controls-ListView__groupContent__leftPadding_null,.controls-ListView__item-leftPadding_null {
+    padding-left: 0
+}
+
+.controls-ListView__footer__paddingLeft_xs,.controls-ListView__groupContent__leftPadding_xs,.controls-ListView__item-leftPadding_xs {
+    padding-left: var(--item_padding-left_xs_list)
+}
+
+.controls-ListView__footer__paddingLeft_s,.controls-ListView__groupContent__leftPadding_s,.controls-ListView__item-leftPadding_s {
+    padding-left: var(--item_padding-left_s_list)
+}
+
+.controls-ListView__footer__paddingLeft_m,.controls-ListView__groupContent__leftPadding_m,.controls-ListView__item-leftPadding_m {
+    padding-left: var(--item_padding-left_m_list)
+}
+
+.controls-ListView__footer__paddingLeft_l,.controls-ListView__groupContent__leftPadding_l,.controls-ListView__item-leftPadding_l {
+    padding-left: var(--item_padding-left_l_list)
+}
+
+.controls-ListView__footer__paddingLeft_xl,.controls-ListView__groupContent__leftPadding_xl,.controls-ListView__item-leftPadding_xl {
+    padding-left: var(--item_padding-left_xl_list)
+}
+
+.controls-ListView__footer__paddingLeft_2xl,.controls-ListView__footer__paddingLeft_xxl,.controls-ListView__groupContent__leftPadding_2xl,.controls-ListView__groupContent__leftPadding_xxl,.controls-ListView__item-leftPadding_2xl,.controls-ListView__item-leftPadding_xxl {
+    padding-left: var(--item_padding-left_2xl_list)
+}
+
+.controls-ListView__footer__paddingLeft_3xl,.controls-ListView__footer__paddingLeft_xxxl,.controls-ListView__groupContent__leftPadding_3xl,.controls-ListView__groupContent__leftPadding_xxxl,.controls-ListView__item-leftPadding_3xl,.controls-ListView__item-leftPadding_xxxl {
+    padding-left: var(--item_padding-left_3xl_list)
+}
+
+.controls-ListView__groupContent__rightPadding_default,.controls-ListView__item-rightPadding_default {
+    padding-right: var(--item_padding-right_default_list)
+}
+
+.controls-ListView__groupContent__rightPadding_null,.controls-ListView__item-rightPadding_null {
+    padding-right: 0
+}
+
+.controls-ListView__groupContent__rightPadding_xs,.controls-ListView__item-rightPadding_xs {
+    padding-right: var(--item_padding-right_xs_list)
+}
+
+.controls-ListView__groupContent__rightPadding_s,.controls-ListView__item-rightPadding_s {
+    padding-right: var(--item_padding-right_s_list)
+}
+
+.controls-ListView__groupContent__rightPadding_m,.controls-ListView__item-rightPadding_m {
+    padding-right: var(--item_padding-right_m_list)
+}
+
+.controls-ListView__groupContent__rightPadding_l,.controls-ListView__item-rightPadding_l {
+    padding-right: var(--item_padding-right_l_list)
+}
+
+.controls-ListView__groupContent__rightPadding_xl,.controls-ListView__item-rightPadding_xl {
+    padding-right: var(--item_padding-right_xl_list)
+}
+
+.controls-ListView__groupContent__rightPadding_2xl,.controls-ListView__groupContent__rightPadding_xxl,.controls-ListView__item-rightPadding_2xl,.controls-ListView__item-rightPadding_xxl {
+    padding-right: var(--item_padding-right_2xl_list)
+}
+
+.controls-ListView__groupContent__rightPadding_3xl,.controls-ListView__groupContent__rightPadding_xxxl,.controls-ListView__item-rightPadding_3xl,.controls-ListView__item-rightPadding_xxxl {
+    padding-right: var(--item_padding-right_3xl_list)
+}
+
+.controls-itemActionsV {
+    z-index: 1
+}
+
+.controls-ListView__item_active {
+    background-color: var(--item_active_background-color_list)
+}
+
+.controls-ListView__item_editing .controls-itemActionsV_custom,.controls-ListView__item_editing>.controls-itemActionsV {
+    opacity: 1;
+    visibility: visible
+}
+
+.controls-ListView__empty_background-editing,.controls-background-editing_default {
+    background-color: var(--active_background-color)
+}
+
+.controls-ListView__itemContent_faded {
+    color: var(--faded-text-color)
+}
+
+.controls-ListView__itemContent_faded>* {
+    opacity: .6
+}
+
+.controls-ListView__item-dragging-counter {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: var(--item_dragging_counter_offset_list);
+    top: var(--item_dragging_counter_offset_list);
+    height: var(--item_dragging_counter_height_list);
+    font-size: var(--item_dragging_counter_font-size_list);
+    color: var(--contrast_text-color);
+    background-color: var(--primary_contrast_background-color);
+    border-radius: 100px;
+    padding: 0 var(--offset_xs);
+    z-index: 4
+}
+
+.controls-BaseControl_showActions_visible .controls-ListView__item_showActions .controls-itemActionsV_custom,.controls-BaseControl_showActions_visible .controls-ListView__item_showActions>.controls-itemActionsV {
+    visibility: visible;
+    opacity: 1
+}
+
+.ws-is-hover .controls-BaseControl_showActions_delayed .controls-ListView__item_showActions:hover .controls-itemActionsV_custom,.ws-is-hover .controls-BaseControl_showActions_delayed .controls-ListView__item_showActions:hover>.controls-itemActionsV {
+    animation: .5s timeout
+}
+
+.ws-is-hover .controls-BaseControl_showActions_delayed .controls-ListView__item_showActions:hover .controls-itemActionsV_custom,.ws-is-hover .controls-BaseControl_showActions_delayed .controls-ListView__item_showActions:hover>.controls-itemActionsV,.ws-is-hover .controls-BaseControl_showActions_onhover .controls-ListView__item_showActions:hover .controls-itemActionsV_custom,.ws-is-hover .controls-BaseControl_showActions_onhover .controls-ListView__item_showActions:hover>.controls-itemActionsV {
+    visibility: visible;
+    opacity: 1
+}
+
+.ws-is-hover .controls-BaseControl_showActions_delayed .controls-hover-background-editing:hover,.ws-is-hover .controls-BaseControl_showActions_onhover .controls-hover-background-editing:hover {
+    background-color: var(--active_background-color)
+}
+
+.controls-ListView__groupContent_baseline::before {
+    content: '\200b'
+}
+
+.controls-ListView__groupContent_baseline_default::before {
+    font-size: var(--font-size_m)
+}
+
+.controls-ListView__groupContent_baseline_4xl::before {
+    font-size: var(--font-size_4xl)
+}
+
+.controls-ListView__groupContent_baseline_3xl::before {
+    font-size: var(--font-size_3xl)
+}
+
+.controls-ListView__groupContent_baseline_2xl::before {
+    font-size: var(--font-size_2xl)
+}
+
+.controls-ListView__groupContent_baseline_xl::before {
+    font-size: var(--font-size_xl)
+}
+
+.controls-ListView__groupContent_baseline_l::before {
+    font-size: var(--font-size_l)
+}
+
+.controls-ListView__groupContent_baseline_m::before {
+    font-size: var(--font-size_m)
+}
+
+.controls-ListView__groupContent_height {
+    min-height: var(--grouping_height_list)
+}
+
+.controls-ListView__groupContent_height_withItemActions {
+    min-height: var(--height_itemActions)
+}
+
+.controls-ListView__groupContent {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+    flex-grow: 1
+}
+
+.controls-ListView__groupSeparator {
+    height: var(--grouping_separator_thickness_list);
+    background-color: var(--grouping_separator_color_list);
+    min-width: 10%;
+    flex-grow: 1;
+    flex-shrink: 1
+}
+
+.controls-ListView__groupSeparator-left {
+    margin-right: var(--grouping_expander_padding-left_list)
+}
+
+.controls-ListView__groupSeparator-right {
+    margin-left: var(--grouping_expander_padding-right_list)
+}
+
+.controls-ListView__groupContent-text_default {
+    font-size: var(--grouping_expander_font-size_list)
+}
+
+.controls-ListView__groupContent-text_color_default {
+    color: var(--grouping_expander_text-color_list)
+}
+
+.controls-ListView__groupContent-text_wrapper {
+    display: inline-flex;
+    align-items: baseline;
+    flex-shrink: 1;
+    overflow: hidden
+}
+
+.controls-ListView__groupContent-text {
+    white-space: nowrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.controls-ListView__groupContent_textTransform_uppercase {
+    text-transform: uppercase
+}
+
+.controls-ListView__groupContent_textTransform_uppercase_2xl,.controls-ListView__groupContent_textTransform_uppercase_3xl {
+    letter-spacing: 1.75px
+}
+
+.controls-ListView__groupContent_textTransform_uppercase_l,.controls-ListView__groupContent_textTransform_uppercase_xl {
+    letter-spacing: 1.5px
+}
+
+.controls-ListView__groupContent_textTransform_uppercase_m,.controls-ListView__groupContent_textTransform_uppercase_s,.controls-ListView__groupContent_textTransform_uppercase_xs {
+    letter-spacing: 1.25px
+}
+
+.controls-ListView__groupContent_left {
+    text-align: left
+}
+
+.controls-ListView__groupContent_right {
+    text-align: right
+}
+
+.controls-ListView__groupContent_center {
+    text-align: center
+}
+
+.controls-ListView__groupContent-withoutGroupSeparator {
+    flex-grow: 1
+}
+
+.ws-is-mobile-safari .controls-ListView__groupContent-text {
+    position: relative;
+    top: -1px
+}
+
+.controls-ListView__groupExpander {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer
+}
+
+.controls-ListView__groupExpander::after,.controls-ListView__groupExpander::before {
+    font-family: TensorFont,sans-serif;
+    line-height: 1
+}
+
+.controls-ListView__groupExpander_left::before {
+    padding-right: var(--grouping_expander_icon_offset_list);
+    content: '\e000'
+}
+
+.controls-ListView__groupExpander_right::after {
+    padding-left: var(--grouping_expander_icon_offset_list);
+    content: '\e000'
+}
+
+.controls-ListView__groupExpander-iconSize_default::after,.controls-ListView__groupExpander-iconSize_default::before {
+    width: var(--grouping_expander_icon-size_list);
+    font-size: var(--grouping_expander_icon-size_list)
+}
+
+.controls-ListView__groupExpander-iconSize_l::after,.controls-ListView__groupExpander-iconSize_l::before {
+    width: var(--grouping_expander_icon-size-l_list);
+    font-size: var(--grouping_expander_icon-size-l_list)
+}
+
+.controls-ListView__groupExpander-iconSize_m::after,.controls-ListView__groupExpander-iconSize_m::before {
+    width: var(--grouping_expander_icon-size-m_list);
+    font-size: var(--grouping_expander_icon-size-m_list)
+}
+
+.controls-ListView__groupExpander-iconSize_s::after,.controls-ListView__groupExpander-iconSize_s::before {
+    width: var(--grouping_expander_icon-size-s_list);
+    font-size: var(--grouping_expander_icon-size-s_list)
+}
+
+.controls-ListView__groupExpander-iconSize_xs::after,.controls-ListView__groupExpander-iconSize_xs::before {
+    width: var(--grouping_expander_icon-size-xs_list);
+    font-size: var(--grouping_expander_icon-size-xs_list)
+}
+
+.controls-ListView__groupExpander-iconSize_2xs::after,.controls-ListView__groupExpander-iconSize_2xs::before {
+    width: var(--grouping_expander_icon-size-2xs_list);
+    font-size: var(--grouping_expander_icon-size-2xs_list)
+}
+
+.controls-ListView__groupExpander:active,.controls-ListView__groupExpander:active::after,.controls-ListView__groupExpander:active::before {
+    color: var(--grouping_expander_hover_text-color_list)
+}
+
+.ws-is-hover .controls-ListView__groupExpander:hover,.ws-is-hover .controls-ListView__groupExpander:hover::after,.ws-is-hover .controls-ListView__groupExpander:hover::before {
+    color: var(--grouping_expander_hover_text-color_list)
+}
+
+.controls-ListView__groupExpander-iconStyle_default::after,.controls-ListView__groupExpander-iconStyle_default::before {
+    color: var(--grouping_expander_text-color_list)
+}
+
+.controls-ListView__groupExpander-iconStyle_unaccented::after,.controls-ListView__groupExpander-iconStyle_unaccented::before,.controls-ListView__groupExpander-iconStyle_unaccented:hover::after,.controls-ListView__groupExpander-iconStyle_unaccented:hover::before {
+    color: var(--controls-icon_style-unaccented);
+    fill: var(--controls-icon_style-unaccented)
+}
+
+.controls-ListView__groupExpander-iconStyle_contrast::after,.controls-ListView__groupExpander-iconStyle_contrast::before,.controls-ListView__groupExpander-iconStyle_contrast:hover::after,.controls-ListView__groupExpander-iconStyle_contrast:hover::before {
+    color: var(--controls-icon_style-contrast);
+    fill: var(--controls-icon_style-contrast)
+}
+
+.controls-ListView__groupExpander-iconStyle_label::after,.controls-ListView__groupExpander-iconStyle_label::before,.controls-ListView__groupExpander-iconStyle_label:hover::after,.controls-ListView__groupExpander-iconStyle_label:hover::before {
+    color: var(--controls-icon_style-label);
+    fill: var(--controls-icon_style-label)
+}
+
+.controls-ListView__groupExpander-iconStyle_info::after,.controls-ListView__groupExpander-iconStyle_info::before,.controls-ListView__groupExpander-iconStyle_info:hover::after,.controls-ListView__groupExpander-iconStyle_info:hover::before {
+    color: var(--controls-icon_style-info);
+    fill: var(--controls-icon_style-info)
+}
+
+.controls-ListView__groupExpander-iconStyle_danger::after,.controls-ListView__groupExpander-iconStyle_danger::before,.controls-ListView__groupExpander-iconStyle_danger:hover::after,.controls-ListView__groupExpander-iconStyle_danger:hover::before {
+    color: var(--controls-icon_style-danger);
+    fill: var(--controls-icon_style-danger)
+}
+
+.controls-ListView__groupExpander-iconStyle_warning::after,.controls-ListView__groupExpander-iconStyle_warning::before,.controls-ListView__groupExpander-iconStyle_warning:hover::after,.controls-ListView__groupExpander-iconStyle_warning:hover::before {
+    color: var(--controls-icon_style-warning);
+    fill: var(--controls-icon_style-warning)
+}
+
+.controls-ListView__groupExpander-iconStyle_success::after,.controls-ListView__groupExpander-iconStyle_success::before,.controls-ListView__groupExpander-iconStyle_success:hover::after,.controls-ListView__groupExpander-iconStyle_success:hover::before {
+    color: var(--controls-icon_style-success);
+    fill: var(--controls-icon_style-success)
+}
+
+.controls-ListView__groupExpander-iconStyle_secondary::after,.controls-ListView__groupExpander-iconStyle_secondary::before,.controls-ListView__groupExpander-iconStyle_secondary:hover::after,.controls-ListView__groupExpander-iconStyle_secondary:hover::before {
+    color: var(--controls-icon_style-secondary);
+    fill: var(--controls-icon_style-secondary)
+}
+
+.controls-ListView__groupExpander-iconStyle_primary::after,.controls-ListView__groupExpander-iconStyle_primary::before,.controls-ListView__groupExpander-iconStyle_primary:hover::after,.controls-ListView__groupExpander-iconStyle_primary:hover::before {
+    color: var(--controls-icon_style-primary);
+    fill: var(--controls-icon_style-primary)
+}
+
+.controls-ListView__groupExpander_collapsed_left::before,.controls-ListView__groupExpander_collapsed_right::after {
+    content: '\e013'
+}
+
+.controls-ListView__groupExpander_reverse::after,.controls-ListView__groupExpander_reverse::before {
+    display: inline-block;
+    transform: rotateY(180deg)
+}
+
+.controls-BaseControl .controls-ListView__groupHidden {
+    display: none
+}
+
+.controls-ListView__groupContent-rightTemplate {
+    padding-left: var(--offset_m);
+    flex-shrink: 0
+}
+
+.controls-ListView__empty {
+    color: var(--placeholder_text-color_list);
+    font-size: var(--placeholder_font-size_list)
+}
+
+.controls-ListView__empty-textAlign_center {
+    text-align: center
+}
+
+.controls-ListView__empty-textAlign_end {
+    text-align: right
+}
+
+.controls-ListView__empty-textAlign_start {
+    text-align: left
+}
+
+.controls-ListView__empty_topSpacing_null {
+    padding-top: 0
+}
+
+.controls-ListView__empty_topSpacing_xs {
+    padding-top: var(--placeholder_padding-top_xs_list)
+}
+
+.controls-ListView__empty_topSpacing_s {
+    padding-top: var(--offset_xs)
+}
+
+.controls-ListView__empty_topSpacing_m {
+    padding-top: var(--offset_m)
+}
+
+.controls-ListView__empty_topSpacing_l {
+    padding-top: var(--offset_l)
+}
+
+.controls-ListView__empty_topSpacing_xl {
+    padding-top: var(--offset_2xl)
+}
+
+.controls-ListView__empty_topSpacing_xxl {
+    padding-top: var(--placeholder_padding-top_2xl_list)
+}
+
+.controls-ListView__empty_bottomSpacing_null {
+    padding-bottom: 0
+}
+
+.controls-ListView__empty_bottomSpacing_xs {
+    padding-bottom: var(--placeholder_padding-bottom_xs_list)
+}
+
+.controls-ListView__empty_bottomSpacing_s {
+    padding-bottom: var(--offset_xs)
+}
+
+.controls-ListView__empty_bottomSpacing_m {
+    padding-bottom: var(--offset_m)
+}
+
+.controls-ListView__empty_bottomSpacing_l {
+    padding-bottom: var(--offset_l)
+}
+
+.controls-ListView__empty_bottomSpacing_xl {
+    padding-bottom: var(--offset_2xl)
+}
+
+.controls-ListView__empty_bottomSpacing_xxl {
+    padding-bottom: var(--placeholder_padding-bottom_2xl_list)
+}
+
+.controls-MasterDetail_master-template .controls-ListView_master {
+    box-sizing: border-box;
+    padding-right: var(--master_item_horizontal-offset_list)
+}
+
+.controls-master-template-default .controls-ListView__item-leftPadding_default,.controls-master-template-newDesign .controls-ListView__item-leftPadding_default {
+    padding-left: var(--item_padding-left_l_list)
+}
+
+.controls-master-template-newDesign .controls-ListView_master {
+    border-radius: var(--master_item_border-radius_list)
+}
+
+.controls-ListView__item__marked_master {
+    font-size: var(--font-size_l);
+    color: var(--master_item_selected_text-color_list);
+    font-weight: 700
+}
+
+.controls-ListView__item__unmarked_master {
+    font-size: var(--font-size_l)
+}
+
+.controls-ListView__baseline {
+    display: flex;
+    align-items: baseline;
+    min-width: 1px
+}
+
+.controls-ListView__baseline_font-size::before {
+    content: '\200b';
+    font-size: var(--baseline_list)
+}
+
+.ws-is-ie .controls-ListView__item__marked_master {
+    background-color: var(--master_item_selected_background-color_list)
+}
+
+.controls-ListView__groupContent_cursor-default,.controls-ListView__itemV_cursor-default {
+    cursor: default
+}
+
+.controls-ListView__itemV_cursor-pointer {
+    cursor: pointer
+}
+
+.controls-ListView__item_master {
+    border-bottom: var(--master_item_separator_thickness_list) solid var(--master_item_background-color_list);
+    border-radius: var(--master_item_border-radius_list)
+}
+
+.controls-ListView__item_master-adaptive {
+    border-color: var(--unaccented_adaptive_background-color)
+}
+
+.controls-ListView__item__marked_master.controls-background-master {
+    background-color: var(--master_item_selected_background-color_list)
+}
+
+.ws-is-hover:not(.ws-is-mobile-platform) .controls-ListView__item_master:hover {
+    background-color: var(--master_item_hover_background-color_list)
+}
+
+.ws-is-hover:not(.ws-is-mobile-platform) .controls-MasterDetail_master-transparent .controls-ListView__item_master:hover {
+    background-color: var(--unaccented_background-color)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-default:hover,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-default:hover .controls-background-default,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-default:hover .controls-background-default-sticky,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-default:hover .controls-background-unaccented {
+    background-color: var(--item_hover_background-color_list)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-default:hover .controls-BaseCut__shadow_background-default {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0,var(--item_hover_background-color_list) 100%)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-unaccented:hover,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-unaccented:hover .controls-background-default,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-unaccented:hover .controls-background-default-sticky,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-unaccented:hover .controls-background-unaccented {
+    background-color: var(--unaccented_hover_background-color)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-unaccented:hover .controls-BaseCut__shadow_background-default {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0,var(--unaccented_hover_background-color) 100%)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-info:hover,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-info:hover .controls-background-default,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-info:hover .controls-background-default-sticky,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-info:hover .controls-background-unaccented {
+    background-color: var(--info_hover_background-color)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-info:hover .controls-BaseCut__shadow_background-default {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0,var(--info_hover_background-color) 100%)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-warning:hover,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-warning:hover .controls-background-default,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-warning:hover .controls-background-default-sticky,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-warning:hover .controls-background-unaccented {
+    background-color: var(--warning_hover_background-color)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-warning:hover .controls-BaseCut__shadow_background-default {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0,var(--warning_hover_background-color) 100%)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-success:hover,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-success:hover .controls-background-default,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-success:hover .controls-background-default-sticky,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-success:hover .controls-background-unaccented {
+    background-color: var(--success_hover_background-color)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-success:hover .controls-BaseCut__shadow_background-default {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0,var(--success_hover_background-color) 100%)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-danger:hover,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-danger:hover .controls-background-default,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-danger:hover .controls-background-default-sticky,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-danger:hover .controls-background-unaccented {
+    background-color: var(--danger_hover_background-color)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-danger:hover .controls-BaseCut__shadow_background-default {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0,var(--danger_hover_background-color) 100%)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-secondary:hover,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-secondary:hover .controls-background-default,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-secondary:hover .controls-background-default-sticky,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-secondary:hover .controls-background-unaccented {
+    background-color: var(--secondary_hover_background-color)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-secondary:hover .controls-BaseCut__shadow_background-default {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0,var(--secondary_hover_background-color) 100%)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-primary:hover,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-primary:hover .controls-background-default,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-primary:hover .controls-background-default-sticky,.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-primary:hover .controls-background-unaccented {
+    background-color: var(--primary_hover_background-color)
+}
+
+.ws-is-hover .controls-BaseControl_hover_enabled .controls-hover-background-primary:hover .controls-BaseCut__shadow_background-default {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0,var(--primary_hover_background-color) 100%)
+}
+
+.controls-ListView__itemV>.controls-ListView__itemContent_border_visible::after,.controls-ListView__itemV>.controls-ListView__itemContent_shadow_dragging::after,.controls-ListView__itemV>.controls-ListView__itemContent_shadow_visible::after,.ws-is-hover .controls-BaseControl_hover_enabled .controls-ListView__itemV:hover>.controls-ListView__itemContent_border_onhover::after,.ws-is-hover .controls-BaseControl_hover_enabled .controls-ListView__itemV:hover>.controls-ListView__itemContent_shadow_onhover::after {
+    content: '\200b';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1;
+    border-radius: inherit
+}
+
+.controls-ListView__itemV>.controls-ListView__itemContent_border_visible::after,.ws-is-hover .controls-BaseControl_hover_enabled .controls-ListView__itemV:hover>.controls-ListView__itemContent_border_onhover::after {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid
+}
+
+.controls-ListView__itemV>.controls-ListView__itemContent_border_left_visible::after,.ws-is-hover .controls-BaseControl_hover_enabled .controls-ListView__itemV:hover>.controls-ListView__itemContent_border_left_onhover::after {
+    border-left-width: 1px;
+    border-left-style: solid
+}
+
+.controls-ListView__itemV>.controls-ListView__itemContent_border_right_visible::after,.ws-is-hover .controls-BaseControl_hover_enabled .controls-ListView__itemV:hover>.controls-ListView__itemContent_border_right_onhover::after {
+    border-right-width: 1px;
+    border-right-style: solid
+}
+
+.controls-ListView__itemV>.controls-ListView__itemContent_shadow_dragging::after,.controls-ListView__itemV>.controls-ListView__itemContent_shadow_onhover::after,.controls-ListView__itemV>.controls-ListView__itemContent_shadow_visible::after {
+    z-index: 2
+}
+
+.controls-ListView__itemV>.controls-ListView__itemContent_shadow_visible::after {
+    box-shadow: var(--shadow_c)
+}
+
+.controls-ListView__itemV>.controls-ListView__itemContent_shadow_dragging::after,.ws-is-hover .controls-BaseControl_hover_enabled .controls-ListView__itemV:hover>.controls-ListView__itemContent_shadow_onhover::after,.ws-is-hover .controls-BaseControl_hover_enabled .controls-ListView__itemV:hover>.controls-ListView__itemContent_shadow_visible::after {
+    box-shadow: var(--shadow_b)
+}
+
+.controls-ListView__itemContent_border_default::after {
+    border-color: var(--border-color)
+}
+
+.controls-ListView__itemContent_border_danger::after {
+    border-color: var(--danger_border-color)
+}
+
+.controls-CheckboxMarker_inList {
+    height: var(--checkbox_height_list)
+}
+
+.controls-CheckboxMarker_inList::before {
+    content: '\200b';
+    font-size: var(--baseline_list);
+    width: 0
+}
+
+.controls-text-group {
+    color: var(--group-text-color_decoratorMoney)
+}
+
+.controls-text-list {
+    color: var(--list-text-color_decoratorMoney)
+}
+
+.controls-ListView__rowSeparator_size-s {
+    border: 0 solid transparent;
+    border-top-width: var(--item-separator_s_thickness_list);
+    border-top-color: var(--item_separator_s_color_list)
+}
+
+.controls-ListView__rowSeparator_size-l {
+    border: 0 solid transparent;
+    border-top-width: var(--item-separator_l_thickness_list);
+    border-top-color: var(--item_separator_l_color_list)
+}
+
+.controls-ListView__groupHidden+.controls-ListView__itemV .controls-ListView__rowSeparator_size-s,.controls-ListView__itemV:first-child .controls-ListView__rowSeparator_size-s {
+    border-top-color: var(--item_edge_separator_s_color_list)
+}
+
+.controls-ListView__groupHidden+.controls-ListView__itemV .controls-ListView__rowSeparator_size-l,.controls-ListView__itemV:first-child .controls-ListView__rowSeparator_size-l {
+    border-top-color: var(--item_edge_separator_l_color_list)
+}
+
+.controls-ListView__group+.controls-ListView__itemV .controls-ListView__itemContent {
+    border-top-color: transparent
+}
+
+.controls-ListView__rowSeparator_bottom_size-s {
+    border-bottom: var(--item-separator_s_thickness_list) solid var(--item_edge_separator_s_color_list)
+}
+
+.controls-ListView__rowSeparator_bottom_size-l {
+    border-bottom: var(--item-separator_l_thickness_list) solid var(--item_edge_separator_l_color_list)
+}
+
+.controls-ListView__item_roundBorder_bottomLeft_3xl,.controls-ListView__item_roundBorder_bottomLeft_3xl:before,.controls-ListView__item_roundBorder_bottomLeft_3xl>.controls-ListView__itemContent {
+    border-bottom-left-radius: var(--border-radius_3xl)
+}
+
+.controls-ListView__item_roundBorder_bottomLeft_2xl,.controls-ListView__item_roundBorder_bottomLeft_2xl:before,.controls-ListView__item_roundBorder_bottomLeft_2xl>.controls-ListView__itemContent {
+    border-bottom-left-radius: var(--border-radius_2xl)
+}
+
+.controls-ListView__item_roundBorder_bottomLeft_xl,.controls-ListView__item_roundBorder_bottomLeft_xl:before,.controls-ListView__item_roundBorder_bottomLeft_xl>.controls-ListView__itemContent {
+    border-bottom-left-radius: var(--border-radius_xl)
+}
+
+.controls-ListView__item_roundBorder_bottomLeft_l,.controls-ListView__item_roundBorder_bottomLeft_l:before,.controls-ListView__item_roundBorder_bottomLeft_l>.controls-ListView__itemContent {
+    border-bottom-left-radius: var(--border-radius_l)
+}
+
+.controls-ListView__item_roundBorder_bottomLeft_m,.controls-ListView__item_roundBorder_bottomLeft_m:before,.controls-ListView__item_roundBorder_bottomLeft_m>.controls-ListView__itemContent {
+    border-bottom-left-radius: var(--border-radius_m)
+}
+
+.controls-ListView__item_roundBorder_bottomLeft_s,.controls-ListView__item_roundBorder_bottomLeft_s:before,.controls-ListView__item_roundBorder_bottomLeft_s>.controls-ListView__itemContent {
+    border-bottom-left-radius: var(--border-radius_s)
+}
+
+.controls-ListView__item_roundBorder_bottomLeft_xs,.controls-ListView__item_roundBorder_bottomLeft_xs:before,.controls-ListView__item_roundBorder_bottomLeft_xs>.controls-ListView__itemContent {
+    border-bottom-left-radius: var(--border-radius_xs)
+}
+
+.controls-ListView__item_roundBorder_bottomLeft_2xs,.controls-ListView__item_roundBorder_bottomLeft_2xs:before,.controls-ListView__item_roundBorder_bottomLeft_2xs>.controls-ListView__itemContent {
+    border-bottom-left-radius: var(--border-radius_2xs)
+}
+
+.controls-ListView__item_roundBorder_bottomLeft_3xs,.controls-ListView__item_roundBorder_bottomLeft_3xs:before,.controls-ListView__item_roundBorder_bottomLeft_3xs>.controls-ListView__itemContent {
+    border-bottom-left-radius: var(--border-radius_3xs)
+}
+
+.controls-ListView__item_roundBorder_bottomRight_3xl,.controls-ListView__item_roundBorder_bottomRight_3xl:before,.controls-ListView__item_roundBorder_bottomRight_3xl>.controls-ListView__itemContent {
+    border-bottom-right-radius: var(--border-radius_3xl)
+}
+
+.controls-ListView__item_roundBorder_bottomRight_2xl,.controls-ListView__item_roundBorder_bottomRight_2xl:before,.controls-ListView__item_roundBorder_bottomRight_2xl>.controls-ListView__itemContent {
+    border-bottom-right-radius: var(--border-radius_2xl)
+}
+
+.controls-ListView__item_roundBorder_bottomRight_xl,.controls-ListView__item_roundBorder_bottomRight_xl:before,.controls-ListView__item_roundBorder_bottomRight_xl>.controls-ListView__itemContent {
+    border-bottom-right-radius: var(--border-radius_xl)
+}
+
+.controls-ListView__item_roundBorder_bottomRight_l,.controls-ListView__item_roundBorder_bottomRight_l:before,.controls-ListView__item_roundBorder_bottomRight_l>.controls-ListView__itemContent {
+    border-bottom-right-radius: var(--border-radius_l)
+}
+
+.controls-ListView__item_roundBorder_bottomRight_m,.controls-ListView__item_roundBorder_bottomRight_m:before,.controls-ListView__item_roundBorder_bottomRight_m>.controls-ListView__itemContent {
+    border-bottom-right-radius: var(--border-radius_m)
+}
+
+.controls-ListView__item_roundBorder_bottomRight_s,.controls-ListView__item_roundBorder_bottomRight_s:before,.controls-ListView__item_roundBorder_bottomRight_s>.controls-ListView__itemContent {
+    border-bottom-right-radius: var(--border-radius_s)
+}
+
+.controls-ListView__item_roundBorder_bottomRight_xs,.controls-ListView__item_roundBorder_bottomRight_xs:before,.controls-ListView__item_roundBorder_bottomRight_xs>.controls-ListView__itemContent {
+    border-bottom-right-radius: var(--border-radius_xs)
+}
+
+.controls-ListView__item_roundBorder_bottomRight_2xs,.controls-ListView__item_roundBorder_bottomRight_2xs:before,.controls-ListView__item_roundBorder_bottomRight_2xs>.controls-ListView__itemContent {
+    border-bottom-right-radius: var(--border-radius_2xs)
+}
+
+.controls-ListView__item_roundBorder_bottomRight_3xs,.controls-ListView__item_roundBorder_bottomRight_3xs:before,.controls-ListView__item_roundBorder_bottomRight_3xs>.controls-ListView__itemContent {
+    border-bottom-right-radius: var(--border-radius_3xs)
+}
+
+.controls-ListView__item_roundBorder_topLeft_3xl,.controls-ListView__item_roundBorder_topLeft_3xl:before,.controls-ListView__item_roundBorder_topLeft_3xl>.controls-ListView__itemContent {
+    border-top-left-radius: var(--border-radius_3xl)
+}
+
+.controls-ListView__item_roundBorder_topLeft_2xl,.controls-ListView__item_roundBorder_topLeft_2xl:before,.controls-ListView__item_roundBorder_topLeft_2xl>.controls-ListView__itemContent {
+    border-top-left-radius: var(--border-radius_2xl)
+}
+
+.controls-ListView__item_roundBorder_topLeft_xl,.controls-ListView__item_roundBorder_topLeft_xl:before,.controls-ListView__item_roundBorder_topLeft_xl>.controls-ListView__itemContent {
+    border-top-left-radius: var(--border-radius_xl)
+}
+
+.controls-ListView__item_roundBorder_topLeft_l,.controls-ListView__item_roundBorder_topLeft_l:before,.controls-ListView__item_roundBorder_topLeft_l>.controls-ListView__itemContent {
+    border-top-left-radius: var(--border-radius_l)
+}
+
+.controls-ListView__item_roundBorder_topLeft_m,.controls-ListView__item_roundBorder_topLeft_m:before,.controls-ListView__item_roundBorder_topLeft_m>.controls-ListView__itemContent {
+    border-top-left-radius: var(--border-radius_m)
+}
+
+.controls-ListView__item_roundBorder_topLeft_s,.controls-ListView__item_roundBorder_topLeft_s:before,.controls-ListView__item_roundBorder_topLeft_s>.controls-ListView__itemContent {
+    border-top-left-radius: var(--border-radius_s)
+}
+
+.controls-ListView__item_roundBorder_topLeft_xs,.controls-ListView__item_roundBorder_topLeft_xs:before,.controls-ListView__item_roundBorder_topLeft_xs>.controls-ListView__itemContent {
+    border-top-left-radius: var(--border-radius_xs)
+}
+
+.controls-ListView__item_roundBorder_topLeft_2xs,.controls-ListView__item_roundBorder_topLeft_2xs:before,.controls-ListView__item_roundBorder_topLeft_2xs>.controls-ListView__itemContent {
+    border-top-left-radius: var(--border-radius_2xs)
+}
+
+.controls-ListView__item_roundBorder_topLeft_3xs,.controls-ListView__item_roundBorder_topLeft_3xs:before,.controls-ListView__item_roundBorder_topLeft_3xs>.controls-ListView__itemContent {
+    border-top-left-radius: var(--border-radius_3xs)
+}
+
+.controls-ListView__item_roundBorder_topRight_3xl,.controls-ListView__item_roundBorder_topRight_3xl:before,.controls-ListView__item_roundBorder_topRight_3xl>.controls-ListView__itemContent {
+    border-top-right-radius: var(--border-radius_3xl)
+}
+
+.controls-ListView__item_roundBorder_topRight_2xl,.controls-ListView__item_roundBorder_topRight_2xl:before,.controls-ListView__item_roundBorder_topRight_2xl>.controls-ListView__itemContent {
+    border-top-right-radius: var(--border-radius_2xl)
+}
+
+.controls-ListView__item_roundBorder_topRight_xl,.controls-ListView__item_roundBorder_topRight_xl:before,.controls-ListView__item_roundBorder_topRight_xl>.controls-ListView__itemContent {
+    border-top-right-radius: var(--border-radius_xl)
+}
+
+.controls-ListView__item_roundBorder_topRight_l,.controls-ListView__item_roundBorder_topRight_l:before,.controls-ListView__item_roundBorder_topRight_l>.controls-ListView__itemContent {
+    border-top-right-radius: var(--border-radius_l)
+}
+
+.controls-ListView__item_roundBorder_topRight_m,.controls-ListView__item_roundBorder_topRight_m:before,.controls-ListView__item_roundBorder_topRight_m>.controls-ListView__itemContent {
+    border-top-right-radius: var(--border-radius_m)
+}
+
+.controls-ListView__item_roundBorder_topRight_s,.controls-ListView__item_roundBorder_topRight_s:before,.controls-ListView__item_roundBorder_topRight_s>.controls-ListView__itemContent {
+    border-top-right-radius: var(--border-radius_s)
+}
+
+.controls-ListView__item_roundBorder_topRight_xs,.controls-ListView__item_roundBorder_topRight_xs:before,.controls-ListView__item_roundBorder_topRight_xs>.controls-ListView__itemContent {
+    border-top-right-radius: var(--border-radius_xs)
+}
+
+.controls-ListView__item_roundBorder_topRight_2xs,.controls-ListView__item_roundBorder_topRight_2xs:before,.controls-ListView__item_roundBorder_topRight_2xs>.controls-ListView__itemContent {
+    border-top-right-radius: var(--border-radius_2xs)
+}
+
+.controls-ListView__item_roundBorder_topRight_3xs,.controls-ListView__item_roundBorder_topRight_3xs:before,.controls-ListView__item_roundBorder_topRight_3xs>.controls-ListView__itemContent {
+    border-top-right-radius: var(--border-radius_3xs)
+}
+
+.controls-ListView__TrackedPropertiesTemplate {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 0;
+    z-index: 1;
+    pointer-events: none;
+    display: flex;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: -2;
+    grid-column-end: -1
+}
+
+.controls-ListView__TrackedPropertiesTemplate_left {
+    justify-content: flex-start
+}
+
+.controls-ListView__TrackedPropertiesTemplate_right {
+    justify-content: flex-end
+}
+
+.controls-ListView__TrackedPropertiesTemplate_content {
+    position: relative;
+    display: inline-flex;
+    align-items: baseline;
+    background-color: var(--tracked_properties_background);
+    font-size: var(--font-size_l);
+    pointer-events: auto;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-top: var(--offset_2xs);
+    padding-bottom: var(--offset_2xs);
+    -webkit-clip-path: polygon(0 0,100% 0,calc(100% - var(--offset_s)) 100%,var(--offset_s) 100%);
+    clip-path: polygon(0 0,100% 0,calc(100% - var(--offset_s)) 100%,var(--offset_s) 100%)
+}
+
+.controls-ListView__TrackedPropertiesTemplate_content::before {
+    content: '\200b';
+    font-size: var(--font-size_2xl);
+    width: 0
+}
+
+.controls-EditingTemplateText__inner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+    width: 100%;
+    display: inline-block
+}
+
+.controls-EditingTemplateText_InputBackgroundVisibility_visible,.controls-GridView__emptyTemplate .controls-EditingTemplateText_InputBackgroundVisibility_onhover,.controls-GridView__emptyTemplate .controls-EditingTemplateText_InputBackgroundVisibility_visible,.controls-ListView__empty .controls-EditingTemplateText_InputBackgroundVisibility_onhover,.controls-ListView__empty .controls-EditingTemplateText_InputBackgroundVisibility_visible,.ws-is-hover .controls-BaseControl_hover_enabled>.controls-ListView__item_highlightOnHover:hover .controls-EditingTemplateText_InputBackgroundVisibility_onhover {
+    background-color: var(--background-color_inputText)
+}
+
+.controls-EditingTemplateText_InputBackgroundVisibility_visible .controls-EditingTemplateText__inner,.controls-GridView__emptyTemplate .controls-EditingTemplateText_InputBackgroundVisibility_onhover .controls-EditingTemplateText__inner,.controls-GridView__emptyTemplate .controls-EditingTemplateText_InputBackgroundVisibility_visible .controls-EditingTemplateText__inner,.controls-ListView__empty .controls-EditingTemplateText_InputBackgroundVisibility_onhover .controls-EditingTemplateText__inner,.controls-ListView__empty .controls-EditingTemplateText_InputBackgroundVisibility_visible .controls-EditingTemplateText__inner,.ws-is-hover .controls-BaseControl_hover_enabled>.controls-ListView__item_highlightOnHover:hover .controls-EditingTemplateText_InputBackgroundVisibility_onhover .controls-EditingTemplateText__inner {
+    cursor: text
+}
+
+.ws-is-hover .controls-itemActionsV_menu-hidden .controls-EditingTemplateText_active {
+    background-color: var(--background-color_inputText)
+}
+
+.controls-EditingTemplateText__editorWrapper {
+    flex-grow: 1;
+    min-width: 0;
+    max-width: calc(100% + var(--padding-horizontal_inputText))
+}
+
+.ws-is-ie10 .controls-EditingTemplateText__editorWrapper,.ws-is-ie11 .controls-EditingTemplateText__editorWrapper {
+    flex-basis: 100%
+}
+
+.controls-EditingTemplateText__editorWrapper_align_left {
+    margin-left: calc(-1 * var(--padding-horizontal_inputText))
+}
+
+.controls-EditingTemplateText__editorWrapper_align_right {
+    margin-right: calc(-1 * var(--padding-horizontal_inputText))
+}
+
+.controls-EditingTemplateText {
+    flex-shrink: 1;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    border-width: 0
+}
+
+.controls-EditingTemplateText::before {
+    content: '\200b';
+    width: 0;
+    display: inline-block;
+    visibility: hidden;
+    font-size: var(--baseline_list)
+}
+
+.controls-EditingTemplateText_border-partial {
+    border-bottom: var(--border-thickness) solid transparent
+}
+
+.controls-EditingTemplateText_borderBottom {
+    border-bottom-color: var(--unaccented_border-color)
+}
+
+.controls-EditingTemplateText_withPadding {
+    padding: 0 var(--padding-horizontal_inputText)
+}
+
+.controls-EditingTemplateText__editor {
+    width: 100%
+}
+
+.controls-EditingTemplateText_size_default {
+    min-height: var(--inline_height_default);
+    font-size: var(--font-size_default)
+}
+
+.controls-EditingTemplateText_size_s {
+    min-height: var(--inline_height_default);
+    font-size: var(--font-size_xs)
+}
+
+.controls-EditingTemplateText_size_m {
+    min-height: var(--inline_height_default);
+    font-size: var(--font-size_m)
+}
+
+.controls-EditingTemplateText_size_l {
+    min-height: var(--inline_height_default);
+    font-size: var(--font-size_l)
+}
+
+.controls-BaseControl__fakeFocusElem {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 1px;
+    height: 1px;
+    z-index: 1;
+    pointer-events: none
+}
+
+.controls-BaseControl__viewContainer {
+    position: relative
+}
+
+.controls-BaseControl__viewContainer_empty {
+    height: 100%
+}
+
+.ws-is-desktop-safari .controls-BaseControl__fakeFocusElem,.ws-is-mobile-safari .controls-BaseControl__fakeFocusElem,.ws-is-sbis-desktop .controls-BaseControl__fakeFocusElem {
+    left: 0;
+    transform: translateZ(0)
+}
+
+.controls-BaseControl__loadMore {
+    height: var(--more_height_list)
+}
+
+.controls-text-listMore {
+    color: var(--more_text-color_list)
+}
+
+.controls-BaseButton:active .controls-text-listMore {
+    color: var(--more_hover_text-color_list)
+}
+
+.ws-is-hover .controls-BaseButton:hover .controls-text-listMore {
+    color: var(--more_hover_text-color_list)
+}
+
+.controls-BaseControl__pagingContainer_stickyBlock {
+    bottom: 0;
+    display: flex;
+    pointer-events: none;
+    z-index: 30
+}
+
+.controls-BaseControl__pagingContainer {
+    position: relative;
+    width: 100%
+}
+
+.ws-is-ie .controls-BaseControl__pagingContainer {
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+.controls-BaseControl__pagingWrapper {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: var(--scrollpaging_offset-vertical_list);
+    pointer-events: auto
+}
+
+.controls-BaseControl__pagingWrapper_position-right {
+    right: var(--scrollpaging_offset-horizontal_list);
+    justify-content: flex-end
+}
+
+.controls-BaseControl__pagingWrapper_position-left {
+    left: var(--scrollpaging_offset-horizontal_list);
+    justify-content: flex-start
+}
+
+.controls-BaseControl_paging-Padding {
+    height: calc(var(--inline_height_l) + 2 * var(--scrollpaging_offset-vertical_list))
+}
+
+.controls-BaseControl__loadingTrigger {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: -2;
+    grid-column-end: -1
+}
+
+.controls-BaseControl__loadingTrigger_horizontal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 1
+}
+
+.controls-BaseControl__loadingTrigger_horizontal-left {
+    left: 0
+}
+
+.controls-BaseControl__loadingTrigger_horizontal-right {
+    right: 0
+}
+
+.controls-BaseControl__loadingIndicator {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    min-height: 48px
+}
+
+.controls-BaseControl__loadingIndicator__state-loading {
+    animation: 2s displayLoadingIndicator;
+    animation-fill-mode: forwards
+}
+
+@keyframes displayLoadingIndicator {
+    99% {
+        visibility: hidden
+    }
+
+    100% {
+        visibility: visible
+    }
+}
+
+.controls-BaseControl__loadingIndicator__position-bottom,.controls-BaseControl__loadingIndicator__position-top {
+    visibility: hidden
+}
+
+.controls-BaseControl__loadingIndicator__position-global {
+    position: absolute;
+    align-items: center;
+    left: 0;
+    right: 0;
+    z-index: 17
+}
+
+.controls-BaseControl__loadingIndicator-content {
+    padding: var(--content_l_border_radius_loadingIndicator);
+    background-color: var(--content_background-color_loadingIndicator);
+    border-radius: var(--content_l_border_radius_loadingIndicator);
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    pointer-events: auto
+}
+
+.controls-BaseControl__loadingIndicator-message {
+    padding-left: var(--offset_s)
+}
+
+.controls-BaseControl__loadingIndicatorImage {
+    background: var(--spinner_l_background-image_loadingIndicator) 0 0 no-repeat;
+    width: var(--spinner_l_size_loadingIndicator);
+    height: var(--spinner_l_size_loadingIndicator);
+    background-size: var(--spinner_l_size_loadingIndicator)
+}
+
+.ws-is-chrome.ws-is-windows-xp .controls-BaseControl__loadingIndicatorImage {
+    background: url('http://localhost:25002/LoaderIndicator/1.0.0/ajax-loader-indicator.gif') no-repeat
+}
+
+.controls-BaseControl__portionedSearch {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 16;
+    pointer-events: none
+}
+
+.controls-BaseControl__portionedSearch__state-top {
+    top: 0;
+    padding-top: var(--scrollpaging_offset-vertical_list);
+    padding-bottom: var(--offset_s)
+}
+
+.controls-BaseControl__portionedSearch__state-bottom {
+    bottom: 0;
+    padding-bottom: var(--scrollpaging_offset-vertical_list);
+    padding-top: var(--offset_s)
+}
+
+.controls-BaseControl__portionedSearch-content {
+    box-shadow: var(--loadingIndicator_iterativeSearch_box-shadow_list);
+    pointer-events: auto
+}
+
+.controls-BaseControl__portionedSearch-footerTemplate {
+    margin-left: var(--content_l_padding_loadingIndicator);
+    color: var(--text-color);
+    font-size: var(--font-size_xs)
+}
+
+.controls-BaseControl__abortSearch {
+    display: inline-block;
+    color: var(--link_text-color);
+    margin-left: var(--content_l_padding_loadingIndicator);
+    font-size: var(--font-size_default)
+}
+
+.controls-BaseControl__abortSearch:active {
+    text-decoration: underline;
+    color: var(--link_hover_text-color)
+}
+
+.ws-is-no-touch .controls-BaseControl__abortSearch:hover {
+    text-decoration: underline;
+    color: var(--link_hover_text-color);
+    cursor: pointer
+}
+
+.controls-BaseControl__continueSearch {
+    display: inline-flex;
+    width: 100%;
+    pointer-events: auto
+}
+
+.controls-BaseControl__continueSearch__state-top {
+    padding-top: var(--scrollpaging_offset-vertical_list);
+    padding-bottom: var(--offset_s)
+}
+
+.controls-BaseControl__continueSearch__state-bottom {
+    padding-top: var(--offset_s);
+    padding-bottom: var(--scrollpaging_offset-vertical_list)
+}
+
+.controls-BaseControl__continueSearch_caption {
+    color: var(--link_text-color);
+    cursor: pointer
+}
+
+.controls-BaseControl__continueSearch_caption:active {
+    color: var(--link_hover_text-color);
+    text-decoration: underline
+}
+
+.ws-is-no-touch .controls-BaseControl__continueSearch_caption:hover {
+    color: var(--link_hover_text-color);
+    cursor: pointer;
+    text-decoration: underline
+}
+
+.controls-BaseControl__continueSearch_icon {
+    margin-right: var(--offset_s);
+    color: var(--secondary_icon-color)
+}
+
+.controls-BaseControl__continueSearch_content {
+    background-color: transparent
+}
+
+.controls-BaseControl__continueSearch_content:active .controls-BaseControl__continueSearch_icon {
+    color: var(--secondary_hover_icon-color)
+}
+
+.ws-is-no-touch .controls-BaseControl__continueSearch_content:hover .controls-BaseControl__continueSearch_icon {
+    color: var(--secondary_hover_icon-color)
+}
+
+.controls-BaseControl__continueSearch_footerTemplate {
+    font-size: var(--font-size_xs)
+}
+
+.controls-BaseControl__emptyTemplate {
+    height: 100%;
+    display: flex;
+    align-items: center
+}
+
+.controls-BaseControl__emptyTemplate__contentWrapper {
+    flex-grow: 1;
+    max-width: 100%
+}
+
+.ws-is-ie .controls-BaseControl__emptyTemplate__contentWrapper {
+    width: 0
+}
+
+.controls-BaseButton__emptyTemplate__wrapper {
+    height: 100%
+}
+
+.controls__BaseControl__footer-default__paddingLeft_withCheckboxes {
+    padding-left: calc(var(--checkbox_offset-left_list) + var(--click-area_width_checkbox))
+}
+
+.controls__BaseControl__footer-default__paddingLeft_default {
+    padding-left: var(--item_padding-left_default_list)
+}
+
+.controls__BaseControl__footer-master__paddingLeft_default,.controls__BaseControl__footer-master__paddingLeft_withCheckboxes {
+    padding-left: var(--item_padding-left_l_list)
+}
+
+.controls-master-template-newDesign .controls__BaseControl__footer-master__paddingLeft_default {
+    padding-left: calc(var(--item_padding-left_default_list) + var(--master_item_horizontal-offset_list))
+}
+
+.controls__BaseControl__footer-default__paddingLeft_null,.controls__BaseControl__footer-master__paddingLeft_null {
+    padding-left: 0
+}
+
+.controls__BaseControl__footer-default__paddingLeft_xs,.controls__BaseControl__footer-master__paddingLeft_xs {
+    padding-left: var(--item_padding-left_xs_list)
+}
+
+.controls__BaseControl__footer-default__paddingLeft_s,.controls__BaseControl__footer-master__paddingLeft_s {
+    padding-left: var(--item_padding-left_s_list)
+}
+
+.controls__BaseControl__footer-default__paddingLeft_m,.controls__BaseControl__footer-master__paddingLeft_m {
+    padding-left: var(--item_padding-left_m_list)
+}
+
+.controls__BaseControl__footer-default__paddingLeft_l,.controls__BaseControl__footer-master__paddingLeft_l {
+    padding-left: var(--item_padding-left_l_list)
+}
+
+.controls__BaseControl__footer-default__paddingLeft_xl,.controls__BaseControl__footer-master__paddingLeft_xl {
+    padding-left: var(--item_padding-left_xl_list)
+}
+
+.controls__BaseControl__footer-default__paddingLeft_xxl,.controls__BaseControl__footer-master__paddingLeft_xxl {
+    padding-left: var(--item_padding-left_2xl_list)
+}
+
+.controls-BaseControl__footerPaging_wrapper {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    align-items: center;
+    width: 100%
+}
+
+.controls-BaseControl_paging-wrapper {
+    position: -webkit-sticky;
+    position: sticky;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+.controls-BaseControl_paging-label {
+    display: flex;
+    align-items: baseline;
+    color: var(--label_text-color);
+    font-size: var(--font-size_s)
+}
+
+.controls-BaseControl_paging-label::before {
+    content: '\200b';
+    line-height: var(--inline_height_l);
+    font-size: var(--item_font-size-color_paging)
+}
+
+.controls-BaseControl_paging-pageSizeChooser {
+    margin-left: var(--offset_2xs)
+}
+
+.controls-BaseControl__cut-container_s {
+    margin-top: var(--offset_3xs);
+    margin-bottom: var(--offset_2xs)
+}
+
+.controls-BaseControl__cut-container_m {
+    margin-top: var(--offset_3xs);
+    margin-bottom: var(--offset_xs)
+}
+
+.controls-BaseControl__cut-container_l {
+    margin-top: var(--offset_xs);
+    margin-bottom: var(--offset_m)
+}
+
+.controls-BaseControl__cut-container_s_position_start {
+    padding-left: var(--offset_2xs)
+}
+
+.controls-BaseControl__cut-container_m_position_start {
+    padding-left: var(--offset_xs)
+}
+
+.controls-BaseControl__cut-container_l_position_start {
+    padding-left: var(--offset_s)
+}
+
+.controls-list__vertical-spacing_3xs {
+    height: var(--offset_3xs)
+}
+
+.controls-list__vertical-spacing_2xs {
+    height: var(--offset_2xs)
+}
+
+.controls-list__vertical-spacing_xs {
+    height: var(--offset_xs)
+}
+
+.controls-list__vertical-spacing_s {
+    height: var(--offset_s)
+}
+
+.controls-list__vertical-spacing_st {
+    height: var(--offset_st)
+}
+
+.controls-list__vertical-spacing_m {
+    height: var(--offset_m)
+}
+
+.controls-list__vertical-spacing_l {
+    height: var(--offset_l)
+}
+
+.controls-list__vertical-spacing_xl {
+    height: var(--offset_xl)
+}
+
+.controls-list__vertical-spacing_2xl {
+    height: var(--offset_2xl)
+}
+
+.controls-list__vertical-spacing_3xl {
+    height: var(--offset_3xl)
+}

@@ -1,0 +1,235 @@
+.informers_InformersBar {
+    height: 100%;
+    width: 52px
+}
+
+.controls-Scroll__background-Shadow_style-informers_theme-online {
+    background-image: none
+}
+
+.controls-Scroll__shadow_bottom_style-informers {
+    background: linear-gradient(to bottom,rgba(255,255,255,0) 0,var(--unaccented_background-color) 70%);
+    background: -moz-linear-gradient(bottom,rgba(255,255,255,0) 0,var(--unaccented_background-color) 70%);
+    background: -webkit-gradient(bottom,color-stop(0,rgba(255,255,255,0)),color-stop(70%,var(--unaccented_background-color)));
+    background: -o-linear-gradient(bottom,rgba(255,255,255,0) 0,var(--unaccented_background-color) 70%);
+    background: -ms-linear-gradient(top,rgba(255,255,255,0) 0,var(--unaccented_background-color) 70%);
+    background: -webkit-linear-gradient(top,rgba(255,255,255,0) 0,var(--unaccented_background-color) 70%)
+}
+
+.controls-Scroll__shadow_top_style-informers {
+    background: linear-gradient(to top,rgba(255,255,255,0) 0,var(--unaccented_background-color) 70%);
+    background: -moz-linear-gradient(top,rgba(255,255,255,0) 0,var(--unaccented_background-color) 70%);
+    background: -webkit-gradient(top,color-stop(0,rgba(255,255,255,0)),color-stop(70%,var(--unaccented_background-color)));
+    background: -o-linear-gradient(top,rgba(255,255,255,0) 0,var(--unaccented_background-color) 70%);
+    background: -ms-linear-gradient(bottom,rgba(255,255,255,0) 0,var(--unaccented_background-color) 70%);
+    background: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,var(--unaccented_background-color) 70%)
+}
+
+.informers-InformersBar-informer_container {
+    display: flex;
+    flex-shrink: 0;
+    margin-bottom: var(--offset_l)
+}
+
+.ws-is-hover .informers-InformersBar-informer_container:hover {
+    cursor: pointer
+}
+
+.ws-is-hover .informers-InformersBar-informer_container:hover .informers-InformersBar-informer-header_container {
+    background-color: var(--pale_border-color)
+}
+
+.ws-is-hover .informers-InformersBar-informer_container:hover .informers-InformersBar-informer-header_container-AutoSign {
+    background-color: var(--primary_hover_contrast_background-color);
+    border-color: var(--primary_hover_contrast_background-color)
+}
+
+.informers-InformersBar-informer-header_container {
+    min-height: 30px;
+    width: 30px;
+    border-radius: 16px;
+    border: 1px solid var(--pale_border-color);
+    align-items: center;
+    background-color: var(--pale_contrast_background-color);
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: column
+}
+
+.ws-is-hover .informers-InformersBar-informer-header_container:hover {
+    background-color: var(--pale_border-color)
+}
+
+.informers-InformersBar-informer-header_container-AutoSign {
+    background-color: var(--primary_contrast_background-color);
+    border-color: var(--primary_contrast_background-color)
+}
+
+.ws-is-hover .informers-InformersBar-informer-header_container-AutoSign:hover {
+    background-color: var(--primary_hover_contrast_background-color);
+    border-color: var(--primary_hover_contrast_background-color)
+}
+
+.informers_InformersBar-informers_container-last {
+    margin-bottom: var(--offset_st)
+}
+
+.informers_InformersBar-informers_container-last-withoutHelpButton {
+    margin-bottom: var(--offset_xs)
+}
+
+.informers-InformersBar-informer-click_container {
+    width: 100%;
+    min-height: 30px;
+    justify-content: center
+}
+
+.informers-InformersBar-informer_content_wrapper {
+    position: relative
+}
+
+.informers-InformersBar-informer_click_wrapper {
+    top: 0;
+    bottom: 0;
+    left: -14px;
+    right: 0;
+    position: absolute;
+    width: 52px;
+    cursor: pointer
+}
+
+.informers_InformersBar_icon {
+    font-family: cbuc-icons
+}
+
+.informers_InformersBar_tooltipTemplate {
+    height: 100%
+}
+
+.ws-is-hover .informers-InformersBar-event_informer_container:hover {
+    cursor: pointer
+}
+
+.ws-is-hover .informers-InformersBar-event_informer_container:hover .informers-InformersBar_event-startedColor {
+    background-color: var(--success_hover_contrast_background-color)
+}
+
+.ws-is-hover .informers-InformersBar-event_informer_container:hover .informers-InformersBar_event-waitingColor {
+    background-color: var(--primary_hover_contrast_background-color)
+}
+
+.informers-InformersBar_timer {
+    color: var(--contrast_text-color);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px
+}
+
+.informers-InformersBar_event-startedColor {
+    background-color: var(--success_contrast_background-color);
+    border: 1px solid var(--success_hover_contrast_background-color)
+}
+
+.informers-InformersBar_event-waitingColor {
+    background-color: var(--primary_contrast_background-color);
+    border: 1px solid var(--primary_hover_contrast_background-color)
+}
+
+.informers-InformersBar_eventBlock-additional {
+    font-size: 12px
+}
+
+.informers-InformersBar-informer_content-group_icon {
+    padding: 8px 0 4px
+}
+
+.ws-is-ie11 .informers-InformersBar-informer_content-icon {
+    padding-top: 7px
+}
+
+.informers-InformersBar-informer_content-counter {
+    padding: 5px 0;
+    line-height: 18px;
+    width: 100%
+}
+
+.informers-InformersBar-informer_content-counter:last-child {
+    padding-bottom: 8px
+}
+
+.informers-InformersBar_event {
+    color: var(--background-color);
+    align-items: center;
+    border-radius: 16px
+}
+
+.informers-InformersBar_event-vertical {
+    width: 32px;
+    margin-bottom: var(--offset_l);
+    flex-direction: column
+}
+
+.informers-InformersBar_event-horizontal {
+    width: 80px;
+    height: 32px
+}
+
+.informers-InformersBar_event-time {
+    align-items: center;
+    justify-content: center;
+    display: flex
+}
+
+.informers-InformersBar_event-time-vertical {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+    flex-direction: column;
+    padding: 8px 0 4px
+}
+
+.informers-InformersBar_event-time-horizontal {
+    height: 100%;
+    width: 54px;
+    border-radius: 16px 0 0 16px
+}
+
+.informers-InformersBar_event-status {
+    -ms-writing-mode: tb-rl;
+    writing-mode: tb-rl;
+    display: flex;
+    align-items: center;
+    padding-top: 4px
+}
+
+.informers-InformersBar_event-icon {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.informers-InformersBar_event-icon-vertical {
+    border-radius: 0 0 16px 16px;
+    padding-bottom: 8px
+}
+
+.informers-InformersBar_event-icon-horizontal {
+    height: 100%;
+    width: 42px;
+    border-radius: 0 16px 16px 0
+}
+
+.informers-InformersBar-separator {
+    background-color: var(--pale_border-color)
+}
+
+.informers-InformersBar-separator-vertical {
+    height: 1px;
+    width: 24px
+}
+
+.informers-InformersBar-separator-horizontal {
+    height: 24px;
+    width: 1px
+}

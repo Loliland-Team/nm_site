@@ -1,0 +1,46 @@
+.controls-ListView__itemV_marker {
+    position: absolute;
+    display: inline-flex;
+    z-index: 2;
+    left: 0
+}
+
+.controls-ListView__itemV_marker::before {
+    content: '\200b'
+}
+
+.controls-ListView__itemV_marker::after {
+    content: '';
+    background-color: var(--marker_color);
+    border-radius: var(--border-radius_2xs)
+}
+
+.controls-ListView__itemV_marker_size_content-xs::after {
+    height: var(--marker_size_content-xs_list);
+    width: var(--marker_thickness_content-xs_list)
+}
+
+.controls-ListView__itemV_marker_size_content-xl::after {
+    height: var(--marker_size_content-xl_list);
+    width: var(--marker_thickness_content-xl_list)
+}
+
+.controls-ListView__itemV_marker_size_image-l::after {
+    height: var(--marker_size_image-l_list);
+    width: var(--marker_thickness_image-l_list)
+}
+
+.controls-ListView__itemV_marker_size_image-mt::after {
+    height: var(--marker_size_image-mt_list);
+    width: var(--marker_thickness_image-mt_list)
+}
+
+.controls-ListView__itemV_marker_size_image-m::after {
+    height: var(--marker_size_image-m_list);
+    width: var(--marker_thickness_image-m_list)
+}
+
+.controls-ListView__itemV_marker_size_image-s::after {
+    height: var(--marker_size_image-s_list);
+    width: var(--marker_thickness_image-s_list)
+}

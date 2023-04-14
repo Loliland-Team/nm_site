@@ -1,0 +1,8 @@
+.userStatus-Panel__selector {
+    margin: var(--offset_xs);
+    width: 236px
+}
+
+.userStatus-Panel__scrollContainer {
+    height: 100%
+}

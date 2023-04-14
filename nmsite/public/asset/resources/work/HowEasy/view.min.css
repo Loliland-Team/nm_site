@@ -1,0 +1,17 @@
+.onlineWidgets-howEasy__empty {
+    color: var(--unaccented_color)
+}
+
+.onlineWidgets-howEasy__helpIcon {
+    padding: 0 var(--offset_st);
+    visibility: hidden
+}
+
+.ws-is-hover .howEasy__oneLink:hover .onlineWidgets-howEasy__helpIcon {
+    visibility: visible
+}
+
+.howEasy__oneLink {
+    height: var(--inline_height_m);
+    width: 100%
+}

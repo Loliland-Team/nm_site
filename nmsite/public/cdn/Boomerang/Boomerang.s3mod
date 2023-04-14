@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module for_cdn="1" id="73faafcb-60e4-4566-a66a-f6ab906f06b7" name="Boomerang" package="Wasaby" responsible="Бегунов А.В." version="1.00">
+
+  <description>Boomerang</description>
+
+  <depends/>
+
+  <load_after/>
+
+  <parameters/>
+
+  <resources/>
+
+  <preload/>
+
+</ui_module>

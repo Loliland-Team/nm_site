@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module for_cdn="1" id="03ff0329-0487-4b6a-954f-a4fa41af0d93" name="MaisonNeue-IE" package="Wasaby" responsible="Бегунов А.В." version="1.00">
+
+  <description>MaisonNeue для IE</description>
+
+  <depends/>
+
+  <load_after/>
+
+  <parameters/>
+
+  <resources/>
+
+  <preload/>
+
+</ui_module>

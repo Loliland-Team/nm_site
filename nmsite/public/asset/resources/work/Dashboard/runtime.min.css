@@ -1,0 +1,55 @@
+.dashboard-BlockRT {
+    margin-bottom: var(--offset_s);
+    margin-left: var(--offset_2xs);
+    margin-right: var(--offset_2xs)
+}
+
+.dashboard-BlockRT_topOffset {
+    margin-top: var(--offset_2xs)
+}
+
+.dashboard-BlockRT__columnContainer {
+    width: 100%;
+    margin: 0 var(--offset_2xs);
+    box-sizing: border-box;
+    min-width: 0
+}
+
+.dashboard-BlockRT__columnContainer:first-child {
+    margin-left: 0
+}
+
+.dashboard-BlockRT__columnContainer:last-child {
+    margin-right: 0
+}
+
+.dashboard-BlockRT__column {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.dashboard-BlockRT__player {
+    height: 100%
+}
+
+.dashboard-BlockRT__widget {
+    margin-bottom: var(--offset_s)
+}
+
+.dashboard-BlockRT__widget:last-child {
+    margin-bottom: 0
+}
+
+.dashboard-CounterGroupRT {
+    margin: 0 calc(-1 * var(--offset_2xs))
+}
+
+.dashboard-CounterGroupRT__item {
+    max-width: 327px;
+    padding: 0 var(--offset_2xs);
+    box-sizing: border-box
+}
+
+.dashboard-CounterGroupRT__item_topOffset {
+    margin-top: var(--offset_s)
+}

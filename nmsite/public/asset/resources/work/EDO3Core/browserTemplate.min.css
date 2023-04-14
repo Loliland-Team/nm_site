@@ -1,0 +1,1072 @@
+.edo3-Browser-Adaptive {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 2px
+}
+
+.edo3-Browser-Adaptive__date {
+    color: var(--unaccented_color);
+    text-align: right
+}
+
+.edo3-Browser-Adaptive__date::before {
+    content: '.';
+    visibility: hidden
+}
+
+.edo3-Browser-Adaptive__header {
+    color: var(--secondary_text-color)
+}
+
+.edo3-Browser-Adaptive__state .edo3-Browser-State__icon {
+    padding-right: var(--offset_2xs)
+}
+
+.edo3-Browser-Adaptive__state .edo3-Browser-State__icon:last-child {
+    padding-right: 0
+}
+
+.edo3-Browser-Adaptive__state.edo3-Browser-State__main-states {
+    margin-top: 0
+}
+
+.edo3-Browser-Adaptive__rule {
+    color: var(--unaccented_color)
+}
+
+.edo3-Browser__active-phase-text {
+    font-size: var(--font-size_m)
+}
+
+.edo3-Browser__active-phase-text-inner {
+    line-height: var(--inline_height_xs);
+    box-sizing: border-box
+}
+
+.edo3-Browser__active-phase-executor {
+    font-size: var(--font-size_xs);
+    color: var(--readonly_color)
+}
+
+.edo3-Browser__active-phase-pause-icon {
+    line-height: var(--inline_height_m)!important
+}
+
+.edo3-Browser__active-phase__minor {
+    color: var(--unaccented_color)
+}
+
+.edo3-Browser__active-phase__minor-text-disable {
+    text-decoration: none
+}
+
+.edo3-Browser__active-phase__minor-text-disable:hover {
+    text-decoration: none
+}
+
+.edo3-Browser__active-phase-button-third-base-line {
+    height: 26px
+}
+
+.edo3-Browser-Combine {
+    width: 100%
+}
+
+.edo3-Browser-Combine__margin {
+    margin-bottom: 17px
+}
+
+.edo3-Browser-Combine--Sum {
+    margin-right: 6px
+}
+
+.edo3-Browser-Combine .edo3-Browser-Combine--State {
+    flex-grow: 0
+}
+
+.edo3-Browser__shadow-block {
+    background-color: var(--background-color);
+    -webkit-box-shadow: -8px 0 4px 0 var(--background-color);
+    box-shadow: -8px 0 4px 0 var(--background-color);
+    padding-left: var(--offset_2xs)
+}
+
+.controls-GridView__item_active .edo3-Browser__shadow-block {
+    background-color: var(--hover_background-color);
+    box-shadow: -8px 0 4px 0 var(--hover_background-color)
+}
+
+.controls-Grid__row-cell-editing .edo3-Browser__shadow-block {
+    background-color: var(--active_background-color);
+    box-shadow: -8px 0 4px 0 var(--active_background-color)
+}
+
+.edo3-Browser__text-base-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline
+}
+
+.edo3-Browser__text-base-line .edo3-Browser-Main__additional-regular-name {
+    line-height: var(--inline_height_xs)
+}
+
+.edo3-Browser__text-base-line.controls-Link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.edo3-Browser__text-base-line:before {
+    content: '.';
+    visibility: hidden;
+    width: 1px;
+    margin-right: -1px;
+    display: inline-block
+}
+
+.edo3-Browser__text-base-line.edo3-Browser__first-base-line {
+    line-height: 21px;
+    max-height: 22px
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser__text-base-line.edo3-Browser__first-base-line {
+    line-height: var(--inline_height_s);
+    max-height: 40px
+}
+
+.edo3-Browser__text-base-line.edo3-Browser__second-base-line {
+    line-height: var(--inline_height_xs)
+}
+
+.edo3-Browser__text-base-line.edo3-Browser__third-base-line {
+    line-height: var(--inline_height_xs)
+}
+
+.edo3-Browser__text-base-line.edo3-Browser-Main__additional-regular-name {
+    line-height: var(--inline_height_xs)
+}
+
+.edo3-Browser__active-phase-text {
+    line-height: var(--inline_height_xs)
+}
+
+.edo3-Browser__first-base-line:before {
+    font-size: var(--font-size_3xl);
+    line-height: 21px
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser__first-base-line:before {
+    line-height: var(--inline_height_s)
+}
+
+.edo3-Browser__second-base-line:before {
+    font-size: var(--font-size_m);
+    line-height: var(--inline_height_xs)
+}
+
+.edo3-Browser__third-base-line:before {
+    line-height: var(--inline_height_xs)
+}
+
+.edo3-Browser__absolute-base-line .edo3-Browser__first-base-line {
+    line-height: 21px!important
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser__absolute-base-line .edo3-Browser__first-base-line {
+    line-height: var(--inline_height_s)!important
+}
+
+.edo3-Browser__absolute-base-line .edo3-Browser__first-base-line:before {
+    line-height: 21px!important
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser__absolute-base-line .edo3-Browser__first-base-line:before {
+    line-height: var(--inline_height_s)!important
+}
+
+.edo3-Browser__absolute-base-line .edo3-Browser__second-base-line {
+    line-height: var(--inline_height_xs)!important
+}
+
+.edo3-Browser__absolute-base-line .edo3-Browser__second-base-line:before {
+    line-height: var(--inline_height_xs)!important
+}
+
+.edo3-Browser__flex-space:before {
+    content: '.';
+    visibility: hidden
+}
+
+.edo3-Browser__small-text {
+    font-size: var(--font-size_xs);
+    font-weight: 400
+}
+
+.edo3-Browser__middle-text {
+    font-size: var(--font-size_m);
+    font-weight: 400
+}
+
+.edo3-Browser__big-text {
+    font-size: var(--font-size_l);
+    font-weight: 700
+}
+
+.edo3-Browser__italic-text {
+    font-style: italic
+}
+
+.edo3-Browser__text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.edo3-Browser__flex-ellipsis {
+    min-width: 0;
+    max-width: 100%
+}
+
+.edo3-Browser__absolute-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0
+}
+
+.edo3-Browser__atop {
+    z-index: 1
+}
+
+.edo3-Browser__relative-wrapper {
+    position: relative
+}
+
+.edo3-Browser__flex-table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.edo3-Browser__flex-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.edo3-Browser__flex-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline
+}
+
+.edo3-Browser__flex-space:before {
+    content: '.';
+    visibility: hidden
+}
+
+.edo3-Browser__additional-info-icon-column {
+    -ms-flex-preferred-size: 16px;
+    flex-basis: 16px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 1;
+    flex-shrink: 1
+}
+
+.edo3-Browser__additional-info-icon-column-static {
+    flex-basis: 16px;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-grow: 0
+}
+
+.edo3-Browser__etc {
+    display: inline;
+    color: var(--unaccented_color);
+    height: 8px;
+    line-height: 4px
+}
+
+.edo3-Browser__additional-info-attach-etc {
+    margin-left: var(--offset_l)
+}
+
+.edo3-Browser__icon {
+    width: var(--icon-size_s);
+    height: var(--icon-size_s)
+}
+
+.edo3-Browser__icon-12 {
+    font-size: var(--icon-size_2xs)!important
+}
+
+.edo3-Browser__icon-12.icon-16 {
+    font-size: var(--icon-size_2xs)!important
+}
+
+.edo3-Browser__flex-auto {
+    flex: auto;
+    -webkit-box-flex: auto;
+    -ms-flex: auto
+}
+
+.edo3-Browser__first-base-line-static {
+    line-height: 21px;
+    max-height: 22px
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser__first-base-line-static {
+    line-height: var(--inline_height_s);
+    max-height: 26px
+}
+
+.edo3-Browser__first-base-line-static:before {
+    font-size: var(--font-size_3xl);
+    line-height: 21px;
+    content: '.';
+    visibility: hidden;
+    width: 1px;
+    margin-right: -1px;
+    display: inline-block
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser__first-base-line-static:before {
+    line-height: var(--inline_height_s)
+}
+
+.edo3-Browser__second-base-line-static {
+    line-height: 20px
+}
+
+.edo3-Browser__second-base-line-static:before {
+    font-size: var(--font-size_m);
+    line-height: 20px;
+    content: '.';
+    visibility: hidden;
+    width: 1px;
+    margin-right: -1px;
+    display: inline-block
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser__second-base-line-static {
+    line-height: var(--inline_height_s)
+}
+
+.edo3-Browser__third-base-line-static {
+    line-height: 20px
+}
+
+.edo3-Browser__third-base-line-static:before {
+    line-height: 20px;
+    content: '.';
+    visibility: hidden;
+    width: 1px;
+    margin-right: -1px;
+    display: inline-block
+}
+
+.edo3-Browser__absolute-first-base-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0
+}
+
+.edo3-Browser__absolute-second-base-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 22px
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser__absolute-second-base-line {
+    top: 26px
+}
+
+.edo3-Browser__header3-comment2-wrapper {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 0;
+    max-width: 50%;
+    min-width: 0
+}
+
+.edo3-Browser--removed-by-contractor :not(.edo3-Browser-State__icon):not(.edo3-Browser__color-mark):not(.edo3-Browser__color-mark-second) {
+    color: var(--readonly_color)!important
+}
+
+.edo3-Browser__color-mark-second {
+    position: absolute;
+    top: 19px;
+    right: 0
+}
+
+.controls-GridView__item_active_theme-online .edo3-Browser__shadow-block,.controls-GridView__item_active_theme-online-default .edo3-Browser__shadow-block {
+    background-color: var(--hover_background-color);
+    box-shadow: -8px 0 4px 0 var(--hover_background-color)
+}
+
+.controls-Popup .controls-GridView__item_active_theme-online .edo3-Browser__shadow-block,.controls-Popup .controls-GridView__item_active_theme-online-default .edo3-Browser__shadow-block {
+    background-color: var(--item_hover_background-color_list);
+    box-shadow: -8px 0 4px 0 var(--item_hover_background-color_list)
+}
+
+.ws-is-no-touch.ws-is-no-drag.ws-is-hover .controls-Popup .controls-Grid__row:hover .edo3-Browser__shadow-block {
+    background-color: var(--item_hover_background-color_list);
+    box-shadow: -8px 0 4px 0 var(--item_hover_background-color_list)
+}
+
+.ws-is-no-touch.ws-is-no-drag.ws-is-hover .controls-Grid__row:hover .edo3-Browser__shadow-block {
+    background-color: var(--hover_background-color);
+    box-shadow: -8px 0 4px 0 var(--hover_background-color)
+}
+
+.ws-is-no-touch.ws-is-no-drag.ws-is-hover .controls-Grid__row:hover .controls-Grid__row-cell-editing .edo3-Browser__shadow-block {
+    background-color: var(--active_background-color);
+    box-shadow: -8px 0 4px 0 var(--active_background-color)
+}
+
+.ws-is-hover .edo3-Browser__clickable:hover {
+    text-decoration: underline!important;
+    cursor: pointer
+}
+
+.ws-is-hover .edo3-Browser-Responsible__responsible-info-row:hover {
+    text-decoration: underline
+}
+
+.ws-is-hover .edo3-Browser-State__wrapper .icon-16:not(.icon-TheNote).icon-16:hover {
+    color: var(--readonly_marker-color)!important
+}
+
+.edo3-Browser-DateNumber {
+    width: 56px
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser-DateNumber {
+    width: auto
+}
+
+.edo3-Browser-DateNumber--short {
+    width: 34px
+}
+
+.edo3-Browser-DateNumber--long {
+    width: 66px
+}
+
+.edo3-Browser-DateNumber__date {
+    font-size: var(--font-size_m);
+    color: var(--text-color);
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.edo3-Browser-DateNumber__additional-row {
+    font-size: var(--font-size_xs);
+    color: var(--unaccented_color);
+    text-align: right;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    white-space: nowrap
+}
+
+.edo3-Browser-DateNumber__additional-row:before {
+    content: '.';
+    visibility: hidden
+}
+
+.edo3-Browser-DateNumber__mark-dot {
+    position: absolute;
+    top: 7px;
+    right: -8px;
+    z-index: 1;
+    max-width: 16px
+}
+
+.edo3-Browser-DateNumber__checkbox {
+    position: absolute!important;
+    top: -2px;
+    left: -4px
+}
+
+.edo3-Browser-DateNumber__iconUnread {
+    position: absolute;
+    left: -2px;
+    top: 1px
+}
+
+.edo3-Browser-DateNumber__relative-wrapper {
+    position: relative
+}
+
+.edo3-Browser__inherit-width {
+    width: inherit
+}
+
+.controls-Grid__row-cell__content_hiddenForLadder .edo3-Browser-DateNumber__checkbox {
+    display: none
+}
+
+.edo3-Browser-Responsible {
+    min-width: 110px;
+    text-align: right
+}
+
+.edo3-Browser-Responsible__text-row {
+    overflow: hidden;
+    min-width: 0;
+    max-width: 100%
+}
+
+.edo3-Browser-Responsible__responsible-info {
+    text-align: right
+}
+
+.edo3-Browser-Responsible__responsible-info-row {
+    font-size: var(--font-size_xs);
+    color: var(--unaccented_color)
+}
+
+.edo3-Browser-Responsible__responsible-comment {
+    font-size: var(--font-size_xs);
+    color: var(--readonly_color)
+}
+
+.edo3-Browser__rule {
+    color: var(--label_text-color);
+    font-size: var(--font-size_xs);
+    font-weight: 400
+}
+
+.edo3-Browser-Sum {
+    text-align: right;
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: auto;
+    flex: auto;
+    align-items: flex-end
+}
+
+.edo3-Browser-Sum__main {
+    color: var(--label_text-color);
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-negative: 1;
+    flex-shrink: 1
+}
+
+.edo3-Browser-Sum__without_currency {
+    color: var(--unaccented_color);
+    font-size: var(--font-size_xs);
+    line-height: 18px;
+    justify-content: flex-end;
+    flex-shrink: 1
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser-Sum__without_currency {
+    line-height: var(--inline_height_s)
+}
+
+.edo3-Browser-Sum__currency {
+    line-height: var(--inline_height_m);
+    font-size: var(--font-size_l);
+    color: var(--unaccented_color);
+    max-height: 22px;
+    margin-right: 3px;
+    font-weight: 400
+}
+
+.edo3-Browser-Sum--posted {
+    color: var(--secondary_text-color)
+}
+
+.edo3-Browser-Sum--can-posted {
+    font-weight: 400
+}
+
+.edo3-Browser-Sum__penny {
+    color: var(--label_text-color)
+}
+
+.edo3-Browser-Sum__penny-empty {
+    color: var(--readonly_color)
+}
+
+.edo3-Browser-Sum-additional-info-table {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 100%
+}
+
+.edo3-Browser-Sum__additional {
+    color: var(--unaccented_color);
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.edo3-Browser-Sum--absolute-sum.edo3-Browser__sum-wrapper {
+    position: absolute;
+    right: 0;
+    top: -3px;
+    white-space: nowrap;
+    max-width: 100%
+}
+
+.edo3-Browser-Main {
+    width: 100%;
+    box-sizing: border-box
+}
+
+.edo3-Browser-Main--min-height {
+    min-height: 40px!important
+}
+
+.edo3-Browser-Main__wrapper {
+    width: 100%;
+    min-width: 0
+}
+
+.edo3-Browser-Main__header1 {
+    color: var(--secondary_text-color);
+    margin-right: var(--offset_s);
+    width: 100%;
+    z-index: 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+}
+
+.edo3-Browser-Main__header1-text {
+    max-width: 100%;
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.edo3-Browser-Main__header1-default {
+    color: var(--unaccented_color)
+}
+
+.edo3-Browser-Main__header1.header3-ff-bugfix {
+    text-overflow: ellipsis
+}
+
+.edo3-Browser-Main__header2 {
+    color: var(--text-color)
+}
+
+.edo3-Browser-Main__header4 {
+    color: var(--text-color)
+}
+
+.edo3-Browser-Main__header3 {
+    color: var(--label_text-color);
+    max-width: 100%;
+    z-index: 1
+}
+
+.edo3-Browser-Main__header3-wrapper.edo3-Browser__absolute-wrapper {
+    left: auto;
+    max-width: 50%
+}
+
+.edo3-Browser-Main__header3-static {
+    color: var(--label_text-color);
+    z-index: 1;
+    max-width: 50%
+}
+
+.edo3-Browser-Main__additional-name-static {
+    color: var(--unaccented_color);
+    line-height: 20px;
+    max-width: 100%;
+    min-width: 0;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser-Main__additional-name-static {
+    line-height: var(--inline_height_m)
+}
+
+.edo3-Browser-Main-comment-icon {
+    width: 20px;
+    line-height: var(--inline_height_m)!important;
+    height: 20px!important;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block
+}
+
+.edo3-Browser-Main__header-comment {
+    color: var(--text-color);
+    line-height: 22px
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser-Main__header-comment {
+    line-height: var(--inline_height_m)
+}
+
+.edo3-Browser-Main__comment1 {
+    color: var(--text-color);
+    width: 100%;
+    z-index: 0
+}
+
+.edo3-Browser-Main__comment1-wrapper {
+    padding-left: var(--offset_l)
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser-Main__comment1-wrapper {
+    line-height: var(--inline_height_xs)
+}
+
+.edo3-Browser-Main__comment1-wrapper-simple {
+    padding-left: var(--offset_l);
+    width: calc(100% - var(--offset_l))
+}
+
+.edo3-Browser-Main--show-employee .edo3-Browser-Main__comment1-wrapper {
+    padding-left: 0
+}
+
+.edo3-Browser-Main__comment2 {
+    color: var(--label_text-color);
+    z-index: 1;
+    max-width: 100%
+}
+
+.edo3-Browser-Main__comment2-static {
+    color: var(--label_text-color);
+    z-index: 1;
+    max-width: 30%
+}
+
+.edo3-Browser-Main__comment2-wrapper {
+    top: 22px;
+    z-index: 1;
+    max-width: 30%;
+    left: auto
+}
+
+.edo3-Browser-Main__comment2-wrapper.edo3-Browser__first-base-line {
+    top: 0
+}
+
+.edo3-Browser-Main__comment3 {
+    color: var(--text-color);
+    line-height: 22px
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser-Main__comment3 {
+    line-height: var(--inline_height_m)
+}
+
+.edo3-Browser-Main__comment4 {
+    color: var(--unaccented_color)
+}
+
+.edo3-Browser-Main__comment5 {
+    color: var(--unaccented_color);
+    width: 100%;
+    line-height: var(--inline_height_xs)
+}
+
+.edo3-Browser-Main__comment6.edo3-Browser__absolute-base-line {
+    line-height: 18px!important
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser-Main__comment6.edo3-Browser__absolute-base-line {
+    line-height: var(--inline_height_s)!important
+}
+
+.edo3-Browser-Main__multiline-comment {
+    line-height: 18px;
+    max-height: 56px;
+    word-break: break-word;
+    overflow: hidden;
+    margin-left: var(--offset_l);
+    white-space: normal
+}
+
+.controls_theme-retail__dark-medium .edo3-Browser-Main__multiline-comment {
+    line-height: var(--inline_height_s)
+}
+
+.edo3-Browser-Main--show-employee .edo3-Browser-Main__multiline-comment {
+    margin-left: 0
+}
+
+.edo3-Browser-Main__photo {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    margin-top: var(--offset_3xs);
+    margin-right: var(--offset_xs)
+}
+
+.edo3-Browser-Main__big-photo {
+    width: 40px;
+    height: 40px;
+    margin-top: 0
+}
+
+.edo3-Browser-Main .edo3-Browser-Main__employee {
+    margin-right: var(--offset_s);
+    z-index: 0;
+    color: var(--unaccented_color);
+    font-weight: 400
+}
+
+.edo3-Browser-Main__employee-name {
+    color: var(--secondary_text-color);
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto
+}
+
+.edo3-Browser-Main__employee-branch {
+    color: var(--unaccented_color);
+    line-height: var(--inline_height_xs)
+}
+
+.edo3-Browser-Main--org-and-employee .edo3-Browser-Main__employee-name:not(.edo3-Browser__first-base-line-static) {
+    color: var(--text-color)
+}
+
+.edo3-Browser-Main--show-employee.edo3-Browser-Main__wrapper {
+    width: 100%
+}
+
+.edo3-Browser-Main--show-employee.edo3-Browser-Main--many-photos.edo3-Browser-Main__wrapper {
+    margin-left: 0
+}
+
+.edo3-Browser-Main--show-employee.edo3-Browser-Main--many-photos .edo3-Browser-Main__employee {
+    margin-right: 0
+}
+
+.edo3-Browser-Main__half-length {
+    max-width: 50%
+}
+
+.edo3-Browser-Main__additional-regular-name:before {
+    font-size: var(--font-size_xs);
+    line-height: var(--inline_height_xs)
+}
+
+.edo3-Browser-Main__additional-name {
+    color: var(--unaccented_color);
+    line-height: var(--inline_height_xs);
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.edo3-Browser-Main__additional-name-container {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.edo3-Browser-Main__additional-name-with_description {
+    color: var(--text-color);
+    font-size: var(--font-size_xs)
+}
+
+.edo3-Browser-Main__additional-description+.edo3-Browser-Main__additional-name {
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2
+}
+
+.edo3-Browser-Main__additional-info-row {
+    width: 100%
+}
+
+.edo3-Browser-Main__additional-etcCountInfo::before,.edo3-Browser-Main__additional-info-item:not(:last-child)::after {
+    color: var(--unaccented_color);
+    content: ',';
+    padding-right: var(--offset_2xs)
+}
+
+.edo3-Browser-Main .edo3-Browser-Main__additional-description {
+    color: var(--unaccented_color);
+    padding-right: var(--offset_2xs);
+    line-height: var(--inline_height_xs);
+    max-width: 100%
+}
+
+.edo3-Browser-Main__linked-doc {
+    color: var(--label_text-color);
+    line-height: var(--inline_height_xs);
+    max-width: 100%
+}
+
+.edo3-Browser-Main__broadcast-message {
+    color: var(--unaccented_color);
+    line-height: var(--inline_height_xs)
+}
+
+.edo3-Browser-Main__prev-phase-comment {
+    color: var(--unaccented_color);
+    width: 100%;
+    line-height: var(--inline_height_xs)
+}
+
+.edo3-Browser-Main__docflow-info-wrapper {
+    line-height: var(--inline_height_xs)
+}
+
+.edo3-Browser-Main__docflow-info-icon {
+    line-height: var(--inline_height_xs);
+    font-style: normal
+}
+
+.edo3-Browser-Main--red {
+    color: var(--danger_text-color)!important
+}
+
+.edo3-Browser-Main--red .edo3-Browser-Main__docflow-info-icon {
+    color: var(--danger_text-color)!important
+}
+
+.edo3-Browser-Main__bold-text {
+    font-weight: 700
+}
+
+.edo3-Browser-Main__mark-dot {
+    position: absolute;
+    top: 4px;
+    left: -12px;
+    z-index: 2;
+    max-width: 16px
+}
+
+.edo3-Browser-Main .edo3-Browser-Main__header3-static {
+    left: auto
+}
+
+.edo3-Browser-Main .edo3-Browser-Main__comment2-static {
+    left: auto
+}
+
+.edo3-Browser .edo3-PhotoLine .person-PhotoLine__photoItemPadding-online {
+    margin-right: var(--offset_2xs)
+}
+
+.edo3-Browser-Main--show-employee .edo3-Browser__etc {
+    margin-left: 0
+}
+
+.edo3-Browser-Main--show-employee .edo3-Browser__etc.edo3-Browser__additional-info-attach-etc {
+    margin-left: var(--offset_l)
+}
+
+.edo3Core-PhotoLine {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.edo3Core-PhotoLine-item~.edo3Core-PhotoLine-item {
+    margin-left: var(--offset_xs)
+}
+
+.edo3-Browser-State__icon {
+    width: var(--icon-size_s);
+    min-height: 1px;
+    padding-right: var(--offset_xs)
+}
+
+.edo3-Browser-State__relative-wrapper {
+    position: relative
+}
+
+.edo3-Browser-State__flex-one {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.edo3-Browser-State__main-states {
+    margin-top: var(--offset_3xs)
+}
+
+.edo3-Browser-State__main-states-static {
+    height: 16px
+}
+
+.edo3-Browser-State--fixed-height .edo3-Browser-State__main-states {
+    height: 16px
+}
+
+.edo3-Browser-State--fixed-height.edo3-Browser__first-base-line .edo3-Browser-State__main-states {
+    height: 22px
+}
+
+.edo3-Browser-State__marks-item.icon-16 {
+    padding-right: var(--offset_xs)
+}
+
+.edo3-Browser-State__marks {
+    z-index: 1
+}
+
+.edo3-Browser-State__marks .edo3-Browser-State__marks-item.icon-16 {
+    padding-right: var(--offset_xs)
+}
+
+.edo3-Browser-State--state-height {
+    height: 24px
+}
+
+.edo3-Browser-State__notes {
+    color: #fce75b
+}
+
+.edo3-Browser-State__empty-flag {
+    padding-right: 0
+}

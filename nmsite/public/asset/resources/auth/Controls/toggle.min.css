@@ -1,0 +1,1346 @@
+.controls-Button__wrapper_viewMode-pushButton {
+    justify-content: center
+}
+
+.controls-Button_outlined_style-secondary_toggled {
+    border-color: var(--secondary_toggled_border-color_toggleButton_button);
+    border-width: var(--toggled_border-thickness_toggleButton_button)
+}
+
+.controls-Button_outlined_style-primary_toggled {
+    border-color: var(--primary_color);
+    border-width: var(--primary_toggled_border-thickness_toggleButton_button)
+}
+
+.controls-Button_ghost_style-default_toggled {
+    background-color: var(--secondary_toggled_background-color_toggleButton_toolButton);
+    border-color: var(--secondary_toggled_border-color_toggleButton_toolButton)
+}
+
+.controls-Button_ghost_style-readonly_toggled {
+    background-color: var(--secondary_toggled_background-color_toggleButton_toolButton);
+    border-color: var(--readonly_border-color_button_toolButton)
+}
+
+.controls-Button_pushButton {
+    border-width: var(--border-thickness_button);
+    border-radius: var(--border-radius_toggleButton_pushButton);
+    box-shadow: none;
+    border-style: solid
+}
+
+.controls-Button_pushButton_style-danger,.controls-Button_pushButton_style-primary,.controls-Button_pushButton_style-readonly,.controls-Button_pushButton_style-secondary,.controls-Button_pushButton_style-success {
+    border-color: transparent
+}
+
+.controls-Button_pushButton_style-primary_toggled,.controls-Button_pushButton_style-secondary_toggled {
+    border-color: var(--secondary_toggled_border-color_toggleButton_pushButton)
+}
+
+.controls-Button_pushButton_style-danger_toggled {
+    border-color: var(--danger_color)
+}
+
+.controls-Button_pushButton_style-success_toggled {
+    border-color: var(--success_color)
+}
+
+.controls-Button_pushButton_style-readonly_toggled {
+    border-color: var(--readonly_color)
+}
+
+.controls-Button_pushButton_style-secondary.controls-Button_bg-contrast,.controls-Button_pushButton_style-secondary.controls-Button_bg-same {
+    background-color: transparent
+}
+
+.controls-Button_pushButton_style-secondary_toggled.controls-Button_bg-contrast {
+    background-color: var(--secondary_contrast_toggled_background-color_toggleButton_pushButton)
+}
+
+.controls-Button_pushButton_style-readonly.controls-Button_bg-contrast {
+    background-color: var(--readonly_contrast_toggled_background-color_toggleButton_pushButton)
+}
+
+.controls-Button_pushButton_style-readonly.controls-Button_bg-same {
+    background-color: transparent
+}
+
+.ws-is-hover .controls-Button_pushButton_style-secondary:hover.controls-Button_bg-contrast {
+    background-color: var(--secondary_contrast_hover_background-color_toggleButton_pushButton)
+}
+
+.ws-is-hover .controls-Button_pushButton_style-secondary:hover.controls-Button_bg-same {
+    background-color: transparent;
+    border-color: var(--secondary_toggled_border-color_toggleButton_pushButton)
+}
+
+.ws-is-hover .controls-Button_ghost_style-default_toggled:hover {
+    border-color: var(--secondary_toggled_border-color_toggleButton_toolButton)
+}
+
+.ws-is-hover .controls-Button_ghost_style-readonly_toggled:hover {
+    border-color: var(--readonly_border-color_button_toolButton)
+}
+
+.ws-is-no-touch .controls-Button_pushButton_style-secondary:active.controls-Button_bg-contrast,.ws-is-touch .controls-Button_pushButton_style-secondary:active.controls-Button_bg-contrast {
+    background-color: var(--secondary_contrast_hover_background-color_toggleButton_pushButton)
+}
+
+.ws-is-no-touch .controls-Button_pushButton_style-secondary:active.controls-Button_bg-same,.ws-is-touch .controls-Button_pushButton_style-secondary:active.controls-Button_bg-same {
+    background-color: transparent;
+    border-color: var(--secondary_toggled_border-color_toggleButton_pushButton)
+}
+
+.ws-is-no-touch .controls-Button_ghost_style-default_toggled:active,.ws-is-touch .controls-Button_ghost_style-default_toggled:active {
+    border-color: var(--secondary_toggled_border-color_toggleButton_toolButton)
+}
+
+.ws-is-no-touch .controls-Button_ghost_style-readonly_toggled:active,.ws-is-touch .controls-Button_ghost_style-readonly_toggled:active {
+    border-color: var(--readonly_border-color_button_toolButton)
+}
+
+.controls-Button_pushButton_xs {
+    min-width: var(--inline_height_xs)
+}
+
+.controls-Button_pushButton_s {
+    min-width: var(--inline_height_s)
+}
+
+.controls-Button_pushButton_m {
+    min-width: var(--inline_height_m)
+}
+
+.controls-Button_pushButton_l {
+    min-width: var(--inline_height_l)
+}
+
+.controls-Button_pushButton_xl {
+    min-width: var(--inline_height_xl)
+}
+
+.controls-Button_pushButton_2xl {
+    min-width: var(--inline_height_2xl)
+}
+
+.controls-Button_pushButton_default {
+    min-width: var(--inline_height_default)
+}
+
+.controls-Button_pushButton:active {
+    box-shadow: none
+}
+
+.controls-SwitchButton-circle {
+    border-radius: 50%;
+    width: var(--marker_size_switcher);
+    height: var(--marker_size_switcher)
+}
+
+.controls-SwitchButton-circle_size-s {
+    border: var(--border-thickness) solid;
+    box-sizing: border-box
+}
+
+.controls-SwitchButton-circle_outlined-selected {
+    background-color: var(--primary_contrast_background-color);
+    border-color: var(--primary_contrast_background-color)
+}
+
+.controls-SwitchButton-circle_filled-selected {
+    background-color: var(--marker_contrast-color_switcher);
+    border-color: var(--primary_contrast_background-color)
+}
+
+.controls-SwitchButton-circle_filled-unselected {
+    background-color: var(--marker_contrast-color_switcher);
+    border-color: var(--unaccented_contrast_background-color)
+}
+
+.controls-SwitchButton-circle_outlined-unselected {
+    background-color: var(--unaccented_icon-color);
+    border-color: var(--unaccented_icon-color)
+}
+
+.controls-SwitchButton-circle_resetValue.controls-SwitchButton-circle_filled-selected,.controls-SwitchButton-circle_resetValue.controls-SwitchButton-circle_outlined-selected {
+    background-color: var(--primary_active_background-color);
+    border-color: var(--primary_active_background-color)
+}
+
+.controls-SwitchButton-circle_resetValue.controls-SwitchButton-circle_filled-unselected,.controls-SwitchButton-circle_resetValue.controls-SwitchButton-circle_outlined-unselected {
+    background-color: var(--pale_active_contrast_background-color);
+    border-color: var(--pale_active_contrast_background-color)
+}
+
+.controls-SwitchButton-circle_outlined-selected_disabled {
+    background-color: var(--readonly_background-color);
+    border-color: var(--readonly_background-color)
+}
+
+.controls-SwitchButton-circle_filled-unselected_disabled,.controls-SwitchButton-circle_outlined-unselected_disabled {
+    background-color: var(--marker_contrast-color_switcher);
+    border-color: var(--readonly_border-color);
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box
+}
+
+.controls-SwitchButton-circle_filled-selected_disabled {
+    background-color: var(--readonly_background-color);
+    border-color: var(--readonly_background-color)
+}
+
+.controls-SwitchButton-circle_size-l {
+    width: var(--marker_big-size_switcher);
+    height: var(--marker_big-size_switcher)
+}
+
+.controls-SwitchButton {
+    display: inline-flex;
+    align-items: center;
+    border-style: solid;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    border-width: var(--border-thickness);
+    border-top-left-radius: var(--border-radius_switcher);
+    border-top-right-radius: var(--border-radius_switcher);
+    border-bottom-left-radius: var(--border-radius_switcher);
+    border-bottom-right-radius: var(--border-radius_switcher)
+}
+
+.controls-SwitchButton::before {
+    content: '\200b';
+    width: 0;
+    display: inline-block;
+    visibility: hidden
+}
+
+.controls-SwitchButton_filled_checked {
+    border-color: var(--primary_contrast_background-color);
+    background-color: var(--primary_contrast_background-color)
+}
+
+.controls-SwitchButton_filled_notChecked {
+    border-color: var(--unaccented_contrast_background-color);
+    background-color: var(--unaccented_contrast_background-color)
+}
+
+.controls-SwitchButton_filled_disabled_checked,.controls-SwitchButton_filled_disabled_notChecked,.controls-SwitchButton_outlined_disabled_checked,.controls-SwitchButton_outlined_disabled_notChecked {
+    border-color: var(--readonly_border-color);
+    background-color: var(--marker_contrast-color_switcher)
+}
+
+.controls-SwitchButton_outlined_checked,.controls-SwitchButton_outlined_disabled,.controls-SwitchButton_outlined_notChecked {
+    border-color: var(--border-color_switcher)
+}
+
+.controls-SwitchButton_disabled_checked,.controls-SwitchButton_disabled_notChecked {
+    border-color: var(--readonly_border-color)
+}
+
+.controls-SwitchButton_resetValue.controls-SwitchButton_filled_notChecked,.controls-SwitchButton_resetValue.controls-SwitchButton_outlined_notChecked {
+    border-color: var(--pale_active_contrast_background-color);
+    background-color: var(--background-color)
+}
+
+.controls-SwitchButton_resetValue.controls-SwitchButton_filled_checked,.controls-SwitchButton_resetValue.controls-SwitchButton_outlined_checked {
+    border-color: var(--primary_active_same_background-color);
+    background-color: var(--background-color)
+}
+
+.controls-SwitchButton_horizontal__wrapper {
+    align-items: baseline
+}
+
+.controls-SwitchButton_enabled {
+    cursor: pointer
+}
+
+.controls-SwitchButton_horizontal {
+    width: var(--width_switcher);
+    min-width: var(--width_switcher);
+    height: var(--height_horizontal_switcher)
+}
+
+.controls-SwitchButton_horizontal::after {
+    content: '\200b';
+    width: 0;
+    display: inline-block;
+    visibility: hidden
+}
+
+.controls-SwitchButton_size-s.controls-SwitchButton_horizontal {
+    width: var(--width_switcher-small);
+    min-width: var(--width_switcher-small);
+    height: var(--height_horizontal_switcher-small)
+}
+
+.controls-SwitchButton_size-l.controls-SwitchButton_horizontal {
+    width: var(--width_switcher-big);
+    min-width: var(--width_switcher-big);
+    height: var(--height_horizontal_switcher-big)
+}
+
+.controls-SwitchButton_vertical {
+    flex-direction: column;
+    min-height: 0;
+    margin: 0;
+    width: var(--height_horizontal_switcher);
+    height: var(--height_vertical_switcher)
+}
+
+.controls-SwitchButton_vertical::before {
+    height: 0;
+    line-height: var(--font-size_m)
+}
+
+.controls-SwitchButton_horizontal_checked {
+    flex-direction: row-reverse
+}
+
+.controls-SwitchButton__fake-element {
+    height: calc(var(--height_vertical_switcher) - var(--marker_size_switcher) - var(--marker_border-offset_switcher))
+}
+
+.controls-SwitchButton__fake-element_active {
+    order: 1
+}
+
+.controls-SwitchButton__fake-element_inactive {
+    order: 0
+}
+
+.ws-is-hover .controls-Switch_hovered:hover .controls-SwitchButton-circle_outlined-selected {
+    background-color: var(--primary_hover_contrast_background-color)
+}
+
+.ws-is-hover .controls-Switch_hovered:hover .controls-SwitchButton-circle_outlined-unselected {
+    background-color: var(--unaccented_hover_icon-color);
+    border-color: var(--unaccented_hover_icon-color)
+}
+
+.ws-is-hover .controls-Switch_hovered:hover .controls-SwitchButton-circle_filled-unselected {
+    border-color: var(--unaccented_hover_contrast_background-color)
+}
+
+.ws-is-hover .controls-Switch_hovered:hover .controls-SwitchButton-circle_filled-selected,.ws-is-hover .controls-Switch_hovered:hover .controls-SwitchButton-circle_outlined-selected {
+    border-color: var(--primary_hover_contrast_background-color)
+}
+
+.ws-is-hover .controls-Switch_hovered:hover .controls-SwitchButton_filled_checked {
+    border-color: var(--primary_hover_contrast_background-color);
+    background-color: var(--primary_hover_contrast_background-color)
+}
+
+.ws-is-hover .controls-Switch_hovered:hover .controls-SwitchButton_filled_notChecked {
+    border-color: var(--unaccented_hover_contrast_background-color);
+    background-color: var(--unaccented_hover_contrast_background-color)
+}
+
+.ws-is-hover .controls-Switch_hovered:hover .controls-SwitchButton_resetValue .controls-SwitchButton-circle_filled-unselected,.ws-is-hover .controls-Switch_hovered:hover .controls-SwitchButton_resetValue .controls-SwitchButton-circle_outlined-unselected {
+    border-color: var(--pale_active_contrast_background-color);
+    background-color: var(--pale_active_contrast_background-color)
+}
+
+.ws-is-hover .controls-Switch_hovered:hover .controls-SwitchButton_resetValue .controls-SwitchButton-circle_filled-selected,.ws-is-hover .controls-Switch_hovered:hover .controls-SwitchButton_resetValue .controls-SwitchButton-circle_outlined-selected {
+    border-color: var(--primary_active_background-color);
+    background-color: var(--primary_active_background-color)
+}
+
+.ws-is-hover .controls-Switch_hovered:hover .controls-SwitchButton_resetValue.controls-SwitchButton_filled_notChecked,.ws-is-hover .controls-Switch_hovered:hover .controls-SwitchButton_resetValue.controls-SwitchButton_outlined_notChecked {
+    border-color: var(--pale_active_contrast_background-color);
+    background-color: var(--hover_background-color)
+}
+
+.ws-is-hover .controls-Switch_hovered:hover .controls-SwitchButton_resetValue.controls-SwitchButton_filled_checked,.ws-is-hover .controls-Switch_hovered:hover .controls-SwitchButton_resetValue.controls-SwitchButton_outlined_checked {
+    background-color: var(--primary_hover_background-color);
+    border-color: var(--primary_active_background-color)
+}
+
+.controls-SwitchButton-circle_orientation-vertical {
+    margin-top: calc(var(--marker_border-offset_switcher) - var(--border-thickness));
+    margin-bottom: calc(var(--marker_border-offset_switcher) - var(--border-thickness))
+}
+
+.controls-SwitchButton-circle_orientation-horizontal {
+    margin-right: calc(var(--marker_border-offset_switcher) - var(--border-thickness));
+    margin-left: calc(var(--marker_border-offset_switcher) - var(--border-thickness))
+}
+
+.controls-SwitchButton_size-s .controls-SwitchButton-circle_orientation-horizontal {
+    margin-right: calc(var(--border-thickness) * -1);
+    margin-left: calc(var(--border-thickness) * -1)
+}
+
+.controls-SwitchButton_size-l .controls-SwitchButton-circle_orientation-horizontal {
+    margin-right: calc(var(--marker_border-offset_switcher) + var(--border-thickness));
+    margin-left: calc(var(--marker_border-offset_switcher) + var(--border-thickness))
+}
+
+.controls-DoubleSwitch {
+    font-size: var(--font-size_m)
+}
+
+.controls-DoubleSwitch__wrapper {
+    display: inline-flex;
+    width: 100%
+}
+
+.controls-DoubleSwitch__toggle_horizontal__wrapper {
+    align-items: baseline
+}
+
+.controls-DoubleSwitch__textBlock {
+    display: inline-flex;
+    flex-direction: column;
+    min-height: 0;
+    justify-content: space-between;
+    flex: 1;
+    overflow: hidden;
+    margin-left: var(--offset_xs);
+    flex-basis: auto
+}
+
+.controls-DoubleSwitch__line_horizontal,.controls-DoubleSwitch__line_vertical {
+    position: relative
+}
+
+.controls-DoubleSwitch__text_vertical {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: calc(var(--height_vertical_switcher)/ 2 - var(--border-thickness));
+    line-height: calc(var(--height_vertical_switcher) / 2);
+    display: block
+}
+
+.controls-DoubleSwitch__text_enabled_unselected {
+    color: var(--label_text-color);
+    cursor: pointer
+}
+
+.controls-DoubleSwitch__text_disabled_unselected {
+    color: var(--readonly_color)
+}
+
+.controls-DoubleSwitch__text_enabled_selected {
+    cursor: pointer;
+    color: var(--text-color_switcher)
+}
+
+.controls-DoubleSwitch__text_disabled_selected {
+    color: var(--text-color)
+}
+
+.controls-RadioItem__wrapper_enabled {
+    cursor: pointer
+}
+
+.controls-RadioGroup_defaultItem_horizontal-padding {
+    padding-right: var(--offset_m)
+}
+
+.controls-RadioItem__wrapper {
+    display: inline-flex;
+    align-items: baseline;
+    min-height: var(--item_height_radioGroup)
+}
+
+.controls-RadioItem__wrapper::before {
+    content: '\200b'
+}
+
+.controls-RadioItem__RadioCircle {
+    display: inline-flex;
+    align-items: center;
+    max-height: var(--item_height_radioGroup)
+}
+
+.controls-RadioItem__RadioCircle::before {
+    content: '\200b'
+}
+
+.controls-RadioItem__RadioCircle_captionPosition-end {
+    margin: 0 var(--offset_2xs)
+}
+
+.controls-RadioItem__RadioCircle_captionPosition-start {
+    margin-left: var(--offset_2xs)
+}
+
+.controls-RadioItem__caption {
+    font-size: var(--font-size_m);
+    padding: var(--padding-vertical_radioGroup) 0
+}
+
+.controls-RadioItem__caption_selected_disabled {
+    color: var(--readonly_text-color_switcher)
+}
+
+.controls-RadioItem__caption_selected_enabled {
+    color: var(--text-color_switcher)
+}
+
+.controls-RadioItem__caption_unselected_disabled {
+    color: var(--readonly_color)
+}
+
+.controls-RadioItem__caption_unselected_enabled {
+    color: var(--label_text-color)
+}
+
+.controls-RadioGroup__wrapper_horizontal {
+    display: inline-flex;
+    min-height: var(--item_height_radioGroup)
+}
+
+.controls-RadioGroup__wrapper_horizontal::before {
+    content: '\200b'
+}
+
+.controls-RadioGroup__wrapper_horizontal_multiline {
+    flex-flow: row wrap
+}
+
+.controls-RadioGroup__wrapper_vertical {
+    display: inline-flex;
+    flex-direction: column;
+    min-height: 0;
+    width: 100%
+}
+
+.controls-RadioGroup__childGroup {
+    margin-left: var(--offset_xl)
+}
+
+.controls-RadioItem__wrapper:active .controls-RadioCircle__borderCircle_enabled {
+    stroke: var(--primary_contrast_background-color)
+}
+
+.controls-RadioItem__wrapper:active .controls-RadioItem__caption_unselected_enabled {
+    text-decoration: underline
+}
+
+.ws-is-hover .controls-RadioItem__wrapper:hover .controls-RadioCircle__borderCircle_enabled {
+    stroke: var(--primary_contrast_background-color)
+}
+
+.ws-is-hover .controls-RadioItem__wrapper:hover .controls-RadioItem__caption_unselected_enabled {
+    text-decoration: underline
+}
+
+.controls-Button_buttonGroup {
+    border-radius: var(--border-radius_button);
+    max-width: 100%
+}
+
+.controls-text-buttonGroupSelected-contrast {
+    color: var(--item_selected_text-color)
+}
+
+.controls-text-buttonGroupSelected-contrast_onprimary {
+    color: var(--primary_on_contrast_text-color)
+}
+
+.controls-text-buttonGroupUnselected-same {
+    color: var(--label_contrast_text-color)
+}
+
+.controls-text-buttonGroupSelected-same {
+    color: var(--text-color);
+    font-weight: 700
+}
+
+.controls-icon_style-chip_selected-contrast {
+    fill: var(--item_selected_icon-color);
+    color: var(--item_selected_icon-color)
+}
+
+.controls-icon_style-chip_selected-same {
+    fill: var(--icon-color);
+    color: var(--icon-color)
+}
+
+.controls-Button_buttonGroup_style-buttonGroupSelected-contrast {
+    background: var(--item_selected_color)
+}
+
+.controls-Button_buttonGroup_style-buttonGroupSelected-same {
+    background: var(--pale_active_contrast_background-color)
+}
+
+.controls-Button_buttonGroup_style-readOnly-buttonGroupSelected-contrast,.controls-Button_buttonGroup_style-readOnly-buttonGroupSelected-same {
+    background: var(--readonly_background-color);
+    border-color: var(--readonly_background-color)
+}
+
+.controls-Button_buttonGroup_style-buttonGroupUnselected-contrast,.controls-Button_buttonGroup_style-readOnly-buttonGroupUnselected-contrast,.controls-Button_buttonGroup_style-readOnly-buttonGroupUnselected-same {
+    background: var(--default_contrast_background-color_button);
+    box-sizing: border-box
+}
+
+.controls-Button_buttonGroup_style-buttonGroupUnselected-same {
+    background: var(--pale_contrast_background-color);
+    box-sizing: border-box
+}
+
+.controls-Button_buttonGroup_style-buttonGroupUnselected-contrast {
+    box-shadow: var(--shadow_d)
+}
+
+.controls-Button_buttonGroup_style-readOnly-buttonGroupUnselected-contrast,.controls-Button_buttonGroup_style-readOnly-buttonGroupUnselected-same {
+    border: var(--border-thickness) solid var(--readonly_border-color)
+}
+
+.ws-is-hover .controls-Button_buttonGroup_style-buttonGroupUnselected-contrast:hover,.ws-is-hover .controls-Button_buttonGroup_style-buttonGroupUnselected-same:hover {
+    background: var(--pale_hover_contrast_background-color)
+}
+
+.ws-is-hover .controls-Button_buttonGroup_style-buttonGroupUnselected-same:hover .controls-text-buttonGroupUnselected-same {
+    color: var(--text-color)
+}
+
+.controls-ButtonGroup__button_withMargin {
+    margin-right: var(--offset_m);
+    margin-top: var(--offset_m);
+    max-width: 100%
+}
+
+.controls-ButtonGroup__button_withMargin:last-child {
+    margin-right: 0
+}
+
+.controls-ButtonGroup__wrapper {
+    display: inline-flex
+}
+
+.controls-ButtonGroup__wrapper-horizontal {
+    margin-top: calc(-1 * var(--offset_m));
+    max-width: 100%
+}
+
+.controls-ButtonGroup__wrapper-vertical {
+    flex-direction: column;
+    min-height: 0;
+    width: 100%
+}
+
+.controls-ButtonGroup__wrapper-horizontal_miltiline {
+    flex-flow: row wrap
+}
+
+.Controls__Chips_withoutPadding .controls-BaseButton__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.Controls__Chips_withoutPadding-width_xs {
+    width: var(--inline_height_xs)
+}
+
+.Controls__Chips_withoutPadding-width_s {
+    width: var(--inline_height_s)
+}
+
+.Controls__Chips_withoutPadding-width_m {
+    width: var(--inline_height_m)
+}
+
+.Controls__Chips_withoutPadding-width_l {
+    width: var(--inline_height_l)
+}
+
+.Controls__Chips_withoutPadding-width_xl {
+    width: var(--inline_height_xl)
+}
+
+.Controls__Chips_withoutPadding-width_2xl {
+    width: var(--inline_height_2xl)
+}
+
+.Controls__Chips_withoutPadding-width_3xl {
+    width: var(--inline_height_3xl)
+}
+
+.Controls__Chips_withoutPadding-width_4xl {
+    width: var(--inline_height_4xl)
+}
+
+.Controls__Chips_withoutPadding-width_5xl {
+    width: var(--inline_height_5xl)
+}
+
+.controls-Button__wrapper_viewMode-buttonGroup {
+    justify-content: center
+}
+
+.controls-ButtonGroup__button-counter {
+    margin-left: var(--offset_2xs)
+}
+
+.controls-RadioCircle__innerCircle_selected_enabled {
+    fill: var(--primary_contrast_background-color)
+}
+
+.controls-RadioCircle__innerCircle_selected_disabled {
+    fill: var(--readonly_background-color)
+}
+
+.controls-RadioCircle__innerCircle_unselected {
+    fill: none
+}
+
+.controls-RadioCircle__borderCircle {
+    stroke-width: var(--border-thickness)
+}
+
+.controls-RadioCircle__borderCircle_selected {
+    stroke: var(--primary_contrast_background-color);
+    fill: transparent;
+    stroke-width: var(--border-thickness)
+}
+
+.controls-RadioCircle__borderCircle_unselected {
+    stroke: var(--unselected_marker-box_border-color_radio);
+    fill: transparent
+}
+
+.controls-RadioCircle__borderCircle_selected_disabled,.controls-RadioCircle__borderCircle_unselected_disabled {
+    stroke: var(--readonly_border-color);
+    fill: transparent
+}
+
+.controls-RadioCircle__svg {
+    width: var(--marker-box_size_radio);
+    height: var(--marker-box_size_radio);
+    z-index: 2;
+    display: inline-block;
+    flex-shrink: 0
+}
+
+.ws-is-ie .controls-RadioCircle__svg {
+    pointer-events: none
+}
+
+.ws-is-hover .controls-RadioCircle__svg:hover .controls-RadioCircle__borderCircle_enabled {
+    stroke: var(--primary_contrast_background-color)
+}
+
+.controls-Separator__icon_size {
+    font-size: var(--icon-size_s);
+    width: var(--icon-size_s);
+    height: var(--icon-size_s);
+    font-family: var(--icon_font-family_s)
+}
+
+.controls-Separator__icon_style-secondary {
+    color: var(--secondary_icon-color)
+}
+
+.controls-Separator__icon_style-primary {
+    color: var(--primary_text-color)
+}
+
+.controls-Separator__icon_style-unaccented {
+    color: var(--unaccented_icon-color)
+}
+
+.controls-Separator__wrapper {
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--inline_height_default);
+    height: var(--inline_height_default)
+}
+
+.controls-Separator__wrapper::before {
+    content: '\200b'
+}
+
+.controls-Separator__icon {
+    display: inline-block
+}
+
+.controls-Separator__icon_style-secondary:active {
+    color: var(--secondary_hover_icon-color_toggleSeparator)
+}
+
+.controls-Separator__icon_style-primary:active {
+    color: var(--primary_color)
+}
+
+.controls-Separator__icon_style-unaccented:active {
+    color: var(--unaccented_hover_icon-color_toggleSeparator)
+}
+
+.ws-is-hover .controls-Separator__icon_style-secondary:hover {
+    color: var(--secondary_hover_icon-color)
+}
+
+.ws-is-hover .controls-Separator__icon_style-primary:hover {
+    color: var(--primary_color)
+}
+
+.ws-is-hover .controls-Separator__icon_style-unaccented:hover {
+    color: var(--secondary_hover_icon-color)
+}
+
+.controls-BigSeparator {
+    display: inline-block;
+    cursor: pointer;
+    line-height: unset
+}
+
+.controls-BigSeparator-icon {
+    display: block
+}
+
+.controls-BigSeparator-icon_style-default {
+    fill: var(--icon-color_BigSeparator)
+}
+
+.controls-BigSeparator_filled_contrast {
+    background-color: var(--icon_container_background_color_BigSeparator)
+}
+
+.controls-BigSeparator_filled_same {
+    background-color: var(--background-color)
+}
+
+.controls-BigSeparator_ghost {
+    background: 0 0
+}
+
+.controls-BigSeparator-readonly {
+    cursor: default
+}
+
+.controls-BigSeparator-icon-readonly {
+    fill: var(--readonly_icon-color)
+}
+
+.controls-BigSeparator-size-s {
+    width: var(--width_s_BigSeparator);
+    font-size: 0
+}
+
+.controls-BigSeparator-size-m {
+    width: var(--width_m_BigSeparator);
+    font-size: 0
+}
+
+.controls-BigSeparator-size-l {
+    width: var(--width_l_BigSeparator);
+    font-size: 0
+}
+
+.controls-BigSeparator-container-icon {
+    border-radius: var(--border-radius_BigSeparator)
+}
+
+.controls-BigSeparator-container-icon-size-s {
+    height: var(--height_s_BigSeparator)
+}
+
+.controls-BigSeparator-container-icon-size-m {
+    height: var(--height_m_BigSeparator)
+}
+
+.controls-BigSeparator-container-icon-size-l {
+    height: var(--height_l_BigSeparator)
+}
+
+.controls-BigSeparator-icon:active {
+    fill: var(--hover_icon-color_BigSeparator)
+}
+
+.ws-is-hover .controls-BigSeparator-icon_style-default:hover {
+    fill: var(--hover_icon-color_BigSeparator)
+}
+
+.ws-is-hover .controls-BigSeparator_ghost:hover {
+    background: var(--background-color)
+}
+
+.controls-Switch {
+    display: inline-block;
+    font-size: var(--font-size_m);
+    max-width: 100%
+}
+
+.controls-Switch__wrapper {
+    max-width: 100%;
+    display: inline-flex;
+    align-items: baseline;
+    min-height: var(--caption_height_switcher)
+}
+
+.controls-Switch__wrapper::before {
+    content: '\200b';
+    line-height: var(--caption_height_switcher)
+}
+
+.controls-Switch_enabled {
+    cursor: pointer;
+    z-index: 1
+}
+
+.controls-Switch_checked {
+    flex-direction: row-reverse;
+    min-width: 0
+}
+
+.controls-Switch__line {
+    display: inline-block;
+    position: relative
+}
+
+.controls-Switch__text_endCaption {
+    margin-left: var(--offset_xs)
+}
+
+.controls-Switch__text_startCaption {
+    margin-right: var(--offset_xs)
+}
+
+.controls-Switch__text_enabled_unselected {
+    color: var(--label_text-color)
+}
+
+.controls-Switch__text_enabled_selected {
+    color: var(--text-color_switcher)
+}
+
+.controls-Switch__text_disabled_selected {
+    color: var(--text-color)
+}
+
+.controls-Switch__text_enabled_selected,.controls-Switch__text_enabled_unselected {
+    cursor: pointer
+}
+
+.controls-Switch__text_disabled_unselected {
+    color: var(--readonly_color)
+}
+
+.ws-is-hover .controls-Switch_hovered:hover .controls-Switch__text-decoration {
+    text-decoration: underline
+}
+
+.controls-CheckboxGroup__group_horizontal {
+    display: inline-flex;
+    flex-flow: row wrap
+}
+
+.controls-CheckboxGroup__group_vertical {
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 100%
+}
+
+.controls-CheckboxGroup__childGroup {
+    margin-left: var(--offset_xl)
+}
+
+.controls-CheckboxGroup__item_horizontal-padding {
+    margin-right: var(--offset_m)
+}
+
+.controls-Checkbox {
+    display: inline-block
+}
+
+.controls-Checkbox__disabled {
+    cursor: default
+}
+
+.controls-Checkbox__enabled {
+    cursor: pointer
+}
+
+.controls-Checkbox__wrapper::before {
+    content: '\200b'
+}
+
+.controls-Checkbox__wrapper {
+    font-size: var(--font-size_m);
+    line-height: var(--height_checkbox);
+    display: inline-flex;
+    text-align: left;
+    max-width: 100%;
+    align-items: baseline
+}
+
+.controls-Checkbox__caption-color__enabled {
+    color: var(--text-color_checkbox)
+}
+
+.controls-Checkbox__caption-color__disabled {
+    color: var(--readonly_color)
+}
+
+.controls-Checkbox__caption,.controls-Checkbox_iconInCaption {
+    word-wrap: break-word;
+    padding: var(--padding-vertical_checkbox) 0;
+    line-height: var(--text_line-height_checkbox)
+}
+
+.controls-Checkbox__caption {
+    width: 100%;
+    flex-shrink: 1;
+    min-width: 1px
+}
+
+.controls-Checkbox_iconInCaption {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    height: calc(var(--height_checkbox) - 2 * var(--padding-vertical_checkbox))
+}
+
+.controls-CheckboxMarker_inCheckbox {
+    height: var(--height_checkbox)
+}
+
+.controls-CheckboxMarker {
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    flex-shrink: 0;
+    white-space: nowrap
+}
+
+.controls-CheckboxMarker__icon-border-color__enabled {
+    color: var(--border-color)
+}
+
+.controls-CheckboxMarker__icon-border-color__disabled {
+    color: var(--readonly_border-color)
+}
+
+.controls-CheckboxMarker__icon-checked {
+    position: relative
+}
+
+.controls-CheckboxMarker__icon-size-s {
+    width: var(--marker-box_size_checkbox);
+    height: var(--marker-box_size_checkbox);
+    top: calc(var(--true_marker_padding-top_checkbox) + var(--border-thickness))
+}
+
+.controls-CheckboxMarker__icon-size-m {
+    width: var(--icon-size_s);
+    height: var(--icon-size_s);
+    top: calc(var(--true_marker_padding-top_checkbox) + (var(--border-thickness) * 2))
+}
+
+.controls-CheckboxMarker__icon-size-l {
+    width: var(--icon-size_m);
+    height: var(--icon-size_m);
+    top: calc(var(--true_marker_padding-top_checkbox) + (var(--border-thickness) * 2))
+}
+
+.controls-CheckboxMarker__icon-checked-horizontalPadding-default {
+    padding: 0 var(--offset_2xs)
+}
+
+.controls-CheckboxMarker__icon-checked-horizontalPadding-3xs {
+    padding: 0 var(--offset_3xs)
+}
+
+.controls-CheckboxMarker__icon-checked-color_enabled {
+    fill: var(--marker_color)
+}
+
+.controls-CheckboxMarker__icon-checked-color_disabled {
+    fill: var(--readonly_background-color)
+}
+
+.controls-CheckboxMarker__icon-checked-color_transparent,.controls-CheckboxMarker__state-null__icon-color__transparent {
+    fill: transparent
+}
+
+.controls-CheckboxMarker__state-null__icon-color__disabled {
+    fill: var(--readonly_background-color)
+}
+
+.controls-CheckboxMarker__state-null__icon-color__enabled {
+    fill: var(--marker_color)
+}
+
+.controls-CheckboxMarker__icon-subtract {
+    fill: transparent
+}
+
+.controls-CheckboxMarker__icon-subtract-checked_enabled {
+    fill: var(--unaccented_border-color)
+}
+
+.controls-CheckboxMarker__icon-subtract-checked_disabled {
+    fill: var(--readonly_border-color)
+}
+
+.controls-CheckboxMarker__icon-border_enabled {
+    fill: transparent;
+    stroke: var(--unaccented_border-color)
+}
+
+.controls-CheckboxMarker__icon-border_disabled {
+    fill: transparent;
+    stroke: var(--readonly_border-color)
+}
+
+.controls-CheckboxMarker__icon-border-state-true {
+    stroke: transparent
+}
+
+.controls-CheckboxMarker_outlined .controls-CheckboxMarker__icon-subtract {
+    fill: var(--unaccented_border-color)
+}
+
+.controls-CheckboxMarker_outlined .controls-CheckboxMarker__icon-border-state-null,.controls-CheckboxMarker_outlined .controls-CheckboxMarker__icon-border-state-true,.controls-CheckboxMarker_outlined .controls-CheckboxMarker__icon-border_enabled {
+    fill: var(--marker-box_background-color_checkbox)
+}
+
+.controls-CheckboxMarker_outlined .controls-CheckboxMarker__icon-border_disabled {
+    fill: var(--background-color);
+    stroke: var(--readonly_border-color)
+}
+
+.controls-CheckboxMarker_outlined .controls-CheckboxMarker__icon-checked-color_enabled,.controls-CheckboxMarker_outlined .controls-CheckboxMarker__state-null__icon-color__enabled {
+    fill: var(--marker_color)
+}
+
+.controls-CheckboxMarker_filled .controls-CheckboxMarker__icon-subtract {
+    fill: transparent
+}
+
+.controls-CheckboxMarker_filled .controls-CheckboxMarker__state-null__icon-color__enabled {
+    fill: var(--background-color)
+}
+
+.controls-CheckboxMarker_filled .controls-CheckboxMarker__icon-border-state-null,.controls-CheckboxMarker_filled .controls-CheckboxMarker__icon-border-state-true {
+    fill: var(--marker_color);
+    stroke: var(--marker_color)
+}
+
+.controls-CheckboxMarker_filled .controls-CheckboxMarker__icon-checked-color_enabled {
+    fill: var(--background-color)
+}
+
+.controls-CheckboxMarker__icon-border-state-null_resetValue,.controls-CheckboxMarker__icon-border-state-true_resetValue {
+    fill: var(--primary_active_same_background-color);
+    stroke: var(--primary_active_same_background-color)
+}
+
+.controls-CheckboxMarker__icon-border-state-false_resetValue {
+    fill: var(--pale_contrast_background-color);
+    stroke: var(--pale_contrast_background-color)
+}
+
+.controls-Tumbler {
+    display: inline-block
+}
+
+.controls-Tumbler__wrapper {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    max-width: 100%
+}
+
+.controls-Tumbler__wrapper_radius {
+    border-radius: var(--border-radius_button)
+}
+
+.controls-Tumbler__wrapper.controls-Tumbler__wrapper_same {
+    background: var(--pale_contrast_background-color)
+}
+
+.controls-Tumbler__wrapper.controls-Tumbler__wrapper_contrast {
+    background: var(--background-color)
+}
+
+.controls-Tumbler__button {
+    z-index: 1;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+    border-radius: var(--border-radius_button)
+}
+
+.controls-Tumbler__button-animation {
+    transition: color 250ms cubic-bezier(.4, 0, .2, 1);
+    will-change: color
+}
+
+.controls-Tumbler__wrapper_vertical {
+    flex-direction: column;
+    min-height: 0;
+    width: 100%;
+    margin: 0 var(--offset_3xs);
+    padding-top: var(--offset_3xs)
+}
+
+.controls-Tumbler__wrapper_vertical .controls-Tumbler__button {
+    padding: var(--offset_s) var(--offset_2xs);
+    margin-bottom: var(--offset_3xs);
+    height: auto
+}
+
+.controls-Tumbler__button-background {
+    position: absolute;
+    z-index: 0;
+    border-radius: var(--border-radius_button)
+}
+
+.controls-Tumbler__button-background-animation {
+    transition: 250ms cubic-bezier(.4, 0, .2, 1);
+    transition-property: top,left,width,height;
+    will-change: left,top
+}
+
+.controls-Tumbler__wrapper_horizontal {
+    padding-left: var(--offset_3xs)
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button {
+    margin-right: var(--offset_3xs);
+    width: auto
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-default {
+    height: calc(var(--inline_height_default) - 2 * var(--offset_3xs))
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-5xl {
+    height: calc(var(--inline_height_5xl) - 2 * var(--offset_3xs))
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-4xl {
+    height: calc(var(--inline_height_4xl) - 2 * var(--offset_3xs))
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-3xl {
+    height: calc(var(--inline_height_3xl) - 2 * var(--offset_3xs))
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-2xl {
+    height: calc(var(--inline_height_2xl) - 2 * var(--offset_3xs))
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-xl {
+    height: calc(var(--inline_height_xl) - 2 * var(--offset_3xs))
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-l {
+    height: calc(var(--inline_height_l) - 2 * var(--offset_3xs))
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-m {
+    height: calc(var(--inline_height_m) - 2 * var(--offset_3xs))
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-s {
+    height: calc(var(--inline_height_s) - 2 * var(--offset_3xs))
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-xs {
+    height: calc(var(--inline_height_xs) - 2 * var(--offset_3xs));
+    padding: 0 var(--offset_xs)
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-s {
+    padding: 0 var(--offset_st)
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-default,.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-l,.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-m {
+    padding: 0 var(--offset_m)
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-2xl,.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-xl {
+    padding: 0 var(--offset_l)
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-3xl,.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-4xl {
+    padding: 0 var(--offset_xl)
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-5xl {
+    padding: 0 var(--offset_2xl)
+}
+
+.controls-Tumbler__wrapper_horizontal .controls-Tumbler__button-background {
+    padding: 0
+}
+
+.controls-Tumbler__button-selected_same,.controls-Tumbler__button-unselected_contrast {
+    color: var(--text-color)
+}
+
+.controls-Tumbler__button-unselected_same {
+    color: var(--label_contrast_text-color)
+}
+
+.controls-Tumbler__button-selected_contrast {
+    color: var(--item_selected_text-color)
+}
+
+.controls-Tumbler__button-enabled {
+    cursor: pointer
+}
+
+.controls-Tumbler__button-disabled {
+    cursor: default;
+    color: var(--readonly_color)
+}
+
+.controls-Tumbler__button-background_same {
+    background: var(--background-color)
+}
+
+.controls-Tumbler__button-background_contrast {
+    background: var(--item_selected_color)
+}
+
+.ws-is-ie .controls-Tumbler__button-background {
+    top: var(--offset_3xs)
+}
+
+.controls-Tumbler__button-selected_background_same {
+    background: var(--background-color)
+}
+
+.controls-Tumbler__button-selected_background_contrast {
+    background: var(--item_selected_color)
+}
+
+.controls-Tumbler__button-counter {
+    margin-left: var(--offset_2xs)
+}
+
+.ws-is-hover .controls-Tumbler__button-underline_same:hover {
+    background: var(--pale_hover_contrast_background-color)
+}
+
+.ws-is-hover .controls-Tumbler__button-underline_contrast:hover {
+    background: var(--hover_background-color)
+}
+
+.controls-Tumbler__shadow_small {
+    box-shadow: var(--shadow_d)
+}
+
+.controls-Tumbler__shadow_big {
+    box-shadow: 0 4px var(--shadow-blur_b) var(--shadow-color_b)
+}

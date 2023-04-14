@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module for_cdn="1" id="b127fcb9-f164-4ae5-a6a0-658ce340d648" package="Wasaby" name="JQuery" responsible="Колбешин Ф.А." version="1.00">
+
+  <description>Библиотека jQuery</description>
+
+  <depends/>
+
+  <load_after/>
+
+  <parameters/>
+
+  <resources/>
+
+  <preload/>
+
+</ui_module>

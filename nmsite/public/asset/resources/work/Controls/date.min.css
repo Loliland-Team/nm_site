@@ -1,0 +1,79 @@
+.controls-Input-DatePicker {
+    display: inline-flex;
+    align-items: baseline;
+    white-space: nowrap
+}
+
+.controls-Input-DatePicker__button {
+    cursor: pointer;
+    padding-left: var(--trigger-offset_inputDate);
+    display: inline-flex;
+    align-self: center
+}
+
+.controls-BaseInput_cursor-pointer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    cursor: pointer
+}
+
+.controls-DateLinkView {
+    z-index: 1;
+    position: relative;
+    display: inline-flex;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    max-width: 100%;
+    min-width: 0;
+    height: var(--height_dateRangeSelector);
+    line-height: var(--height_dateRangeSelector)
+}
+
+.controls-DateLinkView__value_fontWeight-bold {
+    font-weight: var(--font-weight_dateRangeSelector)
+}
+
+.controls-DateLinkView__resetButton {
+    font-size: var(--reset-button_icon-size);
+    width: var(--reset-button_icon-size);
+    height: var(--reset-button_icon-size);
+    color: var(--reset-button_color);
+    font-family: var(--icon_font-family_s);
+    margin-left: var(--offset_2xs);
+    -ms-grid-row-align: center;
+    align-self: center;
+    cursor: pointer
+}
+
+.controls-DateLinkView__button-value {
+    min-width: 0
+}
+
+.ws-is-ie .controls-DateLinkView__button-value {
+    min-width: 1px
+}
+
+.controls-DateLink__wrapper {
+    display: flex
+}
+
+.controls-PeriodDialog_weekday {
+    font-size: var(--font-size_l);
+    margin-left: var(--offset_2xs)
+}
+
+.controls-PeriodDialog_weekday__workday {
+    color: var(--label_text-color)
+}
+
+.controls-PeriodDialog_weekday__weekend {
+    color: var(--danger_text-color)
+}

@@ -1,0 +1,772 @@
+.controls-heading__uppercase {
+    text-transform: uppercase
+}
+
+.controls-heading__uppercase.controls-fontsize-m,.controls-heading__uppercase.controls-fontsize-s,.controls-heading__uppercase.controls-fontsize-xs {
+    letter-spacing: 1.25px
+}
+
+.controls-heading__uppercase.controls-fontsize-l,.controls-heading__uppercase.controls-fontsize-xl {
+    letter-spacing: 1.5px
+}
+
+.controls-heading__uppercase.controls-fontsize-2xl {
+    letter-spacing: 1.75px
+}
+
+.controls-heading__uppercase.controls-fontsize-3xl,.controls-heading__uppercase.controls-fontsize-4xl,.controls-heading__uppercase.controls-fontsize-5xl,.controls-heading__uppercase.controls-fontsize-6xl,.controls-heading__uppercase.controls-fontsize-7xl {
+    letter-spacing: 2px
+}
+
+.controls-Back {
+    min-width: 1px;
+    max-width: 100%;
+    display: inline-flex
+}
+
+.controls-Back__icon {
+    height: 1em
+}
+
+.ws-is-ie .controls-Back__icon {
+    width: calc(1em / 2)
+}
+
+.controls-Back__icon_style-default {
+    fill: var(--icon-color)
+}
+
+.controls-Back__icon_style-primary {
+    fill: var(--primary_icon-color)
+}
+
+.controls-Back__icon_style-secondary {
+    fill: var(--secondary_icon-color)
+}
+
+.controls-Back__icon_style-link {
+    fill: var(--link_icon-color)
+}
+
+.controls-Back__icon_style-label {
+    fill: var(--label_icon-color)
+}
+
+.controls-Back__icon_style-danger {
+    fill: var(--danger_icon-color)
+}
+
+.controls-Back__icon_style-success {
+    fill: var(--success_icon-color)
+}
+
+.controls-Back__icon_style-warning {
+    fill: var(--warning_icon-color)
+}
+
+.controls-Back__icon_style-unaccented {
+    fill: var(--unaccented_icon-color)
+}
+
+.controls-Back__icon_style-info {
+    fill: var(--info_icon-color)
+}
+
+.controls-Back__icon_style-readonly {
+    fill: var(--readonly_icon-color)
+}
+
+.controls-Back__icon_style-contrast {
+    fill: var(--contrast_icon-color)
+}
+
+.controls-Back__icon_view-button {
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color: var(--pale_contrast_background-color);
+    border: var(--border-thickness) solid var(--pale_border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.controls-Back__icon_view-button .controls-Back__icon {
+    height: 50%
+}
+
+.controls-Back__icon_view-button_size-xs {
+    width: var(--inline_height_xs);
+    height: var(--inline_height_xs)
+}
+
+.controls-Back__icon_view-button_size-m {
+    width: var(--inline_height_m);
+    height: var(--inline_height_m)
+}
+
+.controls-Back__icon_view-button_size-xl {
+    width: var(--inline_height_xl);
+    height: var(--inline_height_xl)
+}
+
+.controls-Back__wrapper {
+    cursor: pointer;
+    max-width: 100%;
+    display: flex;
+    align-items: baseline
+}
+
+.controls-Back__icon-wrapper,.controls-Back__middle-wrapper {
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center
+}
+
+.controls-Back__icon-wrapper::before,.controls-Back__middle-wrapper::before {
+    content: '\200b';
+    width: 0;
+    display: inline-block;
+    visibility: hidden
+}
+
+.controls-Back__icon-wrapper_offset-2xs {
+    padding-right: var(--offset_2xs)
+}
+
+.controls-Back__icon-wrapper_offset-xs {
+    padding-right: var(--offset_xs)
+}
+
+.controls-Back__middle-wrapper {
+    padding-right: var(--offset_3xs)
+}
+
+.controls-Back__middle {
+    display: flex
+}
+
+.controls-Back__middle_size-xs {
+    max-width: var(--inline_height_xs);
+    max-height: var(--inline_height_xs)
+}
+
+.controls-Back__middle_size-m {
+    max-width: var(--inline_height_m);
+    max-height: var(--inline_height_m)
+}
+
+.controls-Back__middle_size-xl {
+    max-width: var(--inline_height_xl);
+    max-height: var(--inline_height_xl)
+}
+
+.controls-Back__caption {
+    font-weight: var(--font-weight_heading)
+}
+
+.controls-Back__caption_overflow-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.controls-Back__caption_overflow-none {
+    word-break: break-word
+}
+
+.controls-Back__caption_style-default {
+    color: var(--text-color)
+}
+
+.controls-Back__caption_style-primary {
+    color: var(--primary_text-color)
+}
+
+.controls-Back__caption_style-secondary {
+    color: var(--secondary_text-color_headingBack)
+}
+
+.controls-Back__caption_style-link {
+    color: var(--link_text-color)
+}
+
+.controls-Back__caption_style-label {
+    color: var(--label_text-color)
+}
+
+.controls-Back__caption_style-danger {
+    color: var(--danger_text-color)
+}
+
+.controls-Back__caption_style-success {
+    color: var(--success_text-color)
+}
+
+.controls-Back__caption_style-warning {
+    color: var(--warning_text-color)
+}
+
+.controls-Back__caption_style-unaccented {
+    color: var(--unaccented_text-color)
+}
+
+.controls-Back__caption_style-info {
+    color: var(--info_text-color)
+}
+
+.controls-Back__caption_style-readonly {
+    color: var(--readonly_color)
+}
+
+.controls-Back__caption_style-contrast {
+    color: var(--contrast_text-color)
+}
+
+.controls-Back__wrapper:active .controls-Back__icon_view-button {
+    background-color: var(--pale_active_contrast_background-color)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover {
+    cursor: pointer
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__caption_style-default,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__caption_style-default {
+    color: var(--hover_text-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__caption_style-primary,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__caption_style-primary {
+    color: var(--primary_hover_text-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__caption_style-secondary,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__caption_style-secondary {
+    color: var(--secondary_hover_text-color_headingBack)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__caption_style-link,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__caption_style-link {
+    color: var(--link_hover_text-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__caption_style-label,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__caption_style-label {
+    color: var(--label_hover_text-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__caption_style-danger,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__caption_style-danger {
+    color: var(--danger_hover_text-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__caption_style-success,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__caption_style-success {
+    color: var(--success_hover_text-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__caption_style-warning,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__caption_style-warning {
+    color: var(--warning_hover_text-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__caption_style-unaccented,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__caption_style-unaccented {
+    color: var(--unaccented_hover_text-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__caption_style-info,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__caption_style-info {
+    color: var(--info_hover_text-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__icon_view-button,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__icon_view-button {
+    background-color: var(--pale_hover_contrast_background-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__icon_style-default,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__icon_style-default {
+    fill: var(--hover_icon-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__icon_style-primary,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__icon_style-primary {
+    fill: var(--primary_hover_icon-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__icon_style-secondary,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__icon_style-secondary {
+    fill: var(--secondary_hover_icon-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__icon_style-link,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__icon_style-link {
+    fill: var(--link_hover_icon-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__icon_style-label,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__icon_style-label {
+    fill: var(--label_hover_icon-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__icon_style-danger,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__icon_style-danger {
+    fill: var(--danger_hover_icon-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__icon_style-success,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__icon_style-success {
+    fill: var(--success_hover_icon-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__icon_style-warning,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__icon_style-warning {
+    fill: var(--warning_hover_icon-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__icon_style-unaccented,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__icon_style-unaccented {
+    fill: var(--unaccented_hover_icon-color)
+}
+
+.ws-is-hover .controls-Back__wrapper:hover .controls-Back__icon_style-info,.ws-is-hover .controls-Header_all__clickable:hover .controls-Back__icon_style-info {
+    fill: var(--info_hover_icon-color)
+}
+
+.controls-HeaderCounter {
+    display: inline-block
+}
+
+.controls-HeaderCounter_hovered {
+    cursor: pointer
+}
+
+.controls-HeaderCounter_style-primary {
+    color: var(--primary_text-color_headingCounter)
+}
+
+.controls-HeaderCounter_style-secondary {
+    color: var(--secondary_text-color_headingCounter)
+}
+
+.controls-HeaderCounter_style-unaccented {
+    color: var(--unaccented_text-color_headingCounter)
+}
+
+.controls-HeaderCounter_style-label {
+    color: var(--label_text-color)
+}
+
+.controls-HeaderCounter_style-warning {
+    color: var(--warning_text-color)
+}
+
+.controls-HeaderCounter_style-info {
+    color: var(--info_text-color)
+}
+
+.controls-HeaderCounter_style-danger {
+    color: var(--danger_text-color)
+}
+
+.controls-HeaderCounter_style-success {
+    color: var(--success_text-color)
+}
+
+.ws-is-no-touch .controls-HeaderCounter_style-primary_hovered:active,.ws-is-touch .controls-HeaderCounter_style-primary_hovered:active {
+    color: var(--primary_hover_text-color_headingCounter)
+}
+
+.ws-is-no-touch .controls-HeaderCounter_style-secondary_hovered:active,.ws-is-touch .controls-HeaderCounter_style-secondary_hovered:active {
+    color: var(--secondary_hover_text-color_headingCounter)
+}
+
+.ws-is-no-touch .controls-HeaderCounter_style-unaccented_hovered:active,.ws-is-touch .controls-HeaderCounter_style-unaccented_hovered:active {
+    color: var(--unaccented_hover_text-color)
+}
+
+.ws-is-no-touch .controls-HeaderCounter_style-label_hovered:active,.ws-is-touch .controls-HeaderCounter_style-label_hovered:active {
+    color: var(--label_hover_text-color)
+}
+
+.ws-is-no-touch .controls-HeaderCounter_style-warning_hovered:active,.ws-is-touch .controls-HeaderCounter_style-warning_hovered:active {
+    color: var(--warning_hover_text-color)
+}
+
+.ws-is-no-touch .controls-HeaderCounter_style-info_hovered:active,.ws-is-touch .controls-HeaderCounter_style-info_hovered:active {
+    color: var(--info_hover_text-color)
+}
+
+.ws-is-no-touch .controls-HeaderCounter_style-danger_hovered:active,.ws-is-touch .controls-HeaderCounter_style-danger_hovered:active {
+    color: var(--danger_hover_text-color)
+}
+
+.ws-is-no-touch .controls-HeaderCounter_style-success_hovered:active,.ws-is-touch .controls-HeaderCounter_style-success_hovered:active {
+    color: var(--success_hover_text-color)
+}
+
+.ws-is-hover .controls-HeaderCounter_style-primary_hovered:hover {
+    color: var(--primary_hover_text-color_headingCounter)
+}
+
+.ws-is-hover .controls-HeaderCounter_style-secondary_hovered:hover {
+    color: var(--secondary_hover_text-color_headingCounter)
+}
+
+.ws-is-hover .controls-HeaderCounter_style-unaccented_hovered:hover {
+    color: var(--unaccented_hover_text-color)
+}
+
+.ws-is-hover .controls-HeaderCounter_style-label_hovered:hover {
+    color: var(--label_hover_text-color)
+}
+
+.ws-is-hover .controls-HeaderCounter_style-warning_hovered:hover {
+    color: var(--warning_hover_text-color)
+}
+
+.ws-is-hover .controls-HeaderCounter_style-info_hovered:hover {
+    color: var(--info_hover_text-color)
+}
+
+.ws-is-hover .controls-HeaderCounter_style-danger_hovered:hover {
+    color: var(--danger_hover_text-color)
+}
+
+.ws-is-hover .controls-HeaderCounter_style-success_hovered:hover {
+    color: var(--success_hover_text-color)
+}
+
+.controls-Header__caption {
+    display: inline-block
+}
+
+.controls-Header__fontweight-default {
+    font-weight: var(--font-weight_heading)
+}
+
+.controls-fontsize-xs.controls-Header-fontsize-xs {
+    font-size: var(--font-size_xs_heading)
+}
+
+.controls-fontsize-s.controls-Header-fontsize-s {
+    font-size: var(--font-size_s_heading)
+}
+
+.controls-fontsize-m.controls-Header-fontsize-m {
+    font-size: var(--font-size_m_heading)
+}
+
+.controls-fontsize-l.controls-Header-fontsize-l {
+    font-size: var(--font-size_l_heading)
+}
+
+.controls-fontsize-xl.controls-Header-fontsize-xl {
+    font-size: var(--font-size_xl_heading)
+}
+
+.controls-fontsize-2xl.controls-Header-fontsize-2xl {
+    font-size: var(--font-size_2xl)
+}
+
+.controls-fontsize-3xl.controls-Header-fontsize-3xl {
+    font-size: var(--font-size_3xl)
+}
+
+.controls-fontsize-4xl.controls-Header-fontsize-4xl {
+    font-size: var(--font-size_4xl)
+}
+
+.controls-fontsize-5xl.controls-Header-fontsize-xs {
+    font-size: var(--font-size_5xl)
+}
+
+.controls-Header_clickable {
+    cursor: pointer
+}
+
+.controls-Header_readonly {
+    cursor: default
+}
+
+.controls-Header__caption_style-secondary,.controls-Header__caption_style-secondary_hovered {
+    color: var(--secondary_text-color_heading)
+}
+
+.controls-Header__caption_style-primary,.controls-Header__caption_style-primary_hovered {
+    color: var(--primary_text-color_heading)
+}
+
+.controls-Header__caption_style-label,.controls-Header__caption_style-label_hovered {
+    color: var(--label_text-color)
+}
+
+.controls-Header__caption_style-danger,.controls-Header__caption_style-danger_hovered {
+    color: var(--danger_text-color)
+}
+
+.controls-Header__caption_style-success,.controls-Header__caption_style-success_hovered {
+    color: var(--success_text-color)
+}
+
+.controls-Header__caption_style-default,.controls-Header__caption_style-default_hovered {
+    color: var(--default_text-color_heading)
+}
+
+.controls-Header__caption_style-warning,.controls-Header__caption_style-warning_hovered {
+    color: var(--warning_text-color)
+}
+
+.controls-Header__caption_style-unaccented,.controls-Header__caption_style-unaccented_hovered {
+    color: var(--unaccented_text-color)
+}
+
+.controls-Header__caption_style-link,.controls-Header__caption_style-link_hovered {
+    color: var(--link_text-color)
+}
+
+.controls-Header__caption_style-labelContrast,.controls-Header__caption_style-labelContrast_hovered {
+    color: var(--label_contrast_text-color)
+}
+
+.controls-Header__caption_fontcolor-default_hovered:active {
+    color: var(--default_hover_text-color_heading)
+}
+
+.controls-Header__caption_style-primary_hovered:active {
+    color: var(--primary_hover_text-color_heading)
+}
+
+.controls-Header__caption_style-secondary_hovered:active {
+    color: var(--secondary_hover_text-color_heading)
+}
+
+.controls-Header__caption_style-success_hovered:active {
+    color: var(--success_hover_text-color)
+}
+
+.controls-Header__caption_style-warning_hovered:active {
+    color: var(--warning_hover_text-color)
+}
+
+.controls-Header__caption_style-danger_hovered:active {
+    color: var(--danger_hover_text-color)
+}
+
+.controls-Header__caption_style-unaccented_hovered:active {
+    color: var(--unaccented_hover_text-color)
+}
+
+.controls-Header__caption_style-label_hovered:active {
+    color: var(--label_hover_text-color)
+}
+
+.controls-Header__caption_style-default_hovered:active {
+    color: var(--default_hover_text-color_heading)
+}
+
+.controls-Header__caption_style-link_hovered:active {
+    color: var(--link_hover_text-color)
+}
+
+.ws-is-hover .controls-Header__caption_fontcolor-default_hovered:hover {
+    color: var(--default_hover_text-color_heading)
+}
+
+.ws-is-hover .controls-Header__caption_style-primary_hovered:hover {
+    color: var(--primary_hover_text-color_heading)
+}
+
+.ws-is-hover .controls-Header__caption_style-secondary_hovered:hover {
+    color: var(--secondary_hover_text-color_heading)
+}
+
+.ws-is-hover .controls-Header__caption_style-success_hovered:hover {
+    color: var(--success_hover_text-color)
+}
+
+.ws-is-hover .controls-Header__caption_style-warning_hovered:hover {
+    color: var(--warning_hover_text-color)
+}
+
+.ws-is-hover .controls-Header__caption_style-danger_hovered:hover {
+    color: var(--danger_hover_text-color)
+}
+
+.ws-is-hover .controls-Header__caption_style-unaccented_hovered:hover {
+    color: var(--unaccented_hover_text-color)
+}
+
+.ws-is-hover .controls-Header__caption_style-label_hovered:hover {
+    color: var(--label_hover_text-color)
+}
+
+.ws-is-hover .controls-Header__caption_style-default_hovered:hover {
+    color: var(--default_hover_text-color_heading)
+}
+
+.ws-is-hover .controls-Header__caption_style-link_hovered:hover {
+    color: var(--link_hover_text-color)
+}
+
+.controls-Header_all__clickable:active .controls-Header__caption_fontcolor-default_hovered {
+    color: var(--default_hover_text-color_heading)
+}
+
+.controls-Header_all__clickable:active .controls-Header__caption_style-primary_hovered {
+    color: var(--primary_hover_text-color_heading)
+}
+
+.controls-Header_all__clickable:active .controls-Header__caption_style-secondary_hovered {
+    color: var(--secondary_hover_text-color_heading)
+}
+
+.controls-Header_all__clickable:active .controls-Header__caption_style-success_hovered {
+    color: var(--success_hover_text-color)
+}
+
+.controls-Header_all__clickable:active .controls-Header__caption_style-warning_hovered {
+    color: var(--warning_hover_text-color)
+}
+
+.controls-Header_all__clickable:active .controls-Header__caption_style-danger_hovered {
+    color: var(--danger_hover_text-color)
+}
+
+.controls-Header_all__clickable:active .controls-Header__caption_style-unaccented_hovered {
+    color: var(--unaccented_hover_text-color)
+}
+
+.controls-Header_all__clickable:active .controls-Header__caption_style-label_hovered {
+    color: var(--label_hover_text-color)
+}
+
+.controls-Header_all__clickable:active .controls-Header__caption_style-default_hovered {
+    color: var(--default_hover_text-color_heading)
+}
+
+.controls-Header_all__clickable:active .controls-Header__caption_style-link_hovered {
+    color: var(--link_hover_text-color)
+}
+
+.controls-Header_all__clickable:active .controls-HeaderCounter_style-primary_hovered {
+    color: var(--primary_hover_text-color_headingCounter)
+}
+
+.controls-Header_all__clickable:active .controls-HeaderCounter_style-secondary_hovered {
+    color: var(--secondary_hover_text-color_headingCounter)
+}
+
+.controls-Header_all__clickable:active .controls-HeaderCounter_style-unaccented_hovered {
+    color: var(--unaccented_hover_text-color)
+}
+
+.controls-Header_all__clickable:active .controls-HeaderSeparator__arrow_style-primary {
+    fill: var(--primary_hover_icon-color_headingSeparator)
+}
+
+.controls-Header_all__clickable:active .controls-HeaderSeparator__arrow_style-secondary {
+    fill: var(--secondary_hover_icon-color_headingSeparator)
+}
+
+.controls-Header_all__clickable:active .controls-Separator__icon_style-secondary {
+    color: var(--link_hover_text-color)
+}
+
+.controls-Header_all__clickable:active .controls-Separator__icon_style-primary {
+    color: var(--primary_hover_text-color)
+}
+
+.controls-Header_all__clickable:active .controls-Separator__icon_style-unaccented {
+    color: var(--link_hover_text-color)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-Header__caption_fontcolor-default_hovered {
+    color: var(--default_hover_text-color_heading)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-Header__caption_style-primary_hovered {
+    color: var(--primary_hover_text-color_heading)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-Header__caption_style-secondary_hovered {
+    color: var(--secondary_hover_text-color_heading)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-Header__caption_style-success_hovered {
+    color: var(--success_hover_text-color)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-Header__caption_style-warning_hovered {
+    color: var(--warning_hover_text-color)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-Header__caption_style-danger_hovered {
+    color: var(--danger_hover_text-color)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-Header__caption_style-label_hovered {
+    color: var(--label_hover_text-color)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-Header__caption_style-default_hovered {
+    color: var(--default_hover_text-color_heading)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-Header__caption_style-link_hovered {
+    color: var(--link_hover_text-color)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-HeaderCounter_style-primary_hovered {
+    color: var(--primary_hover_text-color_headingCounter)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-HeaderCounter_style-secondary_hovered {
+    color: var(--secondary_hover_text-color_headingCounter)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-HeaderCounter_style-unaccented_hovered {
+    color: var(--unaccented_hover_text-color)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-HeaderSeparator__arrow_style-primary {
+    fill: var(--primary_icon-color_headingSeparator)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-HeaderSeparator__arrow_style-secondary {
+    fill: var(--secondary_icon-color_headingSeparator)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-Separator__icon_style-secondary {
+    color: var(--link_hover_text-color)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-Separator__icon_style-primary {
+    color: var(--primary_hover_text-color)
+}
+
+.ws-is-hover .controls-Header_all__clickable:hover .controls-Separator__icon_style-unaccented {
+    color: var(--link_hover_text-color)
+}
+
+.controls-HeaderSeparator {
+    display: inline-block;
+    cursor: pointer
+}
+
+.controls-HeaderSeparator__wrapper {
+    display: inline-flex;
+    align-items: center
+}
+
+.controls-HeaderSeparator__arrow {
+    width: var(--width_headingSeparator);
+    height: var(--height_headingSeparator);
+    padding-left: var(--offset_st)
+}
+
+.controls-HeaderSeparator__arrow_style-primary {
+    fill: var(--primary_icon-color_headingSeparator)
+}
+
+.controls-HeaderSeparator__arrow_style-primary:active {
+    fill: var(--primary_hover_icon-color_headingSeparator)
+}
+
+.controls-HeaderSeparator__arrow_style-secondary {
+    fill: var(--secondary_icon-color_headingSeparator)
+}
+
+.controls-HeaderSeparator__arrow_style-secondary:active {
+    fill: var(--secondary_hover_icon-color_headingSeparator)
+}
+
+.ws-is-hover .controls-HeaderSeparator__arrow_style-primary:hover {
+    fill: var(--primary_icon-color_headingSeparator)
+}
+
+.ws-is-hover .controls-HeaderSeparator__arrow_style-secondary:hover {
+    fill: var(--secondary_icon-color_headingSeparator)
+}

@@ -1,0 +1,383 @@
+@keyframes progressBarAnimationStart {
+    0% {
+        width: 0
+    }
+
+    100% {
+        width: 100%
+    }
+}
+
+@keyframes progressBarAnimationComplete {
+    0% {
+        width: 0%
+    }
+
+    100% {
+        width: 100%
+    }
+}
+
+@keyframes hideProgressBar {
+    0% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+.nanomagicPage-ProgressBar {
+    width: 100%;
+    display: flex;
+    background-color: rgba(142,142,142,.4)
+}
+
+.nanomagicPage-ProgressBar_startProgress {
+    max-width: 90%;
+    flex-shrink: 0;
+    animation: progressBarAnimationStart 3s 0s linear
+}
+
+.nanomagicPage-ProgressBar_endProgress,.nanomagicPage-ProgressBar_startProgress {
+    height: 2px;
+    width: 100%;
+    background-color: var(--secondary_color);
+    box-shadow: 0 0 4px var(--secondary_color)
+}
+
+.nanomagicPage-ProgressBar_endProgress {
+    flex-shrink: 1;
+    animation: progressBarAnimationComplete 1s 0s linear
+}
+
+.nanomagicPage-ProgressBar_complete {
+    animation: hideProgressBar .2s 0s linear;
+    opacity: 0
+}
+
+body,html {
+    height: 100%;
+    box-sizing: border-box
+}
+
+html {
+    overflow-x: auto
+}
+
+body {
+    overflow: hidden;
+    position: relative
+}
+
+a {
+    color: var(--link_text-color);
+    outline: 0;
+    text-decoration: none
+}
+
+.page-Controller,.page-Controller__content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    max-width: inherit;
+    min-height: 0
+}
+
+.page-Controller__progressBar {
+    position: absolute;
+    top: 0;
+    z-index: 5
+}
+
+.Application-body.Application-inter_v107 {
+    --font-family: Inter107,sans-serif;
+    font-family: Inter107,sans-serif
+}
+
+.Application-body.Application-inter_v108 {
+    --font-family: Inter108,sans-serif;
+    font-family: Inter108,sans-serif
+}
+
+.Application-body.Application-inter_v1081 {
+    --font-family: Inter1081,sans-serif;
+    font-family: Inter1081,sans-serif
+}
+
+.Application-body.Application-inter_v1082 {
+    --font-family: Inter1082,sans-serif;
+    font-family: Inter1082,sans-serif
+}
+
+.Application-body.Application-inter_v1083 {
+    --font-family: Inter1083,sans-serif;
+    font-family: Inter1083,sans-serif
+}
+
+.Application-body.Application-inter_v1084 {
+    --font-family: Inter1084,sans-serif;
+    font-family: Inter1084,sans-serif
+}
+
+.Application-body.Application-inter_v109 {
+    --font-family: Inter109,sans-serif;
+    font-family: Inter109,sans-serif
+}
+
+.Application-body.Application-inter_v1010 {
+    --font-family: Inter1010,sans-serif;
+    font-family: Inter1010,sans-serif
+}
+
+@font-face {
+    font-family: Inter107;
+    font-weight: 400;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.7/Inter/Inter-Regular.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.7/Inter-IE/Inter-Regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter107;
+    font-weight: 700;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.7/Inter/Inter-SemiBold.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.7/Inter-IE/Inter-SemiBold.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter107;
+    font-weight: 400;
+    font-style: italic;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.7/Inter/Inter-Italic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.7/Inter-IE/Inter-Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter107;
+    font-weight: 700;
+    font-style: italic;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.7/Inter/Inter-SemiBoldItalic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.7/Inter-IE/Inter-SemiBoldItalic.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter108;
+    font-weight: 400;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8/Inter/Inter-Regular.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8/Inter-IE/Inter-Regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter108;
+    font-weight: 700;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8/Inter/Inter-SemiBold.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8/Inter-IE/Inter-SemiBold.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter108;
+    font-weight: 400;
+    font-style: italic;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8/Inter/Inter-Italic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8/Inter-IE/Inter-Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter108;
+    font-weight: 700;
+    font-style: italic;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8/Inter/Inter-SemiBoldItalic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8/Inter-IE/Inter-SemiBoldItalic.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter109;
+    font-weight: 400;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.9/Inter/Inter-Regular.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.9/Inter-IE/Inter-Regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter109;
+    font-weight: 700;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.9/Inter/Inter-SemiBold.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.9/Inter-IE/Inter-SemiBold.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter109;
+    font-weight: 400;
+    font-style: italic;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.9/Inter/Inter-Italic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.9/Inter-IE/Inter-Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter109;
+    font-weight: 700;
+    font-style: italic;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.9/Inter/Inter-SemiBoldItalic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.9/Inter-IE/Inter-SemiBoldItalic.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1081;
+    font-weight: 400;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.1/Inter/Inter-Regular.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.1/Inter-IE/Inter-Regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1081;
+    font-weight: 700;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.1/Inter/Inter-SemiBold.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.1/Inter-IE/Inter-SemiBold.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1081;
+    font-weight: 400;
+    font-style: italic;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.1/Inter/Inter-Italic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.1/Inter-IE/Inter-Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1081;
+    font-weight: 700;
+    font-style: italic;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.1/Inter/Inter-SemiBoldItalic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.1/Inter-IE/Inter-SemiBoldItalic.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1082;
+    font-weight: 400;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.2/Inter/Inter-Regular.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.2/Inter-IE/Inter-Regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1082;
+    font-weight: 700;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.2/Inter/Inter-SemiBold.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.2/Inter-IE/Inter-SemiBold.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1082;
+    font-weight: 400;
+    font-style: italic;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.2/Inter/Inter-Italic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.2/Inter-IE/Inter-Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1082;
+    font-weight: 700;
+    font-style: italic;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.2/Inter/Inter-SemiBoldItalic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.2/Inter-IE/Inter-SemiBoldItalic.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1083;
+    font-weight: 400;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.3/Inter/Inter-Regular.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.3/Inter-IE/Inter-Regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1083;
+    font-weight: 700;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.3/Inter/Inter-SemiBold.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.3/Inter-IE/Inter-SemiBold.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1083;
+    font-weight: 400;
+    font-style: italic;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.3/Inter/Inter-Italic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.3/Inter-IE/Inter-Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1083;
+    font-weight: 700;
+    font-style: italic;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.3/Inter/Inter-SemiBoldItalic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.3/Inter-IE/Inter-SemiBoldItalic.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1084;
+    font-weight: 400;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.4/Inter/Inter-Regular.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.4/Inter-IE/Inter-Regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1084;
+    font-weight: 700;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.4/Inter/Inter-SemiBold.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.4/Inter-IE/Inter-SemiBold.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1084;
+    font-weight: 400;
+    font-style: italic;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.4/Inter/Inter-Italic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.4/Inter-IE/Inter-Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1084;
+    font-weight: 700;
+    font-style: italic;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.4/Inter/Inter-SemiBoldItalic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.8.4/Inter-IE/Inter-SemiBoldItalic.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1010;
+    font-weight: 400;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.10/Inter/Inter-Regular.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.10/Inter-IE/Inter-Regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1010;
+    font-weight: 700;
+    font-style: normal;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.10/Inter/Inter-SemiBold.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.10/Inter-IE/Inter-SemiBold.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1010;
+    font-weight: 400;
+    font-style: italic;
+    src: url('http://cdn.workspace-loliland.ru/TensorInter/1.0.10/Inter/Inter-Italic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.10/Inter-IE/Inter-Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: Inter1010;
+    font-weight: 700;
+    font-style: italic;
+    src: url('http:/http://cdn.workspace-loliland.ru.workspace-loliland.ru/TensorInter/1.0.10/Inter/Inter-SemiBoldItalic.woff2') format('woff2'),url('http://cdn.workspace-loliland.ru/TensorInter/1.0.10/Inter-IE/Inter-SemiBoldItalic.woff') format('woff')
+}
+
+.page-AdaptiveBanner {
+    background-color: var(--unaccented_background-color);
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid var(--grouping_separator_color_list);
+    flex-shrink: 0
+}
+
+.page-AdaptiveBanner_center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.page-AdaptiveBanner_close {
+    padding: 0 12px 12px 0
+}
+
+.page-AdaptiveBanner__wrapper {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    padding: 8px 0
+}

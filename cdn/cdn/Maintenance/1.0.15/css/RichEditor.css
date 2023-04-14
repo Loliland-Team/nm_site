@@ -1,0 +1,97 @@
+.controls-Scroll {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+/* Решение проблемы с переносами строк*/
+.controls-Scroll pre {
+    white-space: pre-wrap;
+}
+
+.controls-Scroll p {
+    margin: 6px 0px 18px;
+}
+
+ul, ol {
+    margin-left: 4.5ex;
+}
+
+blockquote {
+    border-left: 1px solid #587ab0;
+    padding: 0 0 0 8px;
+    margin: 6px 16px 0 32px;
+    position: relative;
+    clear: both;
+}
+
+blockquote:before {
+    color: #587ab0;
+    content: '\e6e8';
+    font-family: cbuc-icons;
+    font-size: 16px;
+    height: 16px;
+    margin-left: -32px;
+    margin-top: -1px;
+    position: absolute;
+    width: 24px;
+}
+
+blockquote:after {
+    content: '';
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* Copy from RichEditor\_base\Viewer\_Viewer.less */
+.controls-Scroll .titleText {
+    font-size: 137.5%;
+    line-height: 129%;
+    color: #313E78;
+    font-weight: bold;
+}
+
+.controls-Scroll .subTitleText {
+    font-size: 112.5%;
+    line-height: 129%;
+    color: #313E78;
+    font-weight: bold;
+}
+
+.controls-Scroll .additionalText {
+    font-size: 87.5%;
+    line-height: 129%;
+    color: #999999;
+    font-weight: normal;
+}
+
+/*Цвета из нового БТР*/
+.richEditor_Base_color_1 {
+    color: #CCCCCC;
+}
+.richEditor_Base_color_2 {
+    color: #242942;
+}
+.richEditor_Base_color_3 {
+    color: #313e78;
+}
+.richEditor_Base_color_4 {
+    color: #0055bb;
+}
+.richEditor_Base_color_5 {
+    color: #8991a9;
+}
+.richEditor_Base_color_6 {
+    color: #999999;
+}
+.richEditor_Base_color_7 {
+    color: #800080;
+}
+.richEditor_Base_color_8 {
+    color: #ef463a;
+}
+.richEditor_Base_color_9 {
+    color: #008000;
+}

@@ -1,0 +1,240 @@
+.oauth-List__iconButton {
+    margin-right: 20px
+}
+
+.oauth-List__iconRadius {
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.oauth-List__icon {
+    background: url('http://localhost:25002/AuthControlsCDN/1.0.0/oauthIcons/all_icons_list.svg') no-repeat
+}
+
+.oauth-List__icon_s {
+    background-position-y: -72px
+}
+
+.oauth-List__icon_m {
+    background-position-y: -40px
+}
+
+.oauth-List__icon_l {
+    background-position-y: 0
+}
+
+.oauth-List__icon_s_QR {
+    background-position-x: -360px
+}
+
+.oauth-List__icon_m_QR {
+    background-position-x: -480px
+}
+
+.oauth-List__icon_l_QR {
+    background-position-x: -600px
+}
+
+.oauth-List__icon_s_PanelHover {
+    background-position-x: -336px
+}
+
+.oauth-List__icon_m_PanelHover {
+    background-position-x: -448px
+}
+
+.oauth-List__icon_l_PanelHover {
+    background-position-x: -560px
+}
+
+.oauth-List__icon_s_Panel {
+    background-position-x: -312px
+}
+
+.oauth-List__icon_m_Panel {
+    background-position-x: -416px
+}
+
+.oauth-List__icon_l_Panel {
+    background-position-x: -520px
+}
+
+.oauth-List__icon_s_DrReddys {
+    background-position-x: -288px
+}
+
+.oauth-List__icon_m_DrReddys {
+    background-position-x: -384px
+}
+
+.oauth-List__icon_l_DrReddys {
+    background-position-x: -480px
+}
+
+.oauth-List__icon_s_Coca-Cola {
+    background-position-x: -264px
+}
+
+.oauth-List__icon_m_Coca-Cola {
+    background-position-x: -352px
+}
+
+.oauth-List__icon_l_Coca-Cola {
+    background-position-x: -440px
+}
+
+.oauth-List__icon_s_Esia {
+    background-position-x: -240px
+}
+
+.oauth-List__icon_m_Esia {
+    background-position-x: -320px
+}
+
+.oauth-List__icon_l_Esia {
+    background-position-x: -400px
+}
+
+.oauth-List__icon_s_Ldap {
+    background-position-x: -216px
+}
+
+.oauth-List__icon_m_Ldap {
+    background-position-x: -288px
+}
+
+.oauth-List__icon_l_Ldap {
+    background-position-x: -360px
+}
+
+.oauth-List__icon_s_1C {
+    background-position-x: -192px
+}
+
+.oauth-List__icon_m_1C {
+    background-position-x: -256px
+}
+
+.oauth-List__icon_l_1C {
+    background-position-x: -320px
+}
+
+.oauth-List__icon_s_Odnoklassniki {
+    background-position-x: -168px
+}
+
+.oauth-List__icon_m_Odnoklassniki {
+    background-position-x: -224px
+}
+
+.oauth-List__icon_l_Odnoklassniki {
+    background-position-x: -280px
+}
+
+.oauth-List__icon_s_Mail {
+    background-position-x: -144px
+}
+
+.oauth-List__icon_m_Mail {
+    background-position-x: -192px
+}
+
+.oauth-List__icon_l_Mail {
+    background-position-x: -240px
+}
+
+.oauth-List__icon_s_Yandex {
+    background-position-x: -120px
+}
+
+.oauth-List__icon_m_Yandex {
+    background-position-x: -160px
+}
+
+.oauth-List__icon_l_Yandex {
+    background-position-x: -200px
+}
+
+.oauth-List__icon_s_Google {
+    background-position-x: -96px
+}
+
+.oauth-List__icon_m_Google {
+    background-position-x: -128px
+}
+
+.oauth-List__icon_l_Google {
+    background-position-x: -160px
+}
+
+.oauth-List__icon_s_VK {
+    background-position-x: -72px
+}
+
+.oauth-List__icon_m_VK {
+    background-position-x: -96px
+}
+
+.oauth-List__icon_l_VK {
+    background-position-x: -120px
+}
+
+.oauth-List__icon_s_Facebook {
+    background-position-x: -48px
+}
+
+.oauth-List__icon_m_Facebook {
+    background-position-x: -64px
+}
+
+.oauth-List__icon_l_Facebook {
+    background-position-x: -80px
+}
+
+.oauth-List__icon_s_Apple {
+    background-position-x: -24px
+}
+
+.oauth-List__icon_m_Apple {
+    background-position-x: -32px
+}
+
+.oauth-List__icon_l_Apple {
+    background-position-x: -40px
+}
+
+.oauth-QRStep {
+    max-width: 355px
+}
+
+.oauth-QRStep__imageBlock {
+    position: relative;
+    margin-top: 45px
+}
+
+.oauth-QRStep__refreshToken {
+    position: absolute;
+    z-index: 1;
+    top: 65px;
+    right: 75px
+}
+
+.oauth-QRStep__qrImage {
+    height: 175px;
+    width: 175px
+}
+
+.oauth-QRStep__qrImageBlur {
+    -webkit-filter: blur(5px);
+    filter: blur(5px)
+}
+
+.oauth-QRStep__caption {
+    margin-top: 31px
+}
+
+.oauth-QRStep__text {
+    width: 100%;
+    text-align: center;
+    margin-top: 86px
+}

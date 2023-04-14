@@ -1,0 +1,184 @@
+.online-QuickAdd {
+    overflow: visible
+}
+
+.online-QuickAdd_menu {
+    position: relative;
+    display: block
+}
+
+.online-QuickAdd_menu-popup-dropdown {
+    min-width: 200px;
+    border-radius: 8px
+}
+
+.online-QuickAdd_menu-popup-dropdown .controls-Menu__group_separator-container {
+    padding: 7px 10px
+}
+
+.online-QuickAdd_menu-popup-dropdown.online-QuickAdd_menu-popup-dropdown-maxwidth {
+    max-width: 290px
+}
+
+.online-QuickAdd__menu_itemTemplate_wrapper {
+    padding: 1px 0
+}
+
+.online-QuickAdd__menu_itemTemplate_wrapper .online-QuickAdd__menu_itemTemplate {
+    height: 30px
+}
+
+.online-QuickAdd_menu-popup-offsetleft .online-QuickAdd_menu-popup-dropdown {
+    min-width: 248px
+}
+
+.online-QuickAdd_menu-popup-offsetleft .controls-Menu__group_separator-container,.online-QuickAdd_menu-popup-offsetleft .online-QuickAdd__menu_itemTemplate_wrapper {
+    margin-left: calc(32px - 1px)
+}
+
+.online-QuickAdd_menu__item_fixed {
+    font-weight: 700
+}
+
+.online-QuickAdd_menu__item_fixed .controls-HistoryMenu__iconPin {
+    display: none!important
+}
+
+.online-QuickAdd_menuHeader_wrapper {
+    min-height: calc(37px - 1px);
+    flex-shrink: 0
+}
+
+.online-QuickAdd_menuHeader {
+    cursor: pointer;
+    height: 33px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-radius: 0 8px 8px 0
+}
+
+.NavigationPanels-QuickAdd__navSchemeLink {
+    margin: 32px 10px 0;
+    height: 17px;
+    padding-bottom: var(--offset_xs)
+}
+
+.NavigationPanels-QuickAdd__navSchemeLink:empty {
+    height: 0
+}
+
+.online-QuickAdd__menuHeader_substrate {
+    display: flex;
+    flex-grow: 1;
+    margin-right: 6px;
+    height: 32px;
+    border-radius: 16px;
+    max-width: calc(100% - 6px)
+}
+
+.online-QuickAdd__menuHeader_substrateHover {
+    margin-left: 6px;
+    max-width: calc(100% - 6px - 6px)
+}
+
+.online-QuickAdd_menuHeader_logo {
+    padding-right: 10px;
+    height: 32px;
+    flex-grow: 1;
+    border-radius: 0 16px 16px 0
+}
+
+.online-QuickAdd_menuHeader_logo_compact {
+    padding-left: 10px
+}
+
+.ws-is-hover .online-QuickAdd_menuHeader_logo_compact:hover {
+    border-radius: 16px
+}
+
+.online-QuickAdd__menu_itemTemplate_padding.online-QuickAdd__menu_itemTemplate {
+    height: 30px;
+    margin: 1px 0
+}
+
+.ws-is-hover .online-QuickAdd__menu_hasSeparator:hover::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    right: 28px;
+    top: 0;
+    bottom: 0;
+    background-color: var(--submenu_background-color_NavigationPanels-Accordion)
+}
+
+.online-QuickAdd__menuHeader_icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: var(--menu-header_icon_background-color_NavigationPanels-QuickAdd)
+}
+
+.ws-is-hover .online-QuickAdd__menuHeader_icon:hover,.ws-is-touch .online-QuickAdd__menuHeader_icon:active {
+    text-decoration: none
+}
+
+.ws-is-hover .online-QuickAdd__menuHeader_substrateHover:hover,.ws-is-hover .online-QuickAdd_menuHeader_logo:hover {
+    background-color: var(--item_hover_background-color_menu)
+}
+
+.controls-Button_filled_style-quickadd {
+    border-color: var(--menu-header_icon_background-color_NavigationPanels-QuickAdd);
+    background-color: var(--menu-header_icon_background-color_NavigationPanels-QuickAdd)
+}
+
+.ws-is-hover .controls-Button_filled_style-quickadd:hover {
+    border-color: var(--menu-header_icon_hover_background-color_NavigationPanels-QuickAdd);
+    background-color: var(--menu-header_icon_hover_background-color_NavigationPanels-QuickAdd)
+}
+
+.online-QuickAdd__menuFooter .controls-Menu__row,.online-QuickAdd__menu_itemTemplate.controls-Menu__row {
+    padding-left: 10px
+}
+
+.online-QuickAdd__menu_itemTemplate>.controls-Menu__iconPin {
+    display: inline-block;
+    opacity: 0;
+    right: 6px
+}
+
+.online-QuickAdd__menu_itemTemplate>.controls-Menu__iconPin_swiped {
+    opacity: 1
+}
+
+.ws-is-hover .online-QuickAdd__menu_itemTemplate:hover>.controls-Menu__iconPin,.ws-is-hover .online-QuickAdd__menu_itemTemplate:hover>.controls-itemActionsV {
+    opacity: 1;
+    transition: .3s opacity ease-in-out .5s
+}
+
+.online-QuickAdd_menu-popup .controls-Menu__icon {
+    display: none
+}
+
+.online-QuickAdd_menu-popup-dropdown.controls-StickyTemplate {
+    overflow: visible
+}
+
+.NavigationPanels-QuickAdd__app-button {
+    margin-top: var(--offset_3xs);
+    margin-right: var(--offset_3xs)
+}
+
+.NavigationPanels-QuickAdd__app-button.NavigationPanels-Accordion__counter {
+    align-self: flex-start
+}
+
+.ws-is-ie11 .online-QuickAdd_menu-popup-dropdown {
+    max-height: 100vh
+}

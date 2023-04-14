@@ -1,0 +1,91 @@
+/*
+   Templates
+ */
+.UpdateNews {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+.UpdateNews .UpdateNews__noselect {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.UpdateNews .UpdateNews__layout {
+  min-width: 1024px;
+  height: -webkit-calc(100% - 48px);
+  height: calc(100% - 48px);
+}
+.UpdateNews .UpdateNews__layout .UpdateNews__body {
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 44px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  width: 1024px;
+  height: 100%;
+  bottom: 0;
+}
+.UpdateNews .UpdateNews__layout .UpdateNews__body .UpdateNews__image {
+  margin-top: 48px;
+  height: 300px;
+  width: 148px;
+}
+.UpdateNews .UpdateNews__layout .UpdateNews__content {
+  margin-left: 20px;
+  width: 716px;
+}
+.UpdateNews .UpdateNews__layout .UpdateNews__content .UpdateNews__content__header {
+  padding-bottom: 16px;
+  font-size: 21px;
+}
+.UpdateNews .UpdateNews__layout .UpdateNews__content .UpdateNews__content__header span {
+  line-height: 32px;
+  font-weight: bold;
+  font-size: 21px;
+  color: #000;
+  margin-left: 12px;
+}
+.UpdateNews .UpdateNews__layout .UpdateNews__content .UpdateNews__content__top_bordered {
+  border-top: 1px solid #ccc;
+  padding-top: 16px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+.UpdateNews .UpdateNews__layout .UpdateNews__content .UpdateNews__content__scroll {
+  min-height: 450px;
+  font-size: 15px;
+  overflow-x: hidden;
+  color: #666;
+}
+.UpdateNews .UpdateNews__layout .UpdateNews__content .UpdateNews__content__scroll .UpdateNews__content__scroll__text {
+  width: 570px;
+  margin: 12px;
+}
+.UpdateNews .UpdateNews__layout .UpdateNews__content .UpdateNews__content__scroll .UpdateNews__content__scroll__text ul {
+  margin-left: 20px;
+}
+.UpdateNews .UpdateNews__layout .UpdateNews__content .UpdateNews__content__scroll .UpdateNews__content__scroll__text h5 {
+  font-size: 16px;
+  color: #333;
+}
+.UpdateNews .UpdateNews__layout .UpdateNews__content .UpdateNews__content__footer {
+  min-height: 12px;
+}
+@media (hover: none) and (pointer: coarse) {
+  .UpdateNews .UpdateNews__content__scroll #content::-webkit-scrollbar {
+    width: auto;
+  }
+  .UpdateNews .UpdateNews__content__scroll #content {
+    margin-right: 0;
+    -webkit-overflow-scrolling: touch;
+  }
+  .UpdateNews .UpdateNews__content__scroll #scrollbar {
+    display: none;
+  }
+}

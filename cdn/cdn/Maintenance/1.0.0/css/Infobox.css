@@ -1,0 +1,53 @@
+.controls-InfoBox {
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  height: 100%;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  overflow: auto;
+}
+/**
+ * In firefox, the text baseline is 1px higher than the standard. Compensate for this by reducing the indentation between the text and the upper border by 1px.
+ * To ensure that the height is not changed let's increase the indentation between the text and the bottom border by 1px.
+ * Presumably the problem is in the font. Error written https://online.sbis.ru/opendoc.html?guid=1e389bc5-8be7-4394-abdd-231e3ec040a8
+ */
+.ws-is-firefox .controls-InfoBox {
+  padding-top: 7px;
+}
+.controls-InfoBox__closeButton {
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  cursor: pointer;
+  color: #CCC;
+}
+.controls-InfoBox__closeButton:hover {
+  color: #313E78;
+}
+.controls-InfoBox__content {
+  height: 100%;
+}
+.controls-InfoBox__message_margin {
+  margin-right: 18px;
+}
+.controls-InfoBox__message {
+  font-size: 15px;
+}
+.controls-InfoBox_floatElement {
+  width: 16px;
+  height: 16px;
+  float: right;
+}
+/*
+   Class to access the constant themes from js
+*/
+.controls-InfoBox__themeConstants {
+  margin-left: 16px;
+  margin-right: 9px;
+  margin-bottom: 9px;
+  margin-top: 11px;
+  max-width: 500px;
+}
+

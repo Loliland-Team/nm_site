@@ -1,0 +1,186 @@
+.userStatus-Selector-default {
+    padding: 8px 0px 5px;
+}
+
+.userStatus-Selector-button {
+    display: flex;
+    flex-shrink: 0;
+    font-size: var(--font-size_m);
+    color: var(--text-color);
+    padding: var(--offset_3xs) var(--offset_s) var(--offset_3xs) var(--offset_2xs);
+    border-radius: var(--border-radius_m);
+}
+
+.userStatus-Selector-button .userStatus-Selector__item-icon {
+    flex-shrink: 0;
+}
+
+.userStatus-Selector__button-icon {
+    margin-right: var(--offset_2xs);
+}
+
+.ws-is-hover .userStatus-Selector-button:hover {
+    background-color: var(--unaccented_hover_background-color);
+}
+
+.userStatus-Selector .userStatus-Selector__item {
+    display: flex;
+    align-items: center;
+}
+
+.userStatus-Selector .userStatus-Selector__item--fullwidth {
+    width: 100%;
+}
+
+.userStatus-Selector .userStatus-Selector__item--enable {
+    cursor: pointer;
+}
+
+.userStatus-Selector .userStatus-Selector__item .icon-PhoneGetAutomatically, .userStatus-Selector .userStatus-Selector__item .icon-PhoneGetManually {
+    color: var(--primary_color);
+    fill: var(--primary_color);
+}
+
+.userStatus-Selector__item_iconArrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.userStatus-Selector__item_icon_border {
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: transparent;
+}
+
+.userStatus-Selector__item_icon_border_notError {
+    border-color: transparent;
+}
+
+.userStatus-Selector__item_icon_border_error {
+    border-color: var(--danger_border-color);
+}
+
+.userStatus-Selector__item_iconArrow_error {
+    background-color: var(--background-color);
+}
+
+.userStatus-Selector__item_iconArrow_notError {
+    background-color: transparent;
+}
+
+.userStatus-Selector-default .userStatus-Selector__item-child {
+    padding-left: 36px;
+}
+
+.userStatus-Selector-list .userStatus-Selector__item-folder {
+    padding-left: var(--offset_2xs);
+    padding-right: var(--offset_st);
+    box-sizing: border-box;
+    height: 32px;
+}
+
+.userStatus-Selector-list .userStatus-Selector__item-child {
+    padding-left: var(--offset_3xl);
+    box-sizing: border-box;
+    height: 32px;
+}
+
+.userStatus-Selector-list .userStatus-Selector__item-icon {
+    margin-right: var(--offset_2xs);
+}
+
+.userStatus-Selector-list .userStatus-Selector__item-folder .userStatus-Selector__title {
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+.userStatus-Selector-list .userStatus-Selector__item-child .userStatus-Selector__title {
+    font-size: 15px;
+    display: block;
+}
+
+.userStatus-Selector .controls-itemActionsV {
+    padding-bottom: 3px;
+}
+
+.userStatus-Selector__title-container {
+    width: 100%;
+}
+
+.userStatus-Selector__location, .userStatus-Selector__title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ws-is-ie .userStatus-Selector__title {
+    max-width: 170px;
+}
+
+.userStatus-Selector__location {
+    font-size: 12px;
+    color: var(--unaccented_color);
+}
+
+.userStatus-Selector__title_editing {
+    width: 110px;
+}
+
+.userStatus-Selector__title_iconLock {
+    margin: auto 0 auto var(--offset_2xs);
+}
+
+.userStatus-Selector__item-current-default {
+    font-weight: 700;
+    background: var(--active_background-color);
+}
+
+.userStatus-Selector__item-current-list {
+    font-weight: 700;
+}
+
+.userStatus-Selector__item-folder .userStatus-Selector__title {
+    font-size: 15px;
+    color: var(--secondary_text-color_heading);
+}
+
+.userStatus-Selector__item-child .userStatus-Selector__title {
+    font-size: 14px;
+    display: block;
+}
+
+.userStatus-Selector__editModeSwitcher {
+    margin-left: auto;
+}
+
+.userStatus-Selector__addStatusButton {
+    margin-left: 8px;
+}
+
+.userStatus-Selector__statusItem {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.userStatus-Selector__item-folder {
+    box-sizing: border-box;
+    height: 33px;
+}
+
+.userStatus-Selector__MenuPanel.userStatus-Selector__item-with-location {
+    height: 48px;
+}
+
+.userStatus-Selector__MenuPanel.userStatus-Selector__item-with-location .userStatus-Selector__item-icon {
+    margin-bottom: 15px;
+}
+
+.userStatus-Selector .controls-ListViewV .controls-ListView__itemV_marker {
+    padding-top: 5px;
+}

@@ -1,0 +1,68 @@
+.authPage-WorkspaceTmpl {
+    width: 100%;
+    height: 100%;
+    min-height: 608px
+}
+
+.authPage-WorkspaceTmpl__contentWithoutScroll,.authPage-WorkspaceTmpl__scroll {
+    width: 490px;
+    max-width: 490px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.04)
+}
+
+.authPage-WorkspaceTmpl__contentWithoutScrollArbitrary {
+    overflow: hidden;
+    height: 100%
+}
+
+.authPage-WorkspaceTmpl__content {
+    min-height: 608px;
+    width: 100%
+}
+
+.authPage-WorkspaceTmpl__content,.authPage-WorkspaceTmpl__contentWithoutScroll {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: var(--background-color);
+    overflow: hidden
+}
+
+.authPage-WorkspaceTmpl__reCaptchaContainer .grecaptcha-badge {
+    bottom: 60px!important
+}
+
+@media (max-width: 735px) {
+    .authPage-WorkspaceTmpl__contentWithoutScroll,.authPage-WorkspaceTmpl__scroll {
+        width:71%;
+        max-width: 490px;
+        min-width: 320px
+    }
+
+    .authPage-WorkspaceTmpl__content {
+        min-height: 530px
+    }
+
+    .authPage-WorkspaceTmpl__reCaptchaContainer .grecaptcha-badge {
+        top: var(--offset_xs)
+    }
+}
+
+@media (max-width: 450px) {
+    .authPage-WorkspaceTmpl__contentWithoutScroll,.authPage-WorkspaceTmpl__scroll {
+        width:95%
+    }
+}
+
+@media (max-height: 667px) {
+    .authPage-WorkspaceTmpl__content {
+        min-height:540px;
+        width: 100%
+    }
+}
+
+.authPage-FooterTmpl {
+    width: 100%;
+    height: 100%
+}

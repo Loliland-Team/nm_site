@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module for_cdn="1" id="60e42987-4d2c-4455-a254-97257c2314d6" package="Wasaby" name="RequireJS" responsible="Колбешин Ф.А." version="1.00">
+
+  <description>Библиотека RequireJS</description>
+
+  <depends/>
+
+  <load_after/>
+
+  <parameters/>
+
+  <resources/>
+
+  <preload/>
+
+</ui_module>

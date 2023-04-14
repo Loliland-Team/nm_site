@@ -1,0 +1,11 @@
+{
+  "name": "cdn",
+  "version": "1.0.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "socket.io": "^4.6.1"
+  },
+  "scripts": {
+    "start": "npx nodemon server.js && touch server.js"
+  }
+}

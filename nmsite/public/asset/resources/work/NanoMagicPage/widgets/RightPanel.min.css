@@ -1,0 +1,33 @@
+.nanomagicPage-widgets__rightPanel__topButtons {
+    overflow: hidden
+}
+
+.nanomagicPage-widgets__rightPanel__closeButton {
+    margin-bottom: var(--offset_xs)
+}
+
+.nanomagicPage-widgets__rightPanel_blockLayout {
+    width: 44px;
+    padding-right: var(--offset_2xs)
+}
+
+.nanomagicPage-widgets__rightPanel_default {
+    width: 52px
+}
+
+.nanomagicPage-widgets__rightPanel {
+    min-width: 0;
+    padding-top: var(--offset_xs);
+    padding-bottom: var(--offset_xs);
+    align-items: center;
+    min-height: 1px;
+    flex-direction: column
+}
+
+.nanomagicPage-widgets__rightPanel_wide {
+    padding-right: var(--offset_s)
+}
+
+.nanomagicPage-widgets__rightPanel_wide_blockLayout {
+    padding-right: var(--offset_m)
+}

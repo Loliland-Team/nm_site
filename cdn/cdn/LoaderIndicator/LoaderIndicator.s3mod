@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module for_cdn="1" id="3255ad33-c963-4899-abe5-4e35e00a18be" name="LoaderIndicator"
+ package="Wasaby" responsible="Крайнов Д.О." version="1.00">
+
+  <description>Индикатор загрузки</description>
+
+  <depends/>
+
+  <load_after/>
+
+  <parameters/>
+
+  <resources/>
+
+  <preload/>
+
+</ui_module>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module for_cdn="1" id="648d006e-7c63-4b16-9df9-8f0e2004aef7" name="EmojiFont-IE" package="Wasaby" responsible="Бегунов А.В." version="1.00">
+
+  <description>EmojiFont для IE</description>
+
+  <depends/>
+
+  <load_after/>
+
+  <parameters/>
+
+  <resources/>
+
+  <preload/>
+
+</ui_module>

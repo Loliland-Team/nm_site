@@ -1,0 +1,285 @@
+.auth-DemoList {
+    width: 100%;
+    max-width: 650px;
+    margin-top: 29px
+}
+
+.auth-DemoList__block {
+    height: 87px
+}
+
+.auth-DemoList__blockInfo {
+    overflow-y: hidden
+}
+
+.auth-DemoList__blockCaption {
+    width: 100%
+}
+
+.auth-DemoList__uppecase {
+    text-transform: uppercase
+}
+
+.auth-DemoList__link_icon {
+    font-size: var(--font-size_xs);
+    width: var(--font-size_xs);
+    height: var(--font-size_xs);
+    color: var(--link_hover_text-color);
+    font-family: cbuc-icons
+}
+
+.auth-DemoList__imgContainer {
+    width: 40px;
+    height: 40px;
+    margin-top: var(--offset_s);
+    margin-left: var(--offset_m)
+}
+
+.auth-DemoList__img {
+    width: 100%;
+    height: 100%
+}
+
+@media (max-width: 735px) {
+    .auth-DemoList {
+        display:flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .auth-DemoList__tileList {
+        max-width: 315px
+    }
+}
+
+.auth-DemoDialog__description {
+    line-height: var(--line-height_2xl_inputArea);
+    color: var(--unaccented_color)
+}
+
+.auth-DemoDialog__item {
+    background-color: var(--background-color);
+    cursor: pointer;
+    width: 302px;
+    height: 425px;
+    margin-right: 22px;
+    box-shadow: 0 0 17px -1px rgba(0,0,0,.3)
+}
+
+.ws-is-hover .auth-DemoDialog__item:hover {
+    background-color: var(--hover_background-color)
+}
+
+.ws-is-hover .auth-DemoDialog__item:hover .auth-DemoDialog__description {
+    color: var(--text-color)
+}
+
+.auth-DemoDialog__signInLink {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+    visibility: hidden
+}
+
+.auth-DemoDialog__content {
+    position: relative;
+    padding: 36px 16px 16px
+}
+
+.ws-is-hover .auth-DemoDialog__content:hover .auth-DemoDialog__signInLink {
+    visibility: visible
+}
+
+.auth-DemoDialog__image {
+    width: 100%;
+    height: 217px;
+    background-size: contain
+}
+
+.auth-DemoDialog__image_tms-carrier {
+    background-image: url("./images/30.png")
+}
+
+.auth-DemoDialog__image_tms-carrier-en {
+    background-image: url("./images/en/30.png")
+}
+
+.auth-DemoDialog__image_tms-customer {
+    background-image: url("./images/29.png")
+}
+
+.auth-DemoDialog__image_tms-customer-en {
+    background-image: url("./images/en/29.png")
+}
+
+.auth-DemoDialog__image_accounting_nko {
+    background-image: url("./images/28.jpg")
+}
+
+.auth-DemoDialog__image_accounting_nko-en {
+    background-image: url("./images/en/28.jpg")
+}
+
+.auth-DemoDialog__image_accounting_buhta {
+    background-image: url("./images/27.jpg")
+}
+
+.auth-DemoDialog__image_accounting_buhta-en {
+    background-image: url("./images/en/27.jpg")
+}
+
+.auth-DemoDialog__image_accounting {
+    background-image: url("./images/26.png")
+}
+
+.auth-DemoDialog__image_accounting-en {
+    background-image: url("./images/en/26.png")
+}
+
+.auth-DemoDialog__image_presto-saby-crm {
+    background-image: url("./images/25.png")
+}
+
+.auth-DemoDialog__image_presto-saby-crm-en {
+    background-image: url("./images/en/25.png")
+}
+
+.auth-DemoDialog__image_sabyget {
+    background-image: url("./images/24.png")
+}
+
+.auth-DemoDialog__image_trade {
+    background-image: url("./images/23.png")
+}
+
+.auth-DemoDialog__image_edi {
+    background-image: url("./images/22.png")
+}
+
+.auth-DemoDialog__image_pharmacy-bek {
+    background-image: url("./images/21.jpg")
+}
+
+.auth-DemoDialog__image_pharmacy-bek-en {
+    background-image: url("./images/en/21.jpg")
+}
+
+.auth-DemoDialog__image_pharmacy-front {
+    background-image: url("./images/20.jpg")
+}
+
+.auth-DemoDialog__image_pharmacy-front-en {
+    background-image: url("./images/en/20.jpg")
+}
+
+.auth-DemoDialog__image_service-bek {
+    background-image: url("./images/13.jpg")
+}
+
+.auth-DemoDialog__image_service-bek-en {
+    background-image: url("./images/en/13.jpg")
+}
+
+.auth-DemoDialog__image_service-front {
+    background-image: url("./images/12.jpg")
+}
+
+.auth-DemoDialog__image_service-front-en {
+    background-image: url("./images/en/12.jpg")
+}
+
+.auth-DemoDialog__image_retail-bek {
+    background-image: url("./images/11.jpg")
+}
+
+.auth-DemoDialog__image_retail-bek-en {
+    background-image: url("./images/en/11.jpg")
+}
+
+.auth-DemoDialog__image_retail-front {
+    background-image: url("./images/10.jpg")
+}
+
+.auth-DemoDialog__image_retail-front-en {
+    background-image: url("./images/en/10.jpg")
+}
+
+.auth-DemoDialog__image_presto-bek {
+    background-image: url("./images/9.jpg")
+}
+
+.auth-DemoDialog__image_presto-bek-en {
+    background-image: url("./images/en/9.jpg")
+}
+
+.auth-DemoDialog__image_presto-front {
+    background-image: url("./images/8.jpg")
+}
+
+.auth-DemoDialog__image_presto-front-en {
+    background-image: url("./images/en/8.jpg")
+}
+
+.auth-DemoDialog__image_mobile-employee {
+    background-image: url("./images/18.jpg")
+}
+
+.auth-DemoDialog__image_corp-set {
+    background-image: url("./images/17.jpg")
+}
+
+.auth-DemoDialog__image_pharmacy {
+    background-image: url("./images/19.jpg")
+}
+
+.auth-DemoDialog__image_crm {
+    background-image: url("./images/16.jpg")
+}
+
+.auth-DemoDialog__image_service {
+    background-image: url("./images/7.jpg")
+}
+
+.auth-DemoDialog__image_retail {
+    background-image: url("./images/6.png")
+}
+
+.auth-DemoDialog__image_presto {
+    background-image: url("./images/5.png")
+}
+
+.auth-DemoDialog__image_search {
+    background-image: url("./images/4.png")
+}
+
+.auth-DemoDialog__image_company {
+    background-image: url("./images/3.png")
+}
+
+.auth-DemoDialog__image_documents {
+    background-image: url("./images/2.png")
+}
+
+.auth-DemoDialog__image_staff {
+    background-image: url("./images/15.png")
+}
+
+.auth-DemoDialog__image_reporting {
+    background-image: url("./images/1.png")
+}
+
+@media (max-width: 735px) {
+    .auth-DemoDialog {
+        overflow-y:scroll
+    }
+
+    .auth-DemoDialog__items {
+        width: 100%;
+        max-width: 300px;
+        flex-wrap: wrap
+    }
+
+    .auth-DemoDialog__item {
+        margin-top: var(--offset_m)
+    }
+}

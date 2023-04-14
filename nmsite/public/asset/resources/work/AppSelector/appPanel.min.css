@@ -1,0 +1,1070 @@
+.app-AppPanel {
+    background-color: var(--unaccented_background-color)
+}
+
+.app-AppPanel-adaptive {
+    width: 350px;
+    -ms-grid-row-align: center;
+    align-self: center
+}
+
+.app-AppPanel__modalHeader {
+    width: 100%;
+    padding-left: var(--offset_l);
+    box-sizing: border-box
+}
+
+.app-AppPanel__modalHeaderTop {
+    display: flex;
+    align-items: baseline
+}
+
+.app-AppPanel__header-title {
+    margin-right: var(--offset_m)
+}
+
+.app-AppPanel__modalConfDop {
+    color: var(--unaccented_color);
+    font-size: var(--font-size_m);
+    text-decoration: none
+}
+
+.app-AppPanel__modalHeaderBtn {
+    margin-right: 8px
+}
+
+.app-AppPanel__scroll {
+    height: 100%;
+    padding: 0 0 0 var(--offset_st);
+    will-change: transform
+}
+
+.app-AppPanel__scroll--favorites {
+    padding: 0 var(--offset_l) 0 var(--offset_m)
+}
+
+.app-AppPanel__modalBack {
+    margin-right: 4px;
+    cursor: pointer
+}
+
+.app-AppPanel__modalConfDesc {
+    padding-left: var(--offset_xl)
+}
+
+.app-AppPanel__modalConfDopBlock {
+    color: var(--unaccented_color);
+    font-size: var(--font-size_m)
+}
+
+.app-AppPanel__modalContent {
+    margin-bottom: var(--offset_l)
+}
+
+.app-AppPanel__modalContent--onlyApp {
+    margin-top: -12px
+}
+
+.app-AppPanel__modalContent--hidden {
+    display: none
+}
+
+.app-AppPanel__modalContentConfigs {
+    padding-left: 6px;
+    margin: var(--offset_s) 0 var(--offset_2xl)
+}
+
+.app-AppPanel__modalConfDescBlock {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 12px
+}
+
+.app-AppPanel__favoritesBlock {
+    margin: var(--offset_2xs) 0 -10px
+}
+
+.app-AppPanel__favoritesItemDesc {
+    color: var(--label_icon-color);
+    font-size: var(--font-size_xs)
+}
+
+.app-AppPanel__favoritesItem {
+    position: relative;
+    height: 50px;
+    margin: 0 6px 8px;
+    border-radius: 6px;
+    background-color: var(--background-color);
+    box-shadow: 0 0 6px rgba(0,0,0,.15);
+    box-sizing: border-box;
+    cursor: pointer
+}
+
+.app-AppPanel__favoritesItemTitle {
+    display: table-caption;
+    font-size: var(--font-size_m);
+    color: var(--secondary_text-color_heading);
+    font-weight: var(--font-weight_heading);
+    line-height: 17px
+}
+
+.app-AppPanel__favoritesItemTitleBlock {
+    padding-top: 8px
+}
+
+.app-AppPanel__favoritesItemWrap {
+    display: flex;
+    height: 44px;
+    padding: 2px 20px 4px 0;
+    overflow: hidden
+}
+
+.app-AppPanel__favoritesItemRight {
+    overflow: hidden
+}
+
+.app-AppPanel__favoritesItemLeft {
+    width: 46px;
+    height: 46px;
+    margin-right: 2px
+}
+
+.app-AppPanel__favoritesItemImgBlock {
+    width: 100%;
+    height: 100%
+}
+
+.app-AppPanel__favoritesItemImg {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.app-AppPanel__favoritesItemAction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%
+}
+
+.app-AppPanel__favoritesItemActionBlock {
+    position: absolute;
+    right: -5px;
+    top: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background-color: var(--background-color);
+    border: 1px solid var(--separator_color_block);
+    border-radius: 50%;
+    box-sizing: border-box
+}
+
+.app-AppPanel__favoritesItemActionBlock--success {
+    border: 1px solid var(--success_border-color);
+    cursor: default
+}
+
+.app-AppPanel__more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0
+}
+
+.app-AppPanel__more-btn {
+    cursor: pointer
+}
+
+.ws-is-hover .app-AppPanel__favoritesItemWrap:hover {
+    background-color: var(--active_background-color)
+}
+
+.ws-is-hover .app-AppPanel__favoritesItemActionBlock:hover {
+    background-color: var(--active_background-color)
+}
+
+.ws-is-hover .app-AppPanel__favoritesItemActionBlock--success:hover {
+    background-color: var(--background-color)
+}
+
+.ws-is-hover .app-AppPanel__modalConfDop:hover {
+    color: var(--link_hover_text-color);
+    text-decoration: underline
+}
+
+.app-AppPanel__mobileApps {
+    margin-top: var(--offset_2xs)
+}
+
+.app-AppPanel-mobileImg {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.app-AppPanel__mobileImgBlock {
+    width: 100%;
+    height: 100%;
+    padding: 6px 6px 0;
+    box-sizing: border-box
+}
+
+.app-AppPanel__mobileLeft {
+    align-self: flex-start;
+    width: 52px;
+    min-width: 52px
+}
+
+.app-AppPanel__QR {
+    margin-top: 56px;
+    margin-bottom: 42px;
+    align-items: center;
+    display: flex;
+    flex-direction: column
+}
+
+.app-mobileCard {
+    width: 400px;
+    height: 200px
+}
+
+.app-AppPanel__QR-imgBlock {
+    width: 122px;
+    height: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--offset_l);
+    flex-shrink: 0;
+    border: 2px solid var(--brand_color);
+    position: relative;
+    border-radius: var(--border-radius_s)
+}
+
+.app-AppPanel__QR-imgBlock::after,.app-AppPanel__QR-imgBlock::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: var(--unaccented_background-color)
+}
+
+.app-AppPanel__QR-imgBlock::before {
+    top: -5px;
+    bottom: -5px;
+    left: 26px;
+    right: 26px
+}
+
+.app-AppPanel__QR-imgBlock::after {
+    left: -5px;
+    right: -5px;
+    top: 26px;
+    bottom: 26px
+}
+
+.app-AppPanel__QR-img {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    z-index: 1
+}
+
+.app-AppPanel__text {
+    font-family: 'Maison Neue',serif
+}
+
+.app-AppPanel_hidden {
+    display: none
+}
+
+.app-AppPanel__portal {
+    padding-left: var(--offset_xl)
+}
+
+.app-AppPanel__portal-title {
+    margin-right: var(--offset_s)
+}
+
+.app-ConfigItem__app {
+    height: 79px;
+    padding: var(--offset_xs) var(--offset_m) var(--offset_m);
+    box-sizing: border-box
+}
+
+.app-ConfigItem__app--full {
+    height: 62px
+}
+
+.app-ConfigItem__appHeader {
+    margin-bottom: var(--offset_3xs)
+}
+
+.app-ConfigItem__appTitle {
+    font-size: var(--font-size_3xl);
+    color: var(--text-color)
+}
+
+.app-ConfigItem__appFooterText {
+    color: var(--unaccented_color)
+}
+
+.app-AppList__app {
+    height: 100px;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius_xs);
+    box-sizing: border-box
+}
+
+.app-AppList__app--hideLink {
+    height: 79px
+}
+
+.app-AppList__tile--dynamicHeight {
+    margin-top: var(--offset_xs);
+    overflow: hidden
+}
+
+.app-AppList__appWrap {
+    display: flex;
+    height: 100%;
+    box-sizing: border-box
+}
+
+.app-AppList__appWrap--favorite {
+    position: relative;
+    padding-bottom: 2px
+}
+
+.app-AppList__current {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--background-color);
+    border: 1px solid var(--success_contrast_background-color)
+}
+
+.app-AppList__appLeft {
+    align-self: flex-start;
+    width: 52px;
+    min-width: 52px
+}
+
+.app-AppList__appRight {
+    max-width: calc(100% - 52px);
+    min-width: calc(100% - 52px)
+}
+
+.app-AppList__appImgBlock {
+    width: 100%;
+    height: 100%;
+    padding: 6px 6px 0;
+    box-sizing: border-box
+}
+
+.app-AppList__appImg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%
+}
+
+.app-AppList__appContentBlock {
+    padding: var(--offset_xs) var(--offset_m) 0 0
+}
+
+.app-AppList__appHeader {
+    display: flex;
+    align-items: baseline;
+    height: 26px;
+    margin-bottom: var(--offset_3xs);
+    padding-right: var(--offset_3xl)
+}
+
+.app-AppList__appTitle-logo {
+    margin-right: var(--offset_2xs);
+    font-size: var(--font-size_4xl);
+    font-family: 'Maison Neue Extended',sans-serif;
+    cursor: pointer;
+    text-transform: lowercase
+}
+
+.app-AppList__appTitle-logo--draft {
+    color: var(--unaccented_text-color)
+}
+
+.app-AppList__appTitle {
+    max-width: 100%;
+    font-size: var(--font-size_l);
+    cursor: pointer
+}
+
+.app-AppList__appTitle--draft {
+    color: var(--unaccented_text-color)
+}
+
+.app-AppList__appTitle--logo {
+    font-size: var(--font-size_4xl);
+    font-family: 'Maison Neue Extended',sans-serif;
+    cursor: pointer;
+    text-transform: lowercase
+}
+
+.app-AppList__appContent {
+    min-height: 36px;
+    margin-bottom: 2px;
+    color: var(--unaccented_color)
+}
+
+.app-AppList__appFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 19px;
+    font-size: var(--font-size_xs)
+}
+
+.app-AppList__appUrl {
+    color: var(--label_text-color)
+}
+
+.app-AppList__appUrlBlock {
+    width: 70%
+}
+
+.app-AppList__appLinkBlock {
+    display: none
+}
+
+.app-AppList__appLink {
+    text-decoration: none;
+    color: var(--unaccented_color)
+}
+
+.app-AppList__appActions {
+    position: absolute;
+    right: 0;
+    top: 8px
+}
+
+.app-AppList__group {
+    margin: 32px 0 var(--offset_3xs)
+}
+
+.app-AppList__groupName {
+    font-size: var(--font-size_m);
+    color: var(--unaccented_color);
+    letter-spacing: .5px;
+    text-transform: uppercase
+}
+
+.app-AppList__appSmall {
+    padding: 7px 30px 7px 20px;
+    border-radius: var(--border-radius_xs);
+    background-color: var(--background-color)
+}
+
+.app-AppList__appSmall .app-AppList__appActions {
+    top: 8px
+}
+
+.app-AppList__appSmallWrap {
+    display: flex;
+    align-items: center
+}
+
+.app-AppList__appSmallDescBlock {
+    color: var(--unaccented_color)
+}
+
+.app-AppList__appSmallIcon {
+    height: 100%
+}
+
+.app-AppList__appSmallIconBlock {
+    width: 24px;
+    height: 24px
+}
+
+.app-AppList__appSmallDesc {
+    color: var(--unaccented_color)
+}
+
+.app-AppList__appSmallTitleBlock {
+    height: 19px;
+    margin: 0 6px 0 8px
+}
+
+.app-AppList__appSmallContent {
+    display: flex;
+    align-items: baseline
+}
+
+.app-AppList__tag {
+    position: absolute;
+    right: 12px;
+    top: 6px;
+    font-size: var(--font-size_xs);
+    color: var(--label_text-color)
+}
+
+.app-AppList__triangle {
+    margin-right: var(--offset_m)
+}
+
+.app-AppList__empty {
+    margin-top: var(--offset_m)
+}
+
+.app-AppList .controls-TileView__itemContent_background_grey {
+    background-color: var(--unaccented_background-color)
+}
+
+.app-AppList .controls-TileView__itemContent {
+    overflow: visible
+}
+
+.app-InnerList .app-AppList__appActions--inner {
+    display: none
+}
+
+.ws-is-hover .app-AppList__app:hover .app-AppList__appLinkBlock {
+    display: block
+}
+
+.ws-is-hover .app-AppList__app:hover .app-AppList__tag {
+    display: none
+}
+
+.ws-is-hover .app-AppList__app:hover .app-AppList__appActions {
+    background-color: transparent
+}
+
+.ws-is-hover .app-AppList__app--hybrid:hover .app-AppList__tag {
+    display: inline
+}
+
+.ws-is-hover .app-AppList__app--hybrid:hover .app-AppList__appLinkBlock {
+    display: none
+}
+
+.ws-is-hover .app-AppList__appLink:hover {
+    text-decoration: underline;
+    color: var(--unaccented_hover_text-color)
+}
+
+.ws-is-hover .app-AppList__app:hover .app-AppList__appActions--inner,.ws-is-hover .app-AppList__appSmall:hover .app-AppList__appActions--inner {
+    display: inline-flex
+}
+
+.app-AppList__appTitle-mobile {
+    max-width: 100%;
+    font-size: 22px;
+    cursor: pointer;
+    font-family: 'Maison Neue Extended',sans-serif;
+    text-transform: lowercase
+}
+
+.app-AppList__appContent-mobile {
+    min-height: 36px;
+    margin: 4px 0 2px;
+    color: var(--unaccented_color)
+}
+
+.app-MobileAppDetail {
+    height: 100%
+}
+
+.app-MobileAppDetail__img {
+    height: var(--size_l_image);
+    width: var(--size_l_image);
+    align-self: flex-start;
+    margin-right: var(--offset_m)
+}
+
+.app-MobileAppDetail__imgBlock {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box
+}
+
+.app-MobileAppDetail__header {
+    display: flex;
+    align-items: baseline;
+    height: 22px;
+    margin-bottom: var(--offset_3xs)
+}
+
+.app-MobileAppDetail__appWrap {
+    display: flex;
+    box-sizing: border-box;
+    padding: var(--offset_xl) var(--offset_xl) 0
+}
+
+.app-MobileAppDetail__appContent {
+    min-height: 36px;
+    color: var(--unaccented_color)
+}
+
+.app-MobileAppDetail__footer {
+    display: flex;
+    padding: var(--offset_m) 0 var(--offset_xl) 0
+}
+
+.app-MobileAppDetail__footer-left {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: var(--offset_xl);
+    flex-shrink: 0;
+    border: 2px solid var(--brand_color);
+    position: relative;
+    border-radius: var(--border-radius_m)
+}
+
+.app-MobileAppDetail__footer-left::after,.app-MobileAppDetail__footer-left::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: var(--background-color)
+}
+
+.app-MobileAppDetail__footer-left::before {
+    top: -5px;
+    bottom: -5px;
+    left: 38px;
+    right: 38px
+}
+
+.app-MobileAppDetail__footer-left::after {
+    left: -5px;
+    right: -5px;
+    top: 38px;
+    bottom: 38px
+}
+
+.app-MobileAppDetail__footer-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: var(--offset_m);
+    overflow: hidden
+}
+
+.app-MobileAppDetail__footer-right-text {
+    margin-top: auto;
+    margin-bottom: var(--offset_m);
+    margin-right: var(--offset_xl)
+}
+
+.app-MobileAppDetail__footer-left-img {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    z-index: 1
+}
+
+.app-LinkOpener {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer
+}
+
+.app-LinkOpener--read {
+    cursor: default
+}
+
+.app-LinkOpener__img {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.app-LinkOpener__btn {
+    display: block
+}
+
+.app-LinkOpener__btn-block {
+    height: 28px
+}
+
+.app-LinkOpener__img-block {
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    margin-right: 4px
+}
+
+.app-LinkOpener__img-block--newDesign {
+    margin-right: 0
+}
+
+.app-MiniPanel {
+    position: relative;
+    background: var(--unaccented_background-color)
+}
+
+.app-MiniPanel__scroll {
+    height: 100%;
+    padding: 0 0 0 var(--offset_m)
+}
+
+.app-MiniPanel__header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: 'Maison Neue Extended',sans-serif
+}
+
+.app-MiniPanel__body {
+    padding-bottom: var(--offset_l)
+}
+
+.app-MiniPanel__heading {
+    width: 100%;
+    padding-left: var(--offset_l)
+}
+
+.app-MiniPanel__wrap {
+    padding-top: var(--offset_2xs)
+}
+
+.app-MiniPanel__list {
+    margin-bottom: var(--offset_m);
+    padding-left: var(--offset_2xs)
+}
+
+.app-MiniPanel__list--maxi {
+    margin-right: -14px
+}
+
+.app-MiniPanel__footer {
+    display: flex;
+    justify-content: center
+}
+
+.app-MiniPanel__actions {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.app-CompactPanel__bodyWrapper {
+    padding-top: var(--offset_2xs)
+}
+
+.app-CompactPanel__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 var(--offset_m)
+}
+
+.app-CompactPanel__wrap {
+    padding-top: var(--offset_m)
+}
+
+.app-CompactPanel__wrap-web {
+    height: 100%;
+    min-height: 0
+}
+
+.app-CompactPanel__list {
+    padding-left: var(--offset_st);
+    padding-right: var(--offset_st)
+}
+
+.app-CompactPanel__actions {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.app-CompactPanel__footer {
+    padding-bottom: var(--offset_l);
+    display: flex;
+    justify-content: center
+}
+
+.ws-is-hover .app-CompactPanel__PhoneLink:hover {
+    color: var(--hover_text-color)
+}
+
+.app-CompactPanel__mobileApps {
+    padding: 0 var(--offset_m) 0 var(--offset_m)
+}
+
+.app-CompactPanel-mobileItem {
+    display: flex;
+    padding: var(--offset_xs) var(--offset_m) var(--offset_xs) var(--offset_st)
+}
+
+.app-CompactPanel-mobileItem_img,.app-CompactPanel-mobileItem_imgBlock {
+    height: var(--size_mt_image)
+}
+
+.app-CompactPanel-mobileItem_nameBlock {
+    width: 100%;
+    min-width: 0;
+    margin: 0 var(--offset_s) 0 var(--offset_xs);
+    font-family: 'Maison Neue Extended',sans-serif
+}
+
+.app-CompactPanel__mobileApps_footer {
+    padding: var(--offset_xs) 0 var(--offset_l) 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.app-CompactPanel__mobileApps_QR {
+    margin-top: var(--offset_l);
+    align-items: center;
+    display: flex;
+    flex-direction: column
+}
+
+.app-CompactPanel__mobileApps_QR-imgBlock {
+    width: 124px;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--offset_l);
+    flex-shrink: 0;
+    border: 2px solid var(--brand_color);
+    position: relative;
+    border-radius: var(--border-radius_m)
+}
+
+.app-CompactPanel__mobileApps_QR-imgBlock::after,.app-CompactPanel__mobileApps_QR-imgBlock::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: var(--unaccented_background-color)
+}
+
+.app-CompactPanel__mobileApps_QR-imgBlock::before {
+    top: -5px;
+    bottom: -5px;
+    left: 41px;
+    right: 41px
+}
+
+.app-CompactPanel__mobileApps_QR-imgBlock::after {
+    left: -5px;
+    right: -5px;
+    top: 41px;
+    bottom: 41px
+}
+
+.app-CompactPanel__mobileApps_QR-img {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    z-index: 1
+}
+
+.app-CompactPanel__mobileApps_text {
+    font-family: 'Maison Neue',serif;
+    font-size: var(--font-size_m)
+}
+
+.app-CompactPanel_hidden {
+    display: none
+}
+
+.app-CompactPanel__group {
+    margin: var(--offset_xs) 0 var(--offset_m) 0
+}
+
+.app-FavoriteItem {
+    position: relative;
+    padding: var(--offset_xs)
+}
+
+.app-FavoriteItem--selected::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: var(--marker_thickness_content-xs_list);
+    height: var(--marker_size_content-xs_list);
+    border-radius: var(--border-radius_2xs);
+    background-color: var(--marker_color)
+}
+
+.app-FavoriteItem__wrap {
+    display: flex;
+    padding-right: var(--offset_3xl)
+}
+
+.app-FavoriteItem__img-block {
+    display: flex;
+    width: 36px;
+    min-width: 36px;
+    height: 36px
+}
+
+.app-FavoriteItem__img {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.app-FavoriteItem__text-block {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 42px);
+    padding-left: var(--offset_xs)
+}
+
+.app-FavoriteItem__text-line {
+    display: flex;
+    align-items: baseline;
+    width: 100%
+}
+
+.app-FavoriteItem__text {
+    font-size: var(--font-size_l)
+}
+
+.app-FavoriteItem__text--logo {
+    font-size: var(--font-size_4xl);
+    font-family: 'Maison Neue Extended',sans-serif;
+    font-weight: var(--font-weight_heading);
+    text-transform: lowercase
+}
+
+.app-FavoriteItem__text--onlytext {
+    font-size: var(--font-size_4xl);
+    font-family: 'Maison Neue Extended',sans-serif;
+    font-weight: var(--font-weight_heading)
+}
+
+.app-FavoriteItem__text--additional {
+    font-size: var(--font-size_m)
+}
+
+.app-FavoriteItem__conf {
+    margin-left: var(--offset_2xs);
+    font-size: var(--font-size_xl);
+    color: var(--unaccented_color)
+}
+
+.app-FavoriteItem__text-logo {
+    margin-right: var(--offset_2xs);
+    font-size: var(--font-size_4xl);
+    font-family: 'Maison Neue Extended',sans-serif;
+    font-weight: var(--font-weight_heading);
+    text-transform: lowercase
+}
+
+.app-FavoriteItem__beta {
+    position: absolute;
+    top: 6px;
+    right: 12px;
+    align-self: flex-start;
+    font-size: var(--font-size_xs);
+    color: var(--label_text-color)
+}
+
+.ws-is-hover .app-FavoriteItem:hover .app-FavoriteItem__beta {
+    display: none
+}
+
+.ws-is-hover .app-FavoriteItem--selectedMode:hover .app-FavoriteItem__beta {
+    display: inherit
+}
+
+.app-AppStack__heading {
+    width: 100%;
+    padding-left: var(--offset_m)
+}
+
+.app-AppStack__search {
+    width: 300px
+}
+
+.app-AppStack__list {
+    padding: 0 0 var(--offset_m) var(--offset_xs)
+}
+
+.app-AppHeading {
+    display: flex;
+    align-items: center;
+    font-family: 'Maison Neue Extended',sans-serif
+}
+
+.app-AppHeading__saby {
+    font-size: var(--font-size_4xl);
+    color: var(--brand_color)
+}
+
+.app-AppHeading__app {
+    font-size: var(--font-size_4xl);
+    color: var(--label_text-color);
+    text-transform: lowercase
+}
+
+.app-AppHeading__app-default {
+    color: var(--label_text-color)
+}
+
+.app-AppHeading__app-dark {
+    font-weight: 700;
+    color: var(--text-color)
+}
+
+.app-SelectedApp {
+    width: 100%;
+    border-radius: var(--border-radius_xs);
+    border: 1px solid var(--border-color);
+    cursor: pointer
+}
+
+.app-SelectedApp:hover {
+    box-shadow: var(--box-shadow_block)
+}
+
+.app-AppStack__modalHeaderTop {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    margin-left: var(--offset_m)
+}
+
+.app-AppStack__configList {
+    margin: var(--offset_xs) 0 0 var(--offset_xs)
+}
+
+.app-AppStack__appList {
+    margin-top: -12px
+}
+
+.app-AppStack__modalClickArea {
+    display: flex;
+    align-items: baseline;
+    cursor: pointer
+}
+
+.app-AppStack__modalConfDopBlock {
+    margin-left: var(--offset_m)
+}

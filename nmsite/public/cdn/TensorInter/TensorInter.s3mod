@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module for_cdn="1" id="058aec47-70de-4fd1-80b9-b67a7deff15a" name="TensorInter" package="Wasaby" responsible="Клепиков И.А." version="1.00">
+
+   <description>TensorInter</description>
+
+   <depends/>
+
+   <load_after/>
+
+   <parameters/>
+
+   <resources/>
+
+   <preload/>
+
+</ui_module>

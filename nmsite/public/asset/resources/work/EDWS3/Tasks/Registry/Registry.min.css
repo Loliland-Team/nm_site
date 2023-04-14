@@ -1,0 +1,658 @@
+.brTasks {
+    height: 100%
+}
+
+.brTasks .edo3-Browser {
+    height: 100%
+}
+
+.edws-BaseRegistry {
+    height: 100%;
+    width: 100%
+}
+
+.edws-RegistryLink {
+    color: inherit;
+    text-decoration: inherit
+}
+
+.edws-MainColumn {
+    width: 100%
+}
+
+.edws-MainColumn__photo_wrapper {
+    line-height: var(--font-size_xl)
+}
+
+.edws-MainColumn__photo {
+    flex-basis: 40px;
+}
+
+.edws-MainColumn__photoIcon,.edws-MainColumn__photoIconTile {
+    background: var(--background-color)
+}
+
+.edws-MainColumn__photoIcon {
+    width: var(--size_l_image);
+    height: var(--size_l_image);
+    line-height: var(--size_l_image)
+}
+
+.edws-MainColumn__info {
+    flex-basis: 100%;
+    overflow: hidden
+}
+
+.edws-MainColumn__firstLine {
+    align-items: baseline;
+    height: 17px;
+    margin-top: 2px;
+    padding-bottom: 2px
+}
+
+.edws-MainColumn__firstLine-rightside {
+    color: var(--label_text-color);
+    font-size: 12px;
+    overflow: hidden
+}
+
+.edws-MainColumn__firstLine-userInfo {
+    max-width: 70%;
+    overflow: hidden;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline
+}
+
+.ws-is-ie11 .edws-MainColumn__firstLine-userInfo {
+    width: 70%
+}
+
+.edws-MainColumn__userName {
+    color: var(--secondary_text-color);
+    font-size: 15px;
+    max-width: 100%
+}
+
+.edws-MainColumn__userDept {
+    color: var(--label_text-color);
+    font-size: 12px;
+    padding-left: 6px;
+    flex-basis: 30%
+}
+
+.edws-MainColumn__datelimit,.edws-MainColumn__milestone,.edws-MainColumn__remainDays {
+    padding-left: 7px
+}
+
+.edws-MainColumn__overtaskContainer {
+    height: 18px;
+    color: var(--label_text-color);
+    font-size: 14px;
+    padding-left: 20px
+}
+
+.edws-MainColumn__overtaskContainer .icon-DayForward {
+    color: var(--label_text-color);
+    font-size: 12px!important;
+    width: 12px
+}
+
+.edws-MainColumn__overtaskContainer .icon-DayForward:last-child {
+    display: none
+}
+
+.edws-MainColumn__markDot {
+    position: absolute;
+    margin-top: 1px
+}
+
+.edws-MainColumn__rule {
+    padding-left: 20px
+}
+
+.edws-MainColumn__rule+.edws-MainColumn__description:before {
+    content: ': '
+}
+
+.edws-MainColumn__documentSumm+.edws-MainColumn__description:before {
+    content: ', '
+}
+
+.edws-MainColumn__block2 {
+    padding-left: 20px
+}
+
+.edws-MainColumn__attachmentList {
+    color: var(--unaccented_text-color)
+}
+
+.edws-MainColumn__attachmentList .icon-Attach {
+    margin-right: 6px;
+    vertical-align: top;
+    font-size: 14px!important;
+    width: 14px;
+    height: 14px
+}
+
+.edws-MainColumn__subtasks {
+    color: var(--unaccented_text-color)
+}
+
+.edws-MainColumn__subtasks .icon-TFTask {
+    margin-right: 6px;
+    vertical-align: top;
+    font-size: 14px!important;
+    width: 14px;
+    height: 18px
+}
+
+.edws-MainColumn .emptyIconBlock {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px
+}
+
+.edws-MainColumn__attachmentItem:after {
+    content: ', '
+}
+
+.edws-MainColumn__attachmentItem:last-child:after {
+    content: ''
+}
+
+.edws-MainColumn__attachmentItem:hover,.vd_item.edws-Browser-attachment:hover {
+    text-decoration: underline
+}
+
+.edws-MainColumn__commentContainer {
+    color: var(--unaccented_text-color)
+}
+
+.edws-MainColumn__commentContainer .icon-16.icon-EmptyMessage,.edws-MainColumn__commentContainer .icon-16.icon-Handwrite2,.edws-MainColumn__commentContainer .icon-Bell {
+    margin-right: 6px;
+    width: 14px;
+    height: 14px;
+    font-size: 14px!important
+}
+
+.edws-MainColumn__description-only {
+    margin-left: 20px
+}
+
+.edws-MainColumn-unreaded .edws-MainColumn__block2,.edws-MainColumn-unreaded .edws-MainColumn__description,.edws-MainColumn-unreaded .edws-MainColumn__documentSumm,.edws-MainColumn-unreaded .edws-MainColumn__rule {
+    font-weight: 700
+}
+
+.edws-MainColumn-has-notification .rt_desc {
+    font-weight: 700
+}
+
+.edws-MainColumn__overtask {
+    font-size: 12px
+}
+
+.edws-MainColumn__commentContainer .edws-MainColumn__comment {
+    vertical-align: top
+}
+
+.edws-MainColumn__attachmentList,.edws-MainColumn__block2,.edws-MainColumn__commentContainer,.edws-MainColumn__overtaskContainer,.edws-MainColumn__ruleContainer,.edws-MainColumn__subtasks {
+    line-height: 18px
+}
+
+.rt_right {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%
+}
+
+.brSubtasks .edws-MainColumn__photo-subtasks {
+    padding-left: 8px
+}
+
+.edws-hiddenNode {
+    font-size: 14px
+}
+
+.comma-separated-list:after {
+    content: ', '
+}
+
+.comma-separated-list:last-child:after {
+    content: ''
+}
+
+.brTasksDone .edws-StateWithDate__content-state,.brTasksOnMe .edws-StateWithDate__content-state,.brTasksUnalloc .edws-StateWithDate__content-state {
+    min-height: 18px
+}
+
+.brDetalization .edws-StateWithDate__content,.brTasksDone .edws-StateWithDate__content,.brTasksFromMe .edws-StateWithDate__content,.brTasksOnMe .edws-StateWithDate__content,.brTasksReturned .edws-StateWithDate__content,.brTasksUnalloc .edws-StateWithDate__content,.edws-workspace__detailArea-browser .edws-StateWithDate__content {
+    display: block;
+    position: relative;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    white-space: normal
+}
+
+.brDetalization .edws-StateWithDate__content .edws-StateWithDate-note,.brTasksDone .edws-StateWithDate__content .edws-StateWithDate-note,.brTasksFromMe .edws-StateWithDate__content .edws-StateWithDate-note,.brTasksOnMe .edws-StateWithDate__content .edws-StateWithDate-note,.brTasksReturned .edws-StateWithDate__content .edws-StateWithDate-note,.brTasksUnalloc .edws-StateWithDate__content .edws-StateWithDate-note,.edws-workspace__detailArea-browser .edws-StateWithDate__content .edws-StateWithDate-note {
+    position: absolute;
+    top: 5px;
+    right: 62px
+}
+
+.brDetalization .edws-StateWithDate__content .edws-StateWithDate__tags,.brTasksDone .edws-StateWithDate__content .edws-StateWithDate__tags,.brTasksFromMe .edws-StateWithDate__content .edws-StateWithDate__tags,.brTasksOnMe .edws-StateWithDate__content .edws-StateWithDate__tags,.brTasksReturned .edws-StateWithDate__content .edws-StateWithDate__tags,.brTasksUnalloc .edws-StateWithDate__content .edws-StateWithDate__tags,.edws-workspace__detailArea-browser .edws-StateWithDate__content .edws-StateWithDate__tags {
+    position: absolute;
+    max-width: 92px;
+    padding-top: 5px
+}
+
+.brDetalization .edws-StateWithDate__content .edws-StateWithDate__tags :first-child,.brTasksDone .edws-StateWithDate__content .edws-StateWithDate__tags :first-child,.brTasksFromMe .edws-StateWithDate__content .edws-StateWithDate__tags :first-child,.brTasksOnMe .edws-StateWithDate__content .edws-StateWithDate__tags :first-child,.brTasksReturned .edws-StateWithDate__content .edws-StateWithDate__tags :first-child,.brTasksUnalloc .edws-StateWithDate__content .edws-StateWithDate__tags :first-child,.edws-workspace__detailArea-browser .edws-StateWithDate__content .edws-StateWithDate__tags :first-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.brDetalization .edws-StateWithDate__content .edws-StateWithDate__tags_withState,.brTasksDone .edws-StateWithDate__content .edws-StateWithDate__tags_withState,.brTasksFromMe .edws-StateWithDate__content .edws-StateWithDate__tags_withState,.brTasksOnMe .edws-StateWithDate__content .edws-StateWithDate__tags_withState,.brTasksReturned .edws-StateWithDate__content .edws-StateWithDate__tags_withState,.brTasksUnalloc .edws-StateWithDate__content .edws-StateWithDate__tags_withState,.edws-workspace__detailArea-browser .edws-StateWithDate__content .edws-StateWithDate__tags_withState {
+    max-width: 70px;
+    padding-left: 22px
+}
+
+.brDetalization .edws-StateWithDate__content .edws-StateWithDate__tags_withFlag,.brTasksDone .edws-StateWithDate__content .edws-StateWithDate__tags_withFlag,.brTasksFromMe .edws-StateWithDate__content .edws-StateWithDate__tags_withFlag,.brTasksOnMe .edws-StateWithDate__content .edws-StateWithDate__tags_withFlag,.brTasksReturned .edws-StateWithDate__content .edws-StateWithDate__tags_withFlag,.brTasksUnalloc .edws-StateWithDate__content .edws-StateWithDate__tags_withFlag,.edws-workspace__detailArea-browser .edws-StateWithDate__content .edws-StateWithDate__tags_withFlag {
+    max-width: 48px;
+    padding-left: 44px
+}
+
+.brDetalization .edws-StateWithDate__content .edws-StateWithDate__empty,.brTasksDone .edws-StateWithDate__content .edws-StateWithDate__empty,.brTasksFromMe .edws-StateWithDate__content .edws-StateWithDate__empty,.brTasksOnMe .edws-StateWithDate__content .edws-StateWithDate__empty,.brTasksReturned .edws-StateWithDate__content .edws-StateWithDate__empty,.brTasksUnalloc .edws-StateWithDate__content .edws-StateWithDate__empty,.edws-workspace__detailArea-browser .edws-StateWithDate__content .edws-StateWithDate__empty {
+    margin-left: 61px
+}
+
+.brDetalization .edws-StateWithDate__content .edws-StateWithDate__content-marks,.brTasksDone .edws-StateWithDate__content .edws-StateWithDate__content-marks,.brTasksFromMe .edws-StateWithDate__content .edws-StateWithDate__content-marks,.brTasksOnMe .edws-StateWithDate__content .edws-StateWithDate__content-marks,.brTasksReturned .edws-StateWithDate__content .edws-StateWithDate__content-marks,.brTasksUnalloc .edws-StateWithDate__content .edws-StateWithDate__content-marks,.edws-workspace__detailArea-browser .edws-StateWithDate__content .edws-StateWithDate__content-marks {
+    position: relative;
+    height: 18px;
+    padding: 0
+}
+
+.brDetalization .edws-StateWithDate__content .edws-StateWithDate__content-date,.brTasksDone .edws-StateWithDate__content .edws-StateWithDate__content-date,.brTasksFromMe .edws-StateWithDate__content .edws-StateWithDate__content-date,.brTasksOnMe .edws-StateWithDate__content .edws-StateWithDate__content-date,.brTasksReturned .edws-StateWithDate__content .edws-StateWithDate__content-date,.brTasksUnalloc .edws-StateWithDate__content .edws-StateWithDate__content-date,.edws-workspace__detailArea-browser .edws-StateWithDate__content .edws-StateWithDate__content-date {
+    color: var(--unaccented_text-color);
+    font-size: 12px;
+    margin-left: 2px;
+    margin-top: 4px;
+    line-height: 18px;
+    justify-content: flex-end;
+    display: inline-flex
+}
+
+.brDetalization .edws-StateWithDate__content .edws-StateWithDate__content-date .edws-BaseRegistry__date,.brTasksDone .edws-StateWithDate__content .edws-StateWithDate__content-date .edws-BaseRegistry__date,.brTasksFromMe .edws-StateWithDate__content .edws-StateWithDate__content-date .edws-BaseRegistry__date,.brTasksOnMe .edws-StateWithDate__content .edws-StateWithDate__content-date .edws-BaseRegistry__date,.brTasksReturned .edws-StateWithDate__content .edws-StateWithDate__content-date .edws-BaseRegistry__date,.brTasksUnalloc .edws-StateWithDate__content .edws-StateWithDate__content-date .edws-BaseRegistry__date,.edws-workspace__detailArea-browser .edws-StateWithDate__content .edws-StateWithDate__content-date .edws-BaseRegistry__date {
+    z-index: 1
+}
+
+.brDetalization .edws-StateWithDate__content .edws-StateWithDate__content-state,.brTasksDone .edws-StateWithDate__content .edws-StateWithDate__content-state,.brTasksFromMe .edws-StateWithDate__content .edws-StateWithDate__content-state,.brTasksOnMe .edws-StateWithDate__content .edws-StateWithDate__content-state,.brTasksReturned .edws-StateWithDate__content .edws-StateWithDate__content-state,.brTasksUnalloc .edws-StateWithDate__content .edws-StateWithDate__content-state,.edws-workspace__detailArea-browser .edws-StateWithDate__content .edws-StateWithDate__content-state {
+    width: 100%;
+    position: relative;
+    padding: 0
+}
+
+.brDetalization .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase,.brDetalization .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase-text,.brTasksDone .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase,.brTasksDone .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase-text,.brTasksFromMe .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase,.brTasksFromMe .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase-text,.brTasksOnMe .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase,.brTasksOnMe .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase-text,.brTasksReturned .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase,.brTasksReturned .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase-text,.brTasksUnalloc .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase,.brTasksUnalloc .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase-text,.edws-workspace__detailArea-browser .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase,.edws-workspace__detailArea-browser .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase-text {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    text-align: left
+}
+
+.brDetalization .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase-executor,.brTasksDone .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase-executor,.brTasksFromMe .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase-executor,.brTasksOnMe .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase-executor,.brTasksReturned .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase-executor,.brTasksUnalloc .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase-executor,.edws-workspace__detailArea-browser .edws-StateWithDate__content .edws-StateWithDate__content-state .edo3-Browser__active-phase-executor {
+    font-size: 14px;
+    margin-top: 2px
+}
+
+.brDetalization .edws-tasks-sort-header,.brTasksDone .edws-tasks-sort-header,.brTasksFromMe .edws-tasks-sort-header,.brTasksOnMe .edws-tasks-sort-header,.brTasksReturned .edws-tasks-sort-header,.brTasksUnalloc .edws-tasks-sort-header,.edws-workspace__detailArea-browser .edws-tasks-sort-header {
+    color: var(--link_text-color)
+}
+
+.brDetalization .edws-tasks-sort-header:hover,.brTasksDone .edws-tasks-sort-header:hover,.brTasksFromMe .edws-tasks-sort-header:hover,.brTasksOnMe .edws-tasks-sort-header:hover,.brTasksReturned .edws-tasks-sort-header:hover,.brTasksUnalloc .edws-tasks-sort-header:hover,.edws-workspace__detailArea-browser .edws-tasks-sort-header:hover {
+    text-decoration: underline;
+    color: var(--secondary_text-color);
+    cursor: pointer
+}
+
+.brTasksDone .edo3-Browser-Responsible__text-row {
+    color: var(--text-color)
+}
+
+.done-empty-icon {
+    margin-left: 4px
+}
+
+.brSubtasks .edws-StateWithDate-note,.brTasksCtrl .edws-StateWithDate-note,.edws-TasksByStaff__edoBrowser .edws-StateWithDate-note {
+    top: 5px;
+    right: 30px;
+    position: absolute
+}
+
+.brSubtasks .rt_mainblock,.brSubtasks .rt_regldesc,.brTasksCtrl .rt_mainblock,.brTasksCtrl .rt_regldesc,.edws-TasksByStaff__edoBrowser .rt_mainblock,.edws-TasksByStaff__edoBrowser .rt_regldesc {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    line-height: 18px
+}
+
+.brSubtasks .rt_regldesc,.brTasksCtrl .rt_regldesc,.edws-TasksByStaff__edoBrowser .rt_regldesc {
+    position: relative;
+    width: calc(100% - 32px)
+}
+
+.brSubtasks .rt_regldesc .rt_desc,.brTasksCtrl .rt_regldesc .rt_desc,.edws-TasksByStaff__edoBrowser .rt_regldesc .rt_desc {
+    margin-right: 100px
+}
+
+.brSubtasks .rt_regldesc .rt_regl.rt_desc,.brTasksCtrl .rt_regldesc .rt_regl.rt_desc,.edws-TasksByStaff__edoBrowser .rt_regldesc .rt_regl.rt_desc {
+    white-space: normal;
+    max-height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -ms-flex: 0 1 auto;
+    padding-left: 17px
+}
+
+.brSubtasks .rt_regldesc .edws-MainColumn__markDot,.brTasksCtrl .rt_regldesc .edws-MainColumn__markDot,.edws-TasksByStaff__edoBrowser .rt_regldesc .edws-MainColumn__markDot {
+    top: 0
+}
+
+.brSubtasks .rt_mainblock,.brTasksCtrl .rt_mainblock,.edws-TasksByStaff__edoBrowser .rt_mainblock {
+    flex-wrap: wrap
+}
+
+.brSubtasks .rt_mainblock .rt_block2,.brSubtasks .rt_mainblock .rt_block3,.brTasksCtrl .rt_mainblock .rt_block2,.brTasksCtrl .rt_mainblock .rt_block3,.edws-TasksByStaff__edoBrowser .rt_mainblock .rt_block2,.edws-TasksByStaff__edoBrowser .rt_mainblock .rt_block3 {
+    width: 80%
+}
+
+.brSubtasks .rt_mainblock .rt_desc .vd_item .edws-Browser-attachment,.brTasksCtrl .rt_mainblock .rt_desc .vd_item .edws-Browser-attachment,.edws-TasksByStaff__edoBrowser .rt_mainblock .rt_desc .vd_item .edws-Browser-attachment {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-basis: 30%;
+    min-width: 0
+}
+
+.brSubtasks .rt_mainblock .rt_block2 .rt_desc,.brTasksCtrl .rt_mainblock .rt_block2 .rt_desc,.edws-TasksByStaff__edoBrowser .rt_mainblock .rt_block2 .rt_desc {
+    margin-left: 17px
+}
+
+.brSubtasks .rt_mainblock .rt_marks,.brTasksCtrl .rt_mainblock .rt_marks,.edws-TasksByStaff__edoBrowser .rt_mainblock .rt_marks {
+    position: absolute;
+    height: 19px;
+    right: 16px;
+    top: 21px;
+    z-index: 1
+}
+
+.brSubtasks .rt_mainblock .rt_marks_state,.brTasksCtrl .rt_mainblock .rt_marks_state,.edws-TasksByStaff__edoBrowser .rt_mainblock .rt_marks_state {
+    padding: 0
+}
+
+.brSubtasks .rt_mainblock .rt_overtask,.brTasksCtrl .rt_mainblock .rt_overtask,.edws-TasksByStaff__edoBrowser .rt_mainblock .rt_overtask {
+    color: var(--label_text-color);
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 19px;
+    width: 100%;
+    padding-left: 17px;
+    margin-right: 130px
+}
+
+.brSubtasks .rt_mainblock .rt_overtask .overtask_icon,.brTasksCtrl .rt_mainblock .rt_overtask .overtask_icon,.edws-TasksByStaff__edoBrowser .rt_mainblock .rt_overtask .overtask_icon {
+    color: var(--label_text-color);
+    position: relative;
+    top: 2px;
+    margin-top: -3px
+}
+
+.brSubtasks .rt_mainblock .icon-Attach,.brSubtasks .rt_mainblock .icon-EmptyMessage,.brSubtasks .rt_mainblock .icon-Handwrite2,.brTasksCtrl .rt_mainblock .icon-Attach,.brTasksCtrl .rt_mainblock .icon-EmptyMessage,.brTasksCtrl .rt_mainblock .icon-Handwrite2,.edws-TasksByStaff__edoBrowser .rt_mainblock .icon-Attach,.edws-TasksByStaff__edoBrowser .rt_mainblock .icon-EmptyMessage,.edws-TasksByStaff__edoBrowser .rt_mainblock .icon-Handwrite2 {
+    margin-right: 3px;
+    vertical-align: top;
+    font-size: 14px!important;
+    width: 14px;
+    height: 14px
+}
+
+.brSubtasks .rt_mainblock .rt_block3,.brTasksCtrl .rt_mainblock .rt_block3,.edws-TasksByStaff__edoBrowser .rt_mainblock .rt_block3 {
+    line-height: 18px;
+    color: var(--unaccented_text-color);
+    clear: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.brSubtasks .rt_mainblock .rt_block3 .emptyIconBlock,.brTasksCtrl .rt_mainblock .rt_block3 .emptyIconBlock,.edws-TasksByStaff__edoBrowser .rt_mainblock .rt_block3 .emptyIconBlock {
+    margin-left: 17px
+}
+
+.brSubtasks .rt_block3,.brSubtasks .rt_currcond,.brSubtasks .rt_prevcomment,.brSubtasks .rt_regl_wrap,.brTasksCtrl .rt_block3,.brTasksCtrl .rt_currcond,.brTasksCtrl .rt_prevcomment,.brTasksCtrl .rt_regl_wrap,.edws-TasksByStaff__edoBrowser .rt_block3,.edws-TasksByStaff__edoBrowser .rt_currcond,.edws-TasksByStaff__edoBrowser .rt_prevcomment,.edws-TasksByStaff__edoBrowser .rt_regl_wrap {
+    width: 100%
+}
+
+.brSubtasks .rt_currcond,.brSubtasks .rt_prevcomment,.brTasksCtrl .rt_currcond,.brTasksCtrl .rt_prevcomment,.edws-TasksByStaff__edoBrowser .rt_currcond,.edws-TasksByStaff__edoBrowser .rt_prevcomment {
+    margin-right: 12px
+}
+
+.brSubtasks .rt_currcond,.brSubtasks .rt_prevcomment,.brTasksCtrl .rt_currcond,.brTasksCtrl .rt_prevcomment,.edws-TasksByStaff__edoBrowser .rt_currcond,.edws-TasksByStaff__edoBrowser .rt_prevcomment {
+    color: var(--unaccented_text-color);
+    font-size: 14px
+}
+
+.brSubtasks .rt_currcond div,.brSubtasks .rt_prevcomment div,.brTasksCtrl .rt_currcond div,.brTasksCtrl .rt_prevcomment div,.edws-TasksByStaff__edoBrowser .rt_currcond div,.edws-TasksByStaff__edoBrowser .rt_prevcomment div {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.brSubtasks .edo-TaskCol_gradient,.brTasksCtrl .edo-TaskCol_gradient,.edws-TasksByStaff__edoBrowser .edo-TaskCol_gradient {
+    top: 33px;
+    position: absolute;
+    right: 0
+}
+
+.brSubtasks .rt_top39,.brTasksCtrl .rt_top39,.edws-TasksByStaff__edoBrowser .rt_top39 {
+    top: 39px
+}
+
+.brSubtasks .edws-StateWithDate__tags,.brTasksCtrl .edws-StateWithDate__tags,.edws-TasksByStaff__edoBrowser .edws-StateWithDate__tags {
+    max-width: 150px;
+    padding-top: 2px
+}
+
+.brSubtasks .edws-StateWithDate__tags :first-child,.brTasksCtrl .edws-StateWithDate__tags :first-child,.edws-TasksByStaff__edoBrowser .edws-StateWithDate__tags :first-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.brSubtasks .state,.brTasksCtrl .state,.edws-TasksByStaff__edoBrowser .state {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+    margin-top: 1px
+}
+
+.brSubtasks .datecol_date,.brTasksCtrl .datecol_date,.edws-TasksByStaff__edoBrowser .datecol_date {
+    text-align: right;
+    font-size: 12px;
+    color: var(--unaccented_text-color);
+    display: inline-block;
+    line-height: 16px
+}
+
+.brSubtasks .datecol_date .controls-ladder,.brTasksCtrl .datecol_date .controls-ladder,.edws-TasksByStaff__edoBrowser .datecol_date .controls-ladder {
+    margin-right: 2px
+}
+
+.edws-Monitoring__clickableZone_subtasks {
+    display: block
+}
+
+.edws-Tasks-EmptyView {
+    color: var(--unaccented_text-color);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 16px;
+    font-size: 15px;
+    text-align: center;
+    white-space: normal
+}
+
+.edws-MainColumn-dragtemplate-photo {
+    margin: 4px 4px 0 4px
+}
+
+.edws-MainColumn-dragtemplate-photo_no-photo {
+    margin-left: var(--offset_xs)
+}
+
+.edws-MainColumn-dragtemplate-mainText {
+    margin-left: 14px;
+    font-weight: 700
+}
+
+.edws-MainColumn-dragtemplate-additionalText {
+    margin-left: 14px
+}
+
+.ml_12 {
+    margin-left: 12px
+}
+
+.edws-FloatWindowWithRegistry .registry-title_margin_left {
+    display: none
+}
+
+.edws3-mover-dialog .controls-MoveDialog__search {
+    display: none
+}
+
+.ws-is-mobile-safari .edws-StateWithDate__content-date {
+    margin-top: 5px!important
+}
+
+.edws-Monitoring__subtask {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    flex-shrink: 5;
+    height: var(--inline_height_s);
+    min-width: var(--icon-size_xs)
+}
+
+.edws-Monitoring__subtask-text {
+    font-size: var(--font-size_m);
+    color: var(--unaccented_text-color);
+    margin-left: 3px
+}
+
+.edws-Monitoring__firstLine {
+    width: 100%;
+    line-height: 19px;
+    height: 19px
+}
+
+.edws-Monitoring__firstLine-executor-name {
+    color: var(--secondary_text-color);
+    font-weight: var(--font-weight);
+    font-size: var(--font-size_l);
+    margin-right: 6px;
+    max-width: 90%
+}
+
+.edws-Monitoring__firstLine-executor-department {
+    line-height: 17px;
+    color: var(--label_text-color);
+    font-size: var(--font-size_xs);
+    flex-shrink: 10
+}
+
+.edws-Monitoring__firstLine-responsible-name {
+    margin-right: 6px;
+    color: var(--label_text-color);
+    font-size: var(--font-size_xs);
+    line-height: 19px;
+    padding-left: 6px
+}
+
+.edws-Monitoring__firstLine-responsible-photo {
+    margin-right: 8px
+}
+
+.edws-Monitoring__firstLine-withResponsible {
+    max-width: 50%
+}
+
+.edws-Monitoring__firstLine-date {
+    color: var(--unaccented_text-color);
+    font-size: var(--font-size_xs);
+    width: 48px;
+    text-align: right
+}
+
+.edws-Monitoring__lastLine {
+    height: 24px;
+    flex-shrink: 2
+}
+
+.edws-Monitoring__lastLine-secondBlock {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    max-width: 100%
+}
+
+.edws-Monitoring__dueDate {
+    max-width: 50px;
+    min-width: 0;
+    font-size: var(--font-size_xs);
+    color: var(--label_text-color);
+    flex-shrink: 3
+}
+
+.edws-Monitoring__executor {
+    flex-grow: 0;
+    min-width: 0;
+    font-size: var(--font-size_xs);
+    color: var(--label_text-color);
+    flex-shrink: 3
+}
+
+.edws-Monitoring__executor_width-limited {
+    max-width: 90px
+}
+
+.edws-Monitoring__milestone {
+    max-width: 260px;
+    min-width: 30px;
+    font-size: var(--font-size_xs);
+    color: var(--label_text-color);
+    flex-shrink: 1
+}
+
+.edws-Monitoring .edws-Monitoring__tags {
+    max-width: 150px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: static;
+    flex-shrink: 7
+}
+
+.edws-Monitoring .edws-Monitoring__tags .tags-Simple__items {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.edws-Monitoring .edws-Monitoring__responsibleActivePhase {
+    max-width: 200px;
+    min-width: 0;
+    flex-shrink: 0.5
+}

@@ -1,0 +1,78 @@
+.contractor-widgetList {
+    height: 100%;
+    width: 100%;
+    font-size: var(--font-size_l)
+}
+
+.contractor-widgetList__List {
+    width: 100%;
+    flex: 1 0 auto
+}
+
+.contractor-widgetList__Item {
+    border: 0;
+    line-height: var(--font-size_5xl);
+    width: 100%
+}
+
+.contractor-widgetList__itemContent {
+    margin: 0;
+    padding: 0
+}
+
+.contractor-widgetList__footer {
+    padding: 0 var(--offset_m) var(--offset_s) 0;
+    line-height: var(--font-size_5xl);
+    flex: 0 0 auto
+}
+
+.contractor-widgetList__emptyListImage {
+    height: 72px;
+    width: 72px;
+    display: block;
+    margin: auto
+}
+
+.contractor-widgetList__emptyListText {
+    padding-top: var(--offset_s);
+    color: var(--unaccented_text-color);
+    font-size: var(--font-size_l);
+    text-align: center
+}
+
+.contractor-widgetList__add {
+    margin-left: auto
+}
+
+.contractor-widgetList__or {
+    padding: 0 var(--offset_2xs)
+}
+
+.contractor-widgetList__main {
+    font-weight: 700
+}
+
+.contractor-widgetList__additionalInfo {
+    padding-left: 5px;
+    font-size: var(--font-size_xs);
+    color: var(--unaccented_text-color)
+}
+
+.contractor-widgetList__additionalInfo_kpp {
+    padding-left: 15px;
+    width: 71px;
+    text-align: right
+}
+
+.contractor-widgetList__additionalInfo_inn {
+    padding-left: 18px;
+    width: 81px
+}
+
+.contractor-widgetList__firstAdditional {
+    margin-left: auto
+}
+
+.contractor-widgetList__hasMore {
+    margin-bottom: 33px
+}

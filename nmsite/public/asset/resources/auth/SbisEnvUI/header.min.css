@@ -1,0 +1,74 @@
+.SbisEnvUI-Page__Header .engine-Guest__header-center {
+    min-width: 650px;
+    max-width: 1200px;
+    max-width: min(1200px,90%)
+}
+
+.SbisEnvUI-Page__Header__titleRight {
+    color: var(--unaccented_color);
+    font-size: var(--font-size_3xl);
+    text-decoration: none
+}
+
+.SbisEnvUI-Page__default-Header {
+    height: 48px;
+    min-height: 48px;
+    z-index: 1;
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--separator_color);
+    position: relative;
+    overflow: hidden
+}
+
+.SbisEnvUI-Page__default-Header-center {
+    margin: 12px auto 0;
+    height: 30px;
+    position: relative;
+    min-width: 650px;
+    max-width: 1200px;
+    max-width: min(1200px,90%)
+}
+
+.SbisEnvUI-Page__default-Header .SbisEnvUI-Page__default-Header-leftBlock,
+.ws-is-hover .SbisEnvUI-Page__default-Header .SbisEnvUI-Page__default-Header-leftBlock:hover {
+    text-decoration: none
+}
+
+.SbisEnvUI-Page__default-Header-logo {
+    width: 80px;
+    height: 24px
+}
+
+.SbisEnvUI-Page__default-Header-title {
+    font-size: 18px;
+    color: var(--label_text-color);
+    margin-left: 6px
+}
+
+@media screen and (max-width: 768px) {
+    .SbisEnvUI-Page__Header .engine-Guest__header-center {
+        min-width:auto;
+        max-width: auto
+    }
+
+    .SbisEnvUI-Page__default-Header-center {
+        min-width: auto;
+        max-width: auto
+    }
+
+    .SbisEnvUI-Page__default-Header-logo {
+        height: auto
+    }
+
+    .SbisEnvUI-Page__default-Header-title,.engine-Guest__header-title {
+        display: none
+    }
+
+    .SbisEnvUI-Page__Header__titleRight {
+        font-size: var(--font-size_5xl)
+    }
+
+    .SbisEnvUI-Page__default-Header-rightBlock {
+        align-items: center
+    }
+}

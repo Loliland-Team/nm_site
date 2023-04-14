@@ -1,0 +1,276 @@
+.FrameControls__highlightline {
+    background-color: var(--info_border-color);
+    position: absolute;
+    opacity: .5;
+    pointer-events: none
+}
+
+.ws-is-drag .FrameControls__highlightline {
+    z-index: 100
+}
+
+.FrameControls__highlightcontainer__active::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    border: var(--border-thickness) dashed var(--info_border-color);
+    border-radius: var(--border-radius_s);
+    pointer-events: none;
+    z-index: 1
+}
+
+.FrameControls__LayoutItemDropContainer__container {
+    display: flex;
+    flex-direction: column;
+    position: relative
+}
+
+.FrameControls__LayoutItemDropContainer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    pointer-events: auto;
+    box-sizing: border-box
+}
+
+.FrameControls__LayoutItemDropContainer__empty-zone {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    pointer-events: auto
+}
+
+.FrameControls__LayoutDropContainer__empty-zone {
+    flex-grow: 1;
+    width: 100%;
+    position: relative
+}
+
+.FrameControls__LayoutDropContainer__empty-zone__highlight {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0
+}
+
+.FrameControls__LayoutDropContainer__gap_container {
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+
+.frameControls-ColumnsLayoutEditors__AddWidgetButton {
+    width: var(--inline_height_3xl);
+    height: var(--inline_height_s);
+    background-color: var(--info_same_background-color);
+    cursor: pointer
+}
+
+.ws-is-hover .frameControls-ColumnsLayoutEditors__AddWidgetButton:hover {
+    background-color: var(--info_hover_same_background-color)
+}
+
+.frameControls-ColumnsLayoutEditors__AddWidgetButton_bottom,.frameControls-ColumnsLayoutEditors__AddWidgetButton_top {
+    width: var(--inline_height_3xl);
+    height: var(--inline_height_s)
+}
+
+.frameControls-ColumnsLayoutEditors__AddWidgetButton_left,.frameControls-ColumnsLayoutEditors__AddWidgetButton_right {
+    width: var(--inline_height_s);
+    height: var(--inline_height_3xl)
+}
+
+.frameControls-ColumnsLayoutEditors__AddWidgetButton_top {
+    border-radius: 0 0 var(--inline_height_s) var(--inline_height_s)
+}
+
+.frameControls-ColumnsLayoutEditors__AddWidgetButton_bottom {
+    border-radius: var(--inline_height_s) var(--inline_height_s) 0 0
+}
+
+.frameControls-ColumnsLayoutEditors__AddWidgetButton_left {
+    border-radius: 0 var(--inline_height_s) var(--inline_height_s) 0
+}
+
+.frameControls-ColumnsLayoutEditors__AddWidgetButton_right {
+    border-radius: var(--inline_height_s) 0 0 var(--inline_height_s)
+}
+
+.frameControls-ColumnsLayoutEditors__AddWidgetButton__icon {
+    position: absolute;
+    stroke: var(--icon-color);
+    stroke-width: 2
+}
+
+.frameControls-ColumnsLayoutEditors__addButtonsContainer {
+    pointer-events: none;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.frameControls-ColumnsLayoutEditors__AddWidgetButton_bottom,.frameControls-ColumnsLayoutEditors__AddWidgetButton_left,.frameControls-ColumnsLayoutEditors__AddWidgetButton_right,.frameControls-ColumnsLayoutEditors__AddWidgetButton_top {
+    pointer-events: auto;
+    position: absolute;
+    z-index: 3
+}
+
+.frameControls-ColumnsLayoutEditors__AddWidgetButton_top {
+    top: 1px
+}
+
+.frameControls-ColumnsLayoutEditors__AddWidgetButton_bottom {
+    bottom: 1px
+}
+
+.frameControls-ColumnsLayoutEditors__AddWidgetButton_left {
+    left: 1px
+}
+
+.frameControls-ColumnsLayoutEditors__AddWidgetButton_right {
+    right: 1px
+}
+
+.frameControls-ColumnsLayout_highlightedRow::after {
+    content: '';
+    position: absolute;
+    border: var(--border-thickness) dashed rgba(var(--info_border-color_rgb),.75);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    pointer-events: none;
+    border-radius: var(--border-radius_s);
+    z-index: 1
+}
+
+.frameControls-ColumnsLayout__lineBetweenColumns {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    top: 0
+}
+
+.frameControls-ColumnsLayout__highlightedLine,.frameControls-ColumnsLayout__highlightedLine_solid {
+    height: 100%;
+    border-left: var(--border-thickness) dashed rgba(var(--info_border-color_rgb),.7);
+    position: absolute;
+    top: 0;
+    z-index: 1
+}
+
+.frameControls-ColumnsLayout__highlightedLine_solid {
+    border-left-style: solid
+}
+
+.frameControls-ColumnsLayout__highlightedLine_solidLeft,.frameControls-ColumnsLayout__highlightedLine_solidRight {
+    position: absolute;
+    top: var(--offset_s);
+    bottom: var(--offset_s)
+}
+
+.frameControls-ColumnsLayout__highlightedLine_solidLeft {
+    border-right: var(--border-thickness) solid rgba(var(--info_border-color_rgb),.7);
+    left: calc(-1 * var(--border-thickness))
+}
+
+.frameControls-ColumnsLayout__highlightedLine_solidRight {
+    border-left: var(--border-thickness) solid rgba(var(--info_border-color_rgb),.7);
+    right: calc(-1 * var(--border-thickness))
+}
+
+.frameControls-ColumnsLayout__highlightedLine_resize {
+    top: 6px;
+    border-left-width: 4px;
+    border-left-color: rgba(var(--info_border-color_rgb),.5);
+    height: calc(100% - 12px);
+    border-radius: 19px
+}
+
+.frameControls-ColumnsLayout__resizingLine {
+    z-index: 2;
+    height: 100%
+}
+
+.frameControls-ColumnsLayout__addButtonContainer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -20px;
+    height: 30px;
+    width: 40px;
+    z-index: 5
+}
+
+.frameControls-ColumnsLayout__addDot {
+    width: 4px;
+    height: 4px;
+    background-color: rgba(var(--info_border-color_rgb),.25);
+    border-radius: var(--border-radius_s)
+}
+
+.frameControls-ColumnsLayout__addLinePosition {
+    height: 100%;
+    width: 1px;
+    background: rgba(var(--info_border-color_rgb),.75);
+    margin-bottom: var(--offset_st)
+}
+
+.frameControls-ColumnsLayout__dragButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 12px;
+    top: -12px;
+    z-index: 4
+}
+
+.frameControls-ColumnsLayout__dragButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 3px;
+    background: rgba(var(--info_border-color_rgb),.25);
+    border-radius: var(--border-radius_s);
+    cursor: pointer;
+    position: absolute;
+    bottom: 3px
+}
+
+.frameControls-ColumnsLayout__dragButtonContent {
+    width: 16px;
+    height: 2px;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius_2xs)
+}
+
+.frameControls-ColumnsLayout__dragButtonBorder {
+    position: absolute;
+    outline: calc(3 * var(--border-thickness)) solid rgba(var(--info_border-color_rgb),.25);
+    box-sizing: border-box;
+    pointer-events: none;
+    border-radius: var(--border-radius_s)
+}
+
+.frameControls-ColumnsLayout__dragButton_highlighted {
+    height: 5px;
+    align-items: end;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}

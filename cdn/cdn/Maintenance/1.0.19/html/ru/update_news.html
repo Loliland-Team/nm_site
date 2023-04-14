@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html component="Controls/Application" data-component="Controls/Application/Core" key="_"
+   config="cfg-h5tldqsbzk1551267153894" hasmarkup="true" lang="ru" xml="ru" xmlns="http://www.w3.org/1999/xhtml"
+   xml:lang="ru">
+
+<head key="1_1_">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <link rel="shortcut icon" sizes="16x16" href="/cdn/Maintenance/1.0.0/img/favicon_16.ico" type="image/x-icon" />
+   <link rel="shortcut icon" sizes="64x64" href="/cdn/Maintenance/1.0.0/img/favicon_64.ico" type="image/x-icon" />
+   <link rel="shortcut icon" sizes="128x128" href="/cdn/Maintenance/1.0.0/img/favicon_128.ico" type="image/x-icon" />
+   <title class="head-title-tag UpdateNews__localizable" key="title">{main_title}</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=1024">
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.2/css/Application.css">
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.4/css/Scroll.css">
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.7/css/Header.css">
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.14/css/RichEditor.css">
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.11/css/update_news.css">
+</head>
+
+<body fixcompatible="1" class="ws-is-chrome ws-is-windows-10 ws-is-desktop-platform ws-is-no-touch controls-DragNDrop"
+   id="body" key="1_2_"><a class="vdom-focus-in"></a>
+   <div id="UpdateNews" class="UpdateNews ws-flexbox ws-flex-column">
+      <div class="SbisEnv-ParkingPage__Header">
+         <div class="SbisEnv-ParkingPage__Header-center ws-flexbox ws-align-items-baseline">
+            <a href="/" class="SbisEnv-ParkingPage__Header-leftBlock ws-flexbox ws-align-items-baseline">
+               <img class="SbisEnv-ParkingPage__Header-logo UpdateNews__localizable" src="/cdn/SabyLogo/1.0.0/sbis_main.svg">
+            </a>
+            <div class="SbisEnv-ParkingPage__Header-rightBlock ws-flex-grow-1 ws-flexbox ws-justify-content-end ws-align-items-baseline">
+               <a href="https://sbis.ru/support" target="_blank" class="SbisEnv-ParkingPage__Header-title UpdateNews__localizable">Поддержка</a>
+            </div>
+         </div>
+      </div>
+      <div class="UpdateNews__layout ws-flexbox ws-flex-row ws-justify-content-center">
+         <div class="UpdateNews__body ws-flexbox ws-flex-row ws-justify-content-center">
+            <div style="background-image: url(/cdn/Maintenance/1.1.0/img/UPDATE_default.svg)" class="UpdateNews__image"></div>
+            <div class="UpdateNews__content ws-flexbox ws-flex-column">
+
+               <div class="UpdateNews__content-header">
+                  <span class="UpdateNews__localizable">{main_title}</span>
+               </div>
+               <div class="UpdateNews__content-header UpdateNews__content-subheader {visible_subheader}" >
+                  <span class="UpdateNews__localizable">{subheader}</span>
+               </div>
+
+               <div class="controls-Scroll">
+                  {news}
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src='/cdn/Maintenance/1.0.0/js/Scroll.js'></script>
+   <script src='/cdn/Maintenance/1.0.14/js/on_update_check.js'></script>
+   <script src='/cdn/Maintenance/1.0.14/js/on_update_translate.js'></script>
+   <script>
+      PARK_PAGE_CHECK_PERIOD = 1000 * Math.floor(Math.random() * {period_dev} + {period_base});
+      waitForUnlock();
+   </script>
+</body>
+
+</html>

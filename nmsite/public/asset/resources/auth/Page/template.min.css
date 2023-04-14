@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+    box-sizing: border-box
+}
+
+html {
+    overflow-x: auto
+}
+
+body {
+    overflow: hidden;
+    position: relative
+}
+
+a {
+    color: var(--link_text-color);
+    outline: 0;
+    text-decoration: none
+}
+
+.page-Entity__content, .page-Entity__contentWrapper {
+    height: 100%
+}

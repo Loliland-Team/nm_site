@@ -1,0 +1,22 @@
+.edws-tasks-InWorkMD {
+    width: 100%;
+    height: 100%
+}
+
+.detailTasksInWork {
+    width: 100%;
+    overflow: hidden
+}
+
+.ws-is-real-ie10 .detailTasksInWork {
+    flex-shrink: 1
+}
+
+.ws-is-ie10 .detailTasksInWork {
+    flex-shrink: 1
+}
+
+.edws-tasks-InWork-banner {
+    width: 100%;
+    height: 100%
+}

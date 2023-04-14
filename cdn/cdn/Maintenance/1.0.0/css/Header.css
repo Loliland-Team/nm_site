@@ -1,0 +1,83 @@
+/*
+   Templates
+ */
+.SbisEnv-ParkingPage__Header {
+  border-bottom: 1px solid #F0F0F0;
+  background-color: #FFF;
+  min-width: 1024px;
+  position: relative;
+  height: 48px;
+  z-index: 1;
+}
+.SbisEnv-ParkingPage__Header a {
+  color: #666;
+  text-decoration: none;
+}
+.SbisEnv-ParkingPage__Header a:hover {
+  text-decoration: underline;
+}
+.SbisEnv-ParkingPage__Header span {
+  color: #666;
+  margin-left: 16px;
+}
+.SbisEnv-ParkingPage__Header-center {
+  margin: 0 auto;
+  height: 100%;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  position: relative;
+  min-width: 1024px;
+  max-width: 1024px;
+  padding: 13px 16px 0;
+}
+.SbisEnv-ParkingPage__Header-title {
+  font-size: 18px;
+  margin-left: 6px;
+}
+.SbisEnv-ParkingPage__Header-logo {
+  height: 24px;
+}
+.SbisEnv-ParkingPage__Header-links {
+  margin-left: 16px;
+}
+.SbisEnv-ParkingPage__Header-link {
+  font-size: 18px !important;
+  color: #666 !important;
+  text-decoration: none;
+}
+.SbisEnv-ParkingPage__Header-link:hover {
+  color: #8991A9 !important;
+  text-decoration: underline;
+}
+.SbisEnv-ParkingPage__Header-separator {
+  line-height: 18px;
+  width: 1px;
+  background-color: #CCC;
+  margin: 2px 8px 0;
+  display: inline-block;
+}
+.SbisEnv-ParkingPage__Header-langWrapper {
+  margin-left: 16px;
+  position: relative;
+}
+.SbisEnv-ParkingPage__Header-ws3 .SbisEnv-ParkingPage__Header-langWrapper {
+  width: 44px;
+}
+.SbisEnv-ParkingPage__Header-selectorLang {
+  position: absolute;
+  top: -17px;
+  right: 0;
+}
+.SbisEnv-ParkingPage__Header .SbisEnv-ParkingPage__Header-leftBlock,
+.SbisEnv-ParkingPage__Header .SbisEnv-ParkingPage__Header-leftBlock:hover {
+  text-decoration: none;
+}
+.SbisEnv-ParkingPage__Header-selectorLang .Online-LangSelector-head {
+  white-space: nowrap!important;
+}
+/*https://online.sbis.ru/opendoc.html?guid=ae931eee-baaa-40ef-8222-4359eef3ee76*/
+.ws-is-guest .ws-float-area-stack-scroll-wrapper {
+  top: 49px;
+  height: -webkit-calc(100% - 49px);
+  height: calc(100% - 49px);
+}

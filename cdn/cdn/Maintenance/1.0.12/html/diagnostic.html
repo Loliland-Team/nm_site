@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru" xml="ru" xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=1024">
+
+   <title>Диагностика рабочего места</title>
+
+   <link rel="shortcut icon" sizes="16x16" href="/cdn/Maintenance/1.0.0/img/favicon_16.ico" type="image/x-icon" />
+   <link rel="shortcut icon" sizes="64x64" href="/cdn/Maintenance/1.0.0/img/favicon_64.ico" type="image/x-icon" />
+   <link rel="shortcut icon" sizes="128x128" href="/cdn/Maintenance/1.0.0/img/favicon_128.ico" type="image/x-icon" />
+
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.2/css/Application.css">
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.10/css/style.css">
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.6/css/Header.css">
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.0/css/icon.css">
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.8/css/popupTemplate.css">
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.0/css/Infobox.css">
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.3/css/buttons.css">
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.1/css/Scroll.css">
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.2/css/ScrollContainer.css">
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.1/css/langSelector.css">
+   <link type="text/css" rel="stylesheet" href="/cdn/Maintenance/1.0.5/css/diagnostic.css">
+
+   <script src='/cdn/Maintenance/1.0.10/js/detection.js'></script>
+   <script>
+      var userAgent = window.navigator.userAgent;
+      /** Редирект, если ОС и браузер пользователя ок */
+      if (isSoftwareAvailable(userAgent)) {
+         redirect();
+      }
+
+      /** Редирект на исходную страницу */
+      function redirect() {
+         var RETURN_LINK_PREFIX = 'ret=';
+         var returnLink = window.location.href.indexOf(RETURN_LINK_PREFIX) !== -1 ? window.location.href.split(RETURN_LINK_PREFIX).pop() : '';
+         //window.location.href = window.location.protocol + '//' + window.location.host + returnLink;
+      }
+   </script>
+</head>
+
+<body>
+   <div id="Diagnostics" class="Diagnostics ws-flexbox ws-flex-column" tabindex="0">
+      <!-- #region Header -->
+      <div class="SbisEnv-ParkingPage__Header" tabindex="0">
+         <div class="SbisEnv-ParkingPage__Header-center ws-flexbox ws-align-items-baseline">
+            <a href="/" id="SbisEnv-ParkingPage__Header-leftBlock"
+               class="SbisEnv-ParkingPage__Header-leftBlock ws-flexbox ws-align-items-baseline">
+               <img id="SbisEnv-ParkingPage__Header-logo" class="SbisEnv-ParkingPage__Header-logo"
+                  src="/cdn/SabyLogo/1.0.0/sbis_main.png">
+            </a>
+            <div
+               class="SbisEnv-ParkingPage__Header-rightBlock ws-flex-grow-1 ws-flexbox ws-justify-content-end ws-align-items-baseline">
+               <div id="langSelector" class="controls-Dropdown_theme_default langSelector" tabindex="0"
+                  style="user-select: none;">
+                  <div class="ws-flexbox ws-align-items-baseline" tabindex="0">
+                     <div id="langSelector-flagItem" class="langSelector-flagItem"></div>
+                     <a class="controls-BaseButton controls-Button_link controls-Button_link_theme-default controls-Button_clickable controls-Button_link_style-secondary_theme-default controls-Button_bg-same_theme-default langSelector-selectedItem"
+                        tabindex="0">
+                        <span
+                           class="controls-BaseButton__wrapper controls-fontsize-m_theme-default controls-Button__wrapper_viewMode-link">
+                           <span id="langSelector-langItem"
+                              class="langSelector-langItem controls-BaseButton__text controls-text-link_theme-default controls-Button__text_viewMode-link_theme-default">US</span>
+                        </span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- #endregion -->
+      <!-- #region Верхняя подсказка -->
+      <div id="topTooltip"
+         class="ws-hidden Diagnostics__head-tooltip controls-Popup controls-Container__popup controls-Scroll_webkitOverflowScrollingTouch controls-Popup-corner-vertical-bottom controls-Popup-corner-horizontal-right controls-Popup-align-horizontal-left controls-Popup-align-vertical-bottom controls-Sticky__reset-margins controls-loading-indicator_content">
+         <div
+            class="controls-InfoBoxTemplate controls-InfoBoxTemplate__arrow-side-position-top controls-InfoBoxTemplate__arrow-side-end controls-Popup__template"
+            tabindex="0">
+            <div class="controls-InfoBoxTemplate__content controls-InfoBoxTemplate_style_marker_danger">
+               <div class="controls-InfoBox" tabindex="0">
+                  <span id="closetopTooltip" class="controls-Button__close theme_default controls-InfoBox__closeButton"
+                     tabindex="0">
+                     <span
+                        class="controls-Button__close__wrapper controls-Button__close_link controls-Button__close_link_transparent controls-Button__close_link_l theme_default">
+                        <div class="controls-Button__close__icon_link theme_default">
+                        </div>
+                     </span>
+                  </span>
+                  <div id="topTooltipMessage"
+                     class="Diagnostics__infobox controls-InfoBox__content controls-InfoBox__message controls-InfoBox__message_margin"
+                     tabindex="0">Обновите браузер с помощью функции "Справка" - "О браузере" </div>
+               </div>
+            </div>
+            <div class="controls-InfoBoxTemplate__arrow-wrapper-top">
+               <div
+                  class="controls-InfoBoxTemplate__arrow controls-InfoBoxTemplate__arrow-marker-danger controls-InfoBoxTemplate__arrow-top controls-InfoBoxTemplate__arrow-position-end">
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- #endregion -->
+      <!-- #region ScrollContainer -->
+      <div
+         class="ScrollContainer controls-Scroll ws-flexbox ws-flex-column ScrollContainer__content-scroll ScrollContainer__noselect ws-flex-shrink-1">
+         <span id="ScrollContainer__content"
+            class="ScrollContainer__content ScrollContainer__content-area controls-Scroll__content ws-BlockGroup controls-Scroll__overflowScrolling controls-Scroll__content_possibleScroll controls-Scroll__content_scroll">
+            <div id="ScrollContainer__userContent"
+               class="ScrollContainer__userContent ScrollContainer__content-text controls-Scroll__userContent">
+
+               <div class="Diagnostics__layout ws-flexbox ws-flex-row ws-justify-content-center">
+
+                  <!-- #region Обертка для центрирования контента в < IE10 -->
+                  <div class="Diagnostics__body-wrapper">
+                     <div id="Diagnostics__body"
+                        class="Diagnostics__body ws-flexbox ws-flex-row ws-justify-content-center">
+                        <img src="/cdn/Maintenance/1.0.0/img/DIAGNOSTICS.png" id="Diagnostics__image"
+                           class="Diagnostics__image">
+                        <div class="Diagnostics__content ws-flexbox ws-flex-column">
+
+                           <div id="Diagnostics__content-header" class="Diagnostics__content-header">
+                           </div>
+
+                           <div id="Diagnostics__content-subheader"
+                              class="Diagnostics__content-header Diagnostics__content-subheader">
+                              <a class="controls-BaseButton controls-Button_link controls-Button_link_theme-default controls-Button_link_style-secondary_theme-default controls-Button_bg-same_theme-default"
+                                 tabindex="0">
+                                 <span id="Diagnostics__content-subheadern__wrapper"
+                                    class="controls-BaseButton__wrapper controls-fontsize-m_theme-default controls-Button__wrapper_viewMode-link">
+                                    <i
+                                       class="controls-Button__icon controls-icon icon-small icon-Decline controls-icon_size-s_theme-default controls-icon_style-danger_theme-default">
+                                    </i>
+
+                                 </span>
+                              </a>
+                           </div>
+
+                           <div id="Diagnostics__content-message" class="Diagnostics__content-message">
+                           </div>
+                           <div id="Diagnostics__content-action" class="Diagnostics__content-action ws-is-no-touch">
+                           </div>
+
+                        </div>
+                     </div>
+
+                  </div>
+                  <!-- #endregion -->
+
+               </div>
+
+            </div>
+         </span>
+         <!-- #region scrollbar бегунок -->
+         <div id="ScrollContainer__scrollbar"
+            class="ScrollContainer__scrollbar ScrollContainer__content-bar controls-VScrollbar controls-Scroll__scrollbar controls-Scroll__scrollbar_hidden">
+            <div id="ScrollContainer__thumb"
+               class="controls-VScrollbar__thumb controls-VScrollbar__thumb_default ScrollContainer__thumb"
+               style="height: 46px; min-height: 46px;"></div>
+         </div>
+         <!-- #endregion -->
+         <!-- #region scrollbar тени -->
+         <div id="ScrollContainer__shadow_top"
+            class="ScrollContainer__shadow_top controls-Scroll__shadow controls-Scroll__shadow_top ws-invisible">
+         </div>
+         <!-- <div class="ScrollContainer__shadow_bottom controls-Scroll__shadow controls-Scroll__shadow_bottom">
+         </div> -->
+         <!-- <div class="ScrollContainer__footer"> </div> -->
+
+         <!-- #endregion -->
+      </div>
+
+      <!-- #endregion -->
+      <!-- #region Нижняя подсказка -->
+      <div id="bottomTooltip"
+         class="ws-hidden Diagnostics__bottom-tooltip controls-Popup controls-Container__popup controls-Scroll_webkitOverflowScrollingTouch controls-Popup-corner-vertical-top controls-Popup-corner-horizontal-left controls-Popup-align-horizontal-right controls-Popup-align-vertical-top controls-Sticky__reset-margins controls-loading-indicator_content">
+         <div
+            class="controls-InfoBoxTemplate controls-InfoBoxTemplate__arrow-side-position-bottom controls-InfoBoxTemplate__arrow-side-start controls-Popup__template"
+            tabindex="0">
+            <div class="controls-InfoBoxTemplate__content controls-InfoBoxTemplate_style_marker_danger">
+               <div class="controls-InfoBox" tabindex="0">
+                  <span id="closebottomTooltip"
+                     class="controls-Button__close theme_default controls-InfoBox__closeButton" tabindex="0">
+                     <span
+                        class="controls-Button__close__wrapper controls-Button__close_link controls-Button__close_link_transparent controls-Button__close_link_l theme_default">
+                        <div class="controls-Button__close__icon_link theme_default">
+                        </div>
+                     </span>
+                  </span>
+                  <div id="bottomTooltipMessage"
+                     class="Diagnostics__infobox controls-InfoBox__content controls-InfoBox__message controls-InfoBox__message_margin"
+                     tabindex="0">Запустите и установите Chrome </div>
+               </div>
+            </div>
+            <div class="controls-InfoBoxTemplate__arrow-wrapper-bottom">
+               <div
+                  class="controls-InfoBoxTemplate__arrow controls-InfoBoxTemplate__arrow-marker-danger controls-InfoBoxTemplate__arrow-bottom controls-InfoBoxTemplate__arrow-position-start">
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- #endregion -->
+   </div>
+
+   <script src='/cdn/Maintenance/1.0.3/js/$.js'></script>
+   <script src='/cdn/Maintenance/1.0.3/js/i18n.js'></script>
+   <script src='/cdn/Maintenance/1.0.10/js/diagnostic.js'></script>
+   <script src='/cdn/Maintenance/1.0.4/js/ScrollContainer.js'></script>
+   <script>
+      window.onload = function () {
+         var userBrowser = Browser.detect(userAgent);
+         if (userBrowser.family === Browser.family.Chrome) {
+            /** Отключаем хак из diagnostic.css:30 */
+            document.getElementById('Diagnostics__body').style['padding-bottom'] = '0';
+         }
+         if (userBrowser.family === Browser.family.IE && userBrowser.version <= 8) {
+            var body = document.getElementById('Diagnostics__body');
+            // body.style['padding-right'] = body.style['paddingRight'] = '52';
+            document.getElementById('Diagnostics').style['overflow-y'] = 'scroll';
+            document.getElementById('Diagnostics__image').style['float'] = 'left';
+            document.getElementById('SbisEnv-ParkingPage__Header-leftBlock').style['float'] = 'left';
+         }
+         DiagnosticInit(OS.detect(userAgent), userBrowser);
+         ScrollConatainerInit();
+      };
+      window.onresize = ScrollConatainerInit;
+   </script>
+</body>
+
+</html>

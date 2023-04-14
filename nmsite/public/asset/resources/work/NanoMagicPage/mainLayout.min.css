@@ -1,0 +1,124 @@
+.nanomagicPage-MainLayout__body {
+    background-image: url('http://cdn.workspace-loliland.ru/OnlineCDN/themes/1.0.0/background.jpg');
+    background-color: var(--page_background-color);
+    background-attachment: fixed;
+    min-height: 300px
+}
+
+.nanomagicPage-MainLayout__body_width {
+    min-width: 1024px
+}
+
+.controls_theme-default__dark.nanomagicPage-MainLayout__body {
+    background-image: url('http://cdn.workspace-loliland.ru/OnlineCDN/themes/1.0.0/background-dark.jpg')
+}
+
+.nanomagicPage-MainLayout,.nanomagicPage-MainLayout__blockWrapper,.nanomagicPage-MainLayout__mainContent,.nanomagicPage-MainLayout__sidebar {
+    height: 100%;
+    min-height: 0;
+    position: relative
+}
+
+.nanomagicPage-MainLayout_autoWidth {
+    max-width: 1920px;
+    min-width: 1024px
+}
+
+.nanomagicPage-MainLayout__noticeTopTemplate {
+    margin-top: var(--offset_xs);
+    width: 100%;
+    padding-left: var(--offset_s)
+}
+
+.nanomagicPage-MainLayout__emptyViewWrapper,.nanomagicPage-MainLayout__errorWrapper {
+    width: 100%;
+    min-width: 0
+}
+
+.nanomagicPage-MainLayout__commandItem-default {
+    position: relative;
+    flex-shrink: 0;
+    justify-content: center
+}
+
+.nanomagicPage-MainLayout__commandItem-default:not(:last-child) {
+    margin-bottom: var(--offset_xs)
+}
+
+.nanomagicPage-MainLayout__commandItem-main {
+    position: relative;
+    flex-shrink: 0
+}
+
+.nanomagicPage-MainLayout__commandItem-main:not(:last-child) {
+    margin-right: var(--offset_m)
+}
+
+.nanomagicPage-widgets__rightToolbar {
+    margin-bottom: var(--offset_xs)
+}
+
+.nanomagicPage-MainLayout__mainToolbar.nanomagicPage-MainLayout__toolbar-empty {
+    margin-left: 0
+}
+
+.nanomagicPage-MainLayout__editControlPanel:empty {
+    margin-left: 0
+}
+
+.nanomagicPage-widgets__rightPanel,.nanomagicPage-widgets__rightPanelWrapper {
+    background-color: var(--unaccented_background-color)
+}
+
+.ws-is-hover .nanomagicPage-widgets__rightPanelHover:hover {
+    background-color: var(--hover_background-color)
+}
+
+.nanomagicPage-MainLayout__workspaceWrapper_default {
+    background-color: var(--background-color)
+}
+
+.nanomagicPage-MainLayout__rightPanel_border {
+    border-left: 3px solid var(--separator_color)
+}
+
+.nanomagicPage-MainLayout__sidebar {
+    order: 1;
+    margin-right: auto
+}
+
+.nanomagicPage-MainLayout__content {
+    order: 2
+}
+
+.nanomagicPage-MainLayout__ResizingLine_RightPanel__left {
+    order: 3
+}
+
+.nanomagicPage-MainLayout__rightPanel__left {
+    order: 4
+}
+
+.nanomagicPage-MainLayout__NoticeCenter__right {
+    order: 5
+}
+
+.nanomagicPage-MainLayout__NoticeCenter__left {
+    order: 3
+}
+
+.nanomagicPage-MainLayout__ResizingLine_RightPanel__right {
+    order: 4
+}
+
+.nanomagicPage-MainLayout__rightPanel__right {
+    order: 5
+}
+
+.nanomagicPage-MainLayout__ResizingLine {
+    order: 6
+}
+
+.nanomagicPage-MainLayout__content-only .nanomagicPage-MainLayout__NoticeCenter,.nanomagicPage-MainLayout__content-only .nanomagicPage-MainLayout__masterDetail>.controls-MasterDetail_master,.nanomagicPage-MainLayout__content-only .nanomagicPage-MainLayout__sidebar {
+    display: none
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module for_cdn="1" id="8b84202c-52fd-4297-bc0e-a436ef83a24a" name="EmojiFont" package="Wasaby" responsible="Бегунов А.В." version="1.00">
+
+  <description>EmojiFont</description>
+
+  <depends/>
+
+  <load_after/>
+
+  <parameters/>
+
+  <resources/>
+
+  <preload/>
+
+</ui_module>

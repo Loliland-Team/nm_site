@@ -1,0 +1,143 @@
+.engineUser-MenuPanelItemTemplate {
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 8px
+}
+
+.engineUser-MenuPanelItemTemplate_size-m {
+    padding-left: 11px
+}
+
+.ws-is-hover .engineUser-MenuPanelItemTemplate-hover:hover,.ws-is-touch .engineUser-MenuPanelItemTemplate-hover:active {
+    background: var(--unaccented_hover_background-color)
+}
+
+.engineUser-MenuPanelItemTemplate__leftSide {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.engineUser-MenuPanelItemTemplate__content {
+    flex-shrink: 1;
+    min-width: 0;
+    display: inline-flex
+}
+
+.engineUser-MenuPanelItemTemplate__leftSide_sizeM {
+    margin-right: 3px
+}
+
+.engineUser-PanelView__content .engineUser-MenuPanelItemTemplate {
+    color: var(--text-color);
+    padding-left: var(--offset_st);
+    padding-right: var(--offset_st)
+}
+
+.engineUser-MenuPanelButtonTemplate {
+    cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: var(--secondary_text-color)
+}
+
+.engineUser-MenuPanelButtonTemplate__icon {
+    font-size: 0
+}
+
+.engineUser-MenuPanelButtonTemplate__caption {
+    flex-grow: 1
+}
+
+.engineUser-MenuPanel {
+    width: 256px
+}
+
+.engineUser-MenuPanel .engineUser-MenuPanel__dialogTemplate {
+    border-top: none;
+    max-height: inherit;
+    overflow: hidden
+}
+
+.engineUser-MenuPanel .controls-DialogTemplate__content-area {
+    padding: 0
+}
+
+.engineUser-MenuPanel__topArea {
+    flex-shrink: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-self: stretch
+}
+
+.engineUser-MenuPanel__mergeLink {
+    cursor: pointer;
+    margin-top: -6px;
+    transform: rotate(270deg)
+}
+
+.engineUser-MenuPanel_content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 1px;
+    border-top: 1px solid var(--unaccented_border-color)
+}
+
+.engineUser-MenuPanel__scrollContainer {
+    flex-grow: 1;
+    height: 100%
+}
+
+.engineUser-MenuPanel__title {
+    font-size: 15px;
+    margin: 8px 0 0 38px;
+    line-height: 30px;
+    color: var(--secondary_text-color)
+}
+
+.engineUser-MenuPanel_underline {
+    height: 1px;
+    background-color: var(--unaccented_border-color)
+}
+
+.engineUser-MenuPanel__name {
+    font-size: 15px;
+    margin-left: 38px;
+    flex-shrink: 1;
+    display: inline-block;
+    color: var(--secondary_text-color)
+}
+
+.engineUser-MenuPanel__footer {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0
+}
+
+a.engineUser-MenuPanel__name:hover {
+    text-decoration: underline
+}
+
+.engineUser-MenuPanel__activeName:hover {
+    cursor: pointer
+}
+
+.ws-is-old-webkit .engineUser-MenuPanel .controls-DialogTemplate__content-area {
+    height: auto
+}
+
+.ws-is-old-webkit .engineUser-MenuPanel .engineUser-MenuPanel__scrollContainer>.controls-Scroll__content {
+    height: auto
+}
+
+.ws-is-ie10 .engineUser-MenuPanel__scrollContainer {
+    flex-shrink: 1
+}
+
+.ws-is-ie .engineUser-MenuPanel {
+    height: auto
+}

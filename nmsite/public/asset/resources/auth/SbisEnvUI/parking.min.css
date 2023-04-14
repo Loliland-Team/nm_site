@@ -1,0 +1,332 @@
+.SbisEnv-ParkingPage {
+    background-color: var(--background-color);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 50
+}
+
+.SbisEnv-ParkingPage.SbisEnv-ParkingBody_large {
+    padding-left: 100px;
+    padding-right: 100px
+}
+
+.SbisEnv-ParkingContent {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    min-width: 650px
+}
+
+.SbisEnv-ParkingBody {
+    align-items: center;
+    background-color: var(--background-color);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    position: relative;
+    text-align: center;
+    white-space: normal;
+    width: 100%
+}
+
+.SbisEnvUI-ParkingBody_same-background .SbisEnv-ParkingBody {
+    background-color: transparent
+}
+
+.SbisEnv-ParkingBody.SbisEnv-ParkingBody_large {
+    padding-bottom: calc(2 * var(--offset_l));
+    padding-left: calc(2 * var(--offset_l));
+    padding-right: calc(2 * var(--offset_l));
+    padding-top: calc(4 * var(--offset_l))
+}
+
+.SbisEnv-ParkingBody.SbisEnv-ParkingBody_normal {
+    padding-bottom: var(--offset_2xl);
+    padding-left: var(--offset_m);
+    padding-right: var(--offset_m);
+    padding-top: var(--offset_m)
+}
+
+.SbisEnv-ParkingBody.SbisEnv-ParkingBody_medium {
+    padding-bottom: var(--offset_2xl);
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: var(--offset_2xl)
+}
+
+.SbisEnv-ParkingBody.SbisEnv-ParkingBody_small {
+    padding-bottom: var(--offset_2xl);
+    padding-left: var(--offset_m);
+    padding-right: var(--offset_m);
+    padding-top: var(--offset_m)
+}
+
+.SbisEnv-ParkingBody.SbisEnv-ParkingBody_dialog {
+    background-color: var(--background-color_dialog)
+}
+
+.SbisEnv-ParkingBody.SbisEnv-ParkingBody_inlist {
+    color: var(--unaccented_color);
+    padding-bottom: var(--offset_2xl);
+    padding-top: var(--offset_2xl)
+}
+
+.SbisEnv-ParkingBody.SbisEnv-ParkingBody_inlist_shift {
+    margin-top: calc(-1 * calc(var(--inline_height_l) + 2 * var(--offset_xs)))
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__image {
+    -ms-grid-row-align: center;
+    align-self: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: var(--readonly_color)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__image_large {
+    height: 300px;
+    margin-bottom: var(--offset_3xl);
+    width: 300px
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__image_medium {
+    height: 144px;
+    margin-bottom: var(--offset_m);
+    width: 144px
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__image_dialog {
+    height: 144px;
+    margin-bottom: var(--offset_l);
+    width: 144px
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__image_normal {
+    height: 96px;
+    margin-bottom: var(--offset_m);
+    width: 96px
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__image_dialog,.SbisEnv-ParkingBody .SbisEnv-ParkingBody__image_medium,.SbisEnv-ParkingBody .SbisEnv-ParkingBody__image_normal {
+    background-position: 47% top;
+    background-repeat: no-repeat;
+    background-size: 184%
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__text-container {
+    max-width: 100%
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__message {
+    color: var(--unaccented_color);
+    margin: 0 auto;
+    max-width: 100%;
+    white-space: pre-line;
+    word-break: break-word;
+    word-wrap: break-word
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__message_small {
+    font-size: var(--font-size_m);
+    line-height: var(--inline_height_s)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__message_normal {
+    font-size: var(--font-size_m);
+    line-height: var(--inline_height_xs)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__message_medium {
+    font-size: var(--font-size_l);
+    line-height: var(--inline_height_xs)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__message_dialog {
+    color: var(--text-color);
+    font-size: var(--font-size_2xl);
+    line-height: var(--inline_height_s);
+    max-width: 100%
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__message_large {
+    font-size: var(--font-size_5xl);
+    line-height: var(--inline_height_xl)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__message_inlist {
+    font-size: var(--font-size_3xl)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__details {
+    color: var(--unaccented_color);
+    max-width: 100%;
+    white-space: pre-line;
+    word-break: break-word;
+    word-wrap: break-word
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__details_small {
+    font-size: var(--font-size_xs);
+    line-height: var(--inline_height_xs);
+    margin-top: var(--offset_m)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__details_normal {
+    font-size: var(--font-size_xs);
+    line-height: var(--inline_height_xs);
+    margin-top: var(--offset_m)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__details_medium {
+    font-size: var(--font-size_m);
+    line-height: var(--inline_height_xs);
+    margin-top: var(--offset_m)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__details_dialog {
+    color: var(--text-color);
+    font-size: var(--font-size_m);
+    line-height: var(--inline_height_xs);
+    margin-top: var(--offset_s)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__details_large {
+    font-size: var(--font-size_l);
+    line-height: var(--inline_height_xs);
+    margin-top: var(--offset_m)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__details_inlist {
+    font-size: var(--font-size_m);
+    margin-top: var(--offset_s)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__action {
+    max-width: 100%;
+    padding-left: var(--offset_m);
+    padding-right: var(--offset_m);
+    word-break: break-word;
+    word-wrap: break-word
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__action a {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: var(--link_text-color)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__action a:hover {
+    text-decoration: underline;
+    color: var(--link_hover_text-color)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__action_small {
+    font-size: var(--font-size_xs);
+    line-height: var(--inline_height_xs);
+    margin-top: var(--offset_m)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__action_normal {
+    font-size: var(--font-size_xs);
+    line-height: var(--inline_height_xs);
+    margin-top: var(--offset_m)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__action_medium {
+    font-size: var(--font-size_m);
+    line-height: var(--inline_height_xs);
+    margin-top: var(--offset_m)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__action_large {
+    font-size: var(--font-size_l);
+    line-height: var(--inline_height_s);
+    margin-top: var(--inline_height_xs)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__action_dialog {
+    font-size: var(--font-size_m);
+    line-height: var(--inline_height_xs);
+    margin-top: var(--offset_m)
+}
+
+.SbisEnv-ParkingBody .SbisEnv-ParkingBody__action_inlist {
+    font-size: var(--font-size_xs);
+    margin-top: var(--inline_height_xs);
+    padding: 0
+}
+
+.SbisEnv-ParkingBody_landscape.SbisEnv-ParkingBody {
+    flex-direction: row;
+    justify-content: center
+}
+
+.SbisEnv-ParkingBody_landscape.SbisEnv-ParkingBody_large {
+    padding-top: calc(2 * var(--offset_l))
+}
+
+.SbisEnv-ParkingBody_landscape .SbisEnv-ParkingBody__image_large {
+    margin-bottom: 0;
+    width: 214px
+}
+
+.SbisEnv-ParkingBody_landscape .SbisEnv-ParkingBody__image_large.SbisEnv-ParkingBody__image {
+    background-size: cover
+}
+
+@media screen and (max-height: 380px) {
+    .SbisEnv-ParkingBody__image {
+        display:none
+    }
+}
+
+@media screen and (max-width: 768px) and (orientation:portrait),screen and (max-height:540px) and (orientation:landscape) {
+    .SbisEnv-ParkingContent {
+        min-width:auto
+    }
+
+    .SbisEnv-ParkingBody.SbisEnv-ParkingBody_large {
+        padding: var(--offset_l)
+    }
+
+    .SbisEnv-ParkingBody .SbisEnv-ParkingBody__message_large {
+        font-size: var(--font-size_6xl);
+        line-height: normal
+    }
+
+    .SbisEnv-ParkingBody .SbisEnv-ParkingBody__details_large {
+        font-size: var(--font-size_3xl);
+        line-height: normal
+    }
+
+    .SbisEnv-ParkingBody .SbisEnv-ParkingBody__action_large {
+        font-size: var(--font-size_3xl);
+        line-height: normal
+    }
+
+    .SbisEnv-ParkingBody .SbisEnv-ParkingBody__image_large {
+        margin-bottom: var(--offset_m)
+    }
+}
+
+@media screen and (max-width: 425px) and (orientation:portrait) {
+    .SbisEnv-ParkingBody .SbisEnv-ParkingBody__image_large {
+        width:250px;
+        height: 250px
+    }
+}
+
+@media screen and (max-height: 540px) and (orientation:landscape) {
+    .SbisEnv-ParkingBody {
+        flex-direction:row
+    }
+
+    .SbisEnv-ParkingBody.SbisEnv-ParkingBody_large {
+        justify-content: center
+    }
+}

@@ -1,0 +1,144 @@
+.engineUser-PanelView {
+    width: 350px;
+    -ms-grid-row-align: center;
+    align-self: center
+}
+
+.engineUser-PanelView__topArea {
+    height: 68px;
+    display: flex;
+    flex-shrink: 1;
+    align-self: stretch;
+    width: 100%
+}
+
+.engineUser-PanelView__photo {
+    margin-top: var(--offset_s);
+    margin-left: var(--offset_st);
+    margin-right: var(--offset_3xs);
+    flex-shrink: 0
+}
+
+.engineUser-PanelView__headerRightBlock {
+    overflow: hidden
+}
+
+.engineUser-PanelView__nameWrapper {
+    overflow: hidden;
+    margin-left: var(--offset_xs)
+}
+
+.engineUser-PanelView__name {
+    display: inline-block;
+    flex-shrink: 1;
+    font-size: var(--font-size_3xl);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--text-color);
+    margin-top: var(--offset_s)
+}
+
+.ws-is-hover .engineUser-PanelView__activeName:hover {
+    cursor: pointer;
+    color: var(--hover_text-color)
+}
+
+.engineUser-PanelView__mergeLink {
+    margin-top: var(--offset_s)
+}
+
+.engineUser-PanelView__logout {
+    margin-left: var(--offset_s);
+    margin-top: var(--offset_st)
+}
+
+.engineUser-PanelView__lang {
+    margin-top: var(--offset_s);
+    margin-left: var(--offset_xs)
+}
+
+.engineUser-PanelView__headerBottom {
+    margin-top: var(--offset_3xs);
+    width: 100%;
+    min-width: 1px
+}
+
+.engineUser-PanelView__userStatus {
+    margin-right: var(--offset_xs)
+}
+
+.engineUser-PanelView__userStatus .userStatus-Selector__title-container {
+    max-width: 131px
+}
+
+.engineUser-PanelView__geo {
+    display: flex;
+    align-items: center;
+    color: var(--label_text-color);
+    width: 100%;
+    min-width: 1px
+}
+
+.engineUser-PanelView__geoIcon {
+    margin-right: var(--offset_2xs);
+    color: var(--label_text-color);
+    fill: var(--label_text-color);
+    flex-shrink: 0
+}
+
+.engineUser-PanelView__geo:first-child {
+    margin-left: var(--offset_2xs)
+}
+
+.engineUser-PanelView__geoText {
+    font-size: var(--font-size_m);
+    width: 100%;
+    min-width: 1px
+}
+
+.engineUser-PanelView__content {
+    height: 100%;
+    min-height: 1px;
+    overflow: hidden
+}
+
+.engineUser-PanelView__scrollContainer {
+    flex-grow: 1;
+    height: 100%
+}
+
+.ws-is-old-webkit .engineUser-PanelView .controls-DialogTemplate__content-area {
+    height: auto
+}
+
+.ws-is-old-webkit .engineUser-PanelView .engineUser-PanelView__scrollContainer>.controls-Scroll__content {
+    height: auto
+}
+
+.ws-is-ie10 .engineUser-PanelView__scrollContainer {
+    flex-shrink: 1
+}
+
+.engineUser-PanelView__buttonTemplate {
+    width: 350px;
+    box-sizing: border-box;
+    margin: 0 auto
+}
+
+.EngineUserPanel-Photo__container {
+    width: var(--size_xl_image);
+    height: var(--size_xl_image);
+    line-height: var(--size_xl_image)
+}
+
+.EngineUserPanel-Photo__text {
+    font-size: var(--font-size_5xl);
+    color: var(--contrast_text-color);
+    background-color: #d9d9c1;
+    text-align: center;
+    cursor: default
+}
+
+.EngineUserPanel-Photo__empty {
+    width: 0
+}

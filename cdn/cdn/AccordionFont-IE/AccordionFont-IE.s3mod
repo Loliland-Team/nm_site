@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module for_cdn="1" id="d29a0267-f17c-4f18-8f7e-0938b889397d" name="AccordionFont-IE" package="Wasaby" responsible="Клепиков И.А." version="1.00">
+
+  <description>AccordionFont для IE</description>
+
+  <depends/>
+
+  <load_after/>
+
+  <parameters/>
+
+  <resources/>
+
+  <preload/>
+
+</ui_module>

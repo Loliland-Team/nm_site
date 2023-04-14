@@ -1,0 +1,60 @@
+.auth-StepsMaster {
+    position: relative;
+    overflow: hidden
+}
+
+.auth-StepsMaster__backButton {
+    position: absolute;
+    left: var(--offset_l);
+    top: var(--offset_m)
+}
+
+.auth-StepsMaster__captionBlock {
+    max-width: 78%
+}
+
+.auth-StepsMaster__captionBlock_text {
+    font-size: var(--font-size_4xl)
+}
+
+.auth-StepsMaster__content {
+    width: 100%;
+    height: 100%
+}
+
+.auth-StepsMaster__support {
+    margin-top: 48px
+}
+
+.auth-StepTemplate {
+    width: 100%;
+    height: 100%
+}
+
+.auth-StepTemplate__titleContainer {
+    width: 100%;
+    text-align: center;
+    margin-top: 49px
+}
+
+.auth-StepTemplate__content {
+    width: 100%;
+    max-width: 355px
+}
+
+.auth-StepTemplate__image {
+    width: 200px;
+    margin-right: 45px
+}
+
+@media (max-width: 735px) {
+    .auth-StepsMaster__captionBlock_text {
+        font-size:var(--font-size_3xl)
+    }
+}
+
+@media (max-height: 625px) {
+    .auth-StepTemplate__image {
+        display:none
+    }
+}

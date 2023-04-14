@@ -1,0 +1,44 @@
+.LinkDecorator__wrap {
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    padding-right: 2px;
+    padding-bottom: 4px
+}
+
+.LinkDecorator__linkWrap {
+    border: 1px solid #eaeaea;
+    border-left: 0;
+    display: inline-block;
+    line-height: 0;
+    position: relative;
+    min-height: 50px;
+    max-width: 100%;
+    min-width: 350px;
+    overflow: hidden
+}
+
+.LinkDecorator__linkWrap::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 30px;
+    background: linear-gradient(to right,rgba(246,246,246,0) 0,#f6f6f6 100%)
+}
+
+.LinkDecorator__linkWrap .LinkDecorator__image {
+    max-width: 538px;
+    pointer-events: none;
+    margin: 0
+}
+
+.LinkDecorator__emoji {
+    font-family: 'Twemoji Mozilla','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji','EmojiOne Color','Android Emoji',sans-serif;
+    line-height: 0
+}
+
+.controls-MarkupDecorator_highlight {
+    background-color: var(--text_background-color_decoratorHighlight)
+}

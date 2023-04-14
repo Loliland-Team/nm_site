@@ -1,0 +1,80 @@
+.NavigationPanels-Container {
+    height: 32px;
+    align-items: center
+}
+
+.ws-is-hover .NavigationPanels-Container:hover {
+    cursor: pointer
+}
+
+.NavigationPanels-Logo__image {
+    max-width: 100px;
+    width: auto;
+    max-height: 100%
+}
+
+.ws-is-desktop-safari .NavigationPanels-Logo__image {
+    image-rendering: optimizeSpeed
+}
+
+.NavigationPanels-Logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 1;
+    font-size: 0;
+    text-align: center;
+    overflow: hidden
+}
+
+.NavigationPanels-Logo-textLogo.NavigationPanels-HeaderLogo {
+    overflow: visible
+}
+
+.NavigationPanels-Sidebar__logoText {
+    margin-top: 3px
+}
+
+.NavigationPanels-Logo__widthRestriction {
+    width: 100px
+}
+
+.NavigationPanels-Sidebar__sabyLogo {
+    font-family: 'Maison Neue Extended',sans-serif;
+    font-size: 21px;
+    text-transform: lowercase;
+    white-space: nowrap
+}
+
+.NavigationPanels-Sidebar__sabyLogo_name {
+    color: var(--header_main_logo_color_NavigationPanels-Sidebar)
+}
+
+.NavigationPanels-Sidebar__sabyLogo_name-Header {
+    color: var(--header_main_logo_color_NavigationPanels)
+}
+
+.NavigationPanels-Sidebar__sabyLogo_title {
+    font-weight: 700;
+    color: var(--header_text_logo_color_NavigationPanels-Sidebar)
+}
+
+.NavigationPanels-Sidebar__sabyLogo_title_default {
+    color: var(--item_text-color_NavigationPanels-Accordion)
+}
+
+.NavigationPanels-Sidebar__sabyLogo_title-Header {
+    color: var(--text-color)
+}
+
+.NavigationPanels-Sidebar__sabyLogo_sub-title {
+    font-size: var(--font-size_m);
+    margin-left: var(--offset_2xs);
+    color: var(--label_text-color)
+}
+
+.NavigationPanels__birdIcon {
+    margin-left: 3px;
+    width: 21px;
+    height: 28px
+}

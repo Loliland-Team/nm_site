@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module for_cdn="1" id="cf6f5767-7fa3-4d2d-b360-9e56af200aea" name="TensorFont" package="Wasaby" responsible="Бегунов А.В." version="1.00">
+
+  <description>TensorFont</description>
+
+  <depends/>
+
+  <load_after/>
+
+  <parameters/>
+
+  <resources/>
+
+  <preload/>
+
+</ui_module>

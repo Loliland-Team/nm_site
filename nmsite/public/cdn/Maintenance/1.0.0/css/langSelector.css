@@ -1,0 +1,19 @@
+.langSelector-flagItem {
+   background  : url('/cdn/Maintenance/1.0.0/img/i18n/flags.png');
+   width       : 20px;
+   height      : 14px;
+   margin-right: 6px;
+   display     : inline-block;
+}
+
+.langSelector-flagItem-ru-RU {
+   background-position: 0 -563px;
+}
+
+.langSelector-flagItem-en-US {
+   background-position: 0 -803px;
+}
+
+.langSelector-selectedItem {
+   font-weight: bold;
+}

@@ -1,0 +1,810 @@
+.controls-InputBase__field {
+    width: 100%;
+    flex-grow: 1;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 1
+}
+
+.controls-InputBase__field_ie {
+    height: 100%
+}
+
+.controls-InputBase__placeholder {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    pointer-events: none
+}
+
+.controls-InputBase__placeholder_displayed-under-caret {
+    z-index: -1
+}
+
+.controls-InputBase__field_readOnly {
+    width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    white-space: pre
+}
+
+.controls-InputBase__nativeField_caretEmpty {
+    caret-color: var(--caret-color_empty_inputText)
+}
+
+.controls-InputBase__nativeField_caretFilled {
+    caret-color: var(--caret-color_fill_inputText)
+}
+
+.controls-InputBase__field_margin-xs {
+    margin: 0 var(--padding-horizontal_inputText)
+}
+
+.controls-InputBase__field_margin-null {
+    margin: 0
+}
+
+.controls-InputBase__nativeField_hideCustomPlaceholder:-webkit-autofill+.controls-InputBase__placeholder,.controls-InputBase__nativeField_hideCustomPlaceholder:not(:placeholder-shown)+.controls-InputBase__placeholder {
+    display: none
+}
+
+.controls-InputBase__nativeField_edge {
+    margin-left: -1px;
+    margin-right: -1px
+}
+
+.controls-InputBase__forCalc {
+    contain: strict;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    visibility: hidden;
+    white-space: nowrap
+}
+
+.controls-InputBase__stretcher-content {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.controls-InputBase__stretcher {
+    display: inline-flex
+}
+
+.controls-InputBase__stretcher-block {
+    visibility: hidden;
+    white-space: pre
+}
+
+.controls-InputBase__field_autoWidth.controls-InputBase__field_margin-xs {
+    margin: 0 calc(var(--padding-horizontal_inputText) - 2px) 0 var(--padding-horizontal_inputText)
+}
+
+.controls-InputBase__stretcher-block_margin-xs {
+    padding-right: 2px
+}
+
+.controls-InputBase__stretcher-block_margin-null {
+    padding-right: 0
+}
+
+.ws-is-ie .controls-InputBase__field_autoWidth.controls-InputBase__field_margin-xs {
+    margin: 0 calc(var(--padding-horizontal_inputText) - 4px) 0 var(--padding-horizontal_inputText)
+}
+
+.ws-is-ie .controls-InputBase__stretcher-block_margin-xs {
+    padding-right: 4px
+}
+
+.ws-is-ie .controls-InputBase__stretcher-block_margin-null {
+    padding-right: 2px
+}
+
+.ws-is-mac .controls-InputBase__field_autoWidth.controls-InputBase__field_margin-xs {
+    margin: 0 calc(var(--padding-horizontal_inputText) - 4px) 0 var(--padding-horizontal_inputText)
+}
+
+.ws-is-mac .controls-InputBase__stretcher-block_margin-xs {
+    padding-right: 4px
+}
+
+.ws-is-mac .controls-InputBase__stretcher-block_margin-null {
+    padding-right: 2px
+}
+
+.controls-InputBase__field_fixStretcherIE {
+    -ms-grid-row-align: center;
+    align-self: center
+}
+
+.controls-Input_negativeOffset {
+    margin-left: calc(var(--padding-horizontal_inputText)/ -1)
+}
+
+.controls-Input__width-12ch .controls-Field,.controls-Input__width-12ch .controls-InputBase__field_readOnly,.controls-Input__width-12ch .controls-InputBase__placeholder_readOnly {
+    width: 12ch
+}
+
+.controls-Input__width-11ch .controls-Field,.controls-Input__width-11ch .controls-InputBase__field_readOnly,.controls-Input__width-11ch .controls-InputBase__placeholder_readOnly {
+    width: 11ch
+}
+
+.controls-Input__width-10ch .controls-Field,.controls-Input__width-10ch .controls-InputBase__field_readOnly,.controls-Input__width-10ch .controls-InputBase__placeholder_readOnly {
+    width: 10ch
+}
+
+.controls-Input__width-9ch .controls-Field,.controls-Input__width-9ch .controls-InputBase__field_readOnly,.controls-Input__width-9ch .controls-InputBase__placeholder_readOnly {
+    width: 9ch
+}
+
+.controls-Input__width-8ch .controls-Field,.controls-Input__width-8ch .controls-InputBase__field_readOnly,.controls-Input__width-8ch .controls-InputBase__placeholder_readOnly {
+    width: 8ch
+}
+
+.controls-Input__width-7ch .controls-Field,.controls-Input__width-7ch .controls-InputBase__field_readOnly,.controls-Input__width-7ch .controls-InputBase__placeholder_readOnly {
+    width: 7ch
+}
+
+.controls-Input__width-6ch .controls-Field,.controls-Input__width-6ch .controls-InputBase__field_readOnly,.controls-Input__width-6ch .controls-InputBase__placeholder_readOnly {
+    width: 6ch
+}
+
+.controls-Input__width-5ch .controls-Field,.controls-Input__width-5ch .controls-InputBase__field_readOnly,.controls-Input__width-5ch .controls-InputBase__placeholder_readOnly {
+    width: 5ch
+}
+
+.controls-Input__width-4ch .controls-Field,.controls-Input__width-4ch .controls-InputBase__field_readOnly,.controls-Input__width-4ch .controls-InputBase__placeholder_readOnly {
+    width: 4ch
+}
+
+.controls-Input__width-3ch .controls-Field,.controls-Input__width-3ch .controls-InputBase__field_readOnly,.controls-Input__width-3ch .controls-InputBase__placeholder_readOnly {
+    width: 3ch
+}
+
+.controls-Input__width-2ch .controls-Field,.controls-Input__width-2ch .controls-InputBase__field_readOnly,.controls-Input__width-2ch .controls-InputBase__placeholder_readOnly {
+    width: 2ch
+}
+
+.controls-Input__width-1ch .controls-Field,.controls-Input__width-1ch .controls-InputBase__field_readOnly,.controls-Input__width-1ch .controls-InputBase__placeholder_readOnly {
+    width: 1ch
+}
+
+.controls-Field:-webkit-autofill,.controls-Field:-webkit-autofill:focus,.ws-is-hover .controls-Field:-webkit-autofill:hover {
+    transition: background-color 2147483647s ease-in-out,color 2147483647s ease-in-out,box-shadow 2147483647s ease-in-out;
+    box-shadow: inset 0 0 1000px var(--background-color)
+}
+
+.controls-InputBase__placeholder_readOnly {
+    position: relative
+}
+
+.controls-Render {
+    contain: style;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    border-style: var(--border-style_inputText);
+    border-width: 0
+}
+
+.controls-Render__wrapper_footer {
+    flex-wrap: wrap
+}
+
+.controls-Render_border-top {
+    border-top-width: var(--border-thickness);
+    border-top-color: var(--separator_color)
+}
+
+.controls-Render_border-bottom {
+    border-bottom-width: var(--border-thickness)
+}
+
+.controls-Render_border-top-empty {
+    padding-top: var(--border-thickness)
+}
+
+.controls-Render_border-bottom-empty {
+    padding-bottom: var(--border-thickness)
+}
+
+.controls-Render__field {
+    flex-shrink: 1;
+    flex-grow: 1
+}
+
+.controls-Render__field_zIndex {
+    z-index: 0
+}
+
+.controls-Render__afterField,.controls-Render__beforeField {
+    flex-shrink: 0
+}
+
+.controls-Render_multiline {
+    height: auto
+}
+
+.ws-is-ie .controls-Render_multiline {
+    overflow-y: auto
+}
+
+.controls-Render__wrapper {
+    width: 100%;
+    height: 100%;
+    max-height: inherit;
+    display: inline-flex;
+    align-items: baseline
+}
+
+.controls-Render__baseline {
+    height: 100%;
+    display: flex;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    align-items: center
+}
+
+.controls-Render__fullHeight {
+    height: 100%
+}
+
+.controls-Render__placeholder {
+    color: var(--placeholder-color_inputText)
+}
+
+.controls-Render__placeholder_overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.controls-Render_background-contrast.controls-Render_state-valid {
+    background-color: var(--background-color_inputText)
+}
+
+.controls-Render_state-valid {
+    border-style: var(--border-style_inputText);
+    border-bottom-color: var(--unaccented_border-color)
+}
+
+.controls-Render_background-contrast.controls-Render_state-invalidAccent {
+    background-color: var(--invalid_focus_background-color)
+}
+
+.controls-Render_state-invalidAccent {
+    border-style: var(--invalid_border-style_inputText);
+    border-color: var(--invalid_border-color)
+}
+
+.controls-Render_background-contrast.controls-Render_state-invalid {
+    background-color: var(--invalid_background-color_inputText)
+}
+
+.controls-Render_state-invalid {
+    border-style: var(--invalid_border-style_inputText);
+    border-color: var(--invalid_border-color)
+}
+
+.controls-Render_background-contrast.controls-Render_state-success {
+    background-color: var(--background-color_inputText)
+}
+
+.controls-Render_state-success {
+    border-color: var(--success_border-color)
+}
+
+.controls-Render_background-contrast.controls-Render_state-secondary {
+    background-color: var(--background-color_inputText)
+}
+
+.controls-Render_state-secondary {
+    border-color: var(--secondary_border-color)
+}
+
+.controls-Render_background-contrast.controls-Render_state-warning {
+    background-color: var(--background-color_inputText)
+}
+
+.controls-Render_state-warning {
+    border-color: var(--warning_border-color)
+}
+
+.controls-Render_background-contrast.controls-Render_state-readonly {
+    background-color: var(--readonly_background-color_inputText)
+}
+
+.controls-Render_state-readonly {
+    border-bottom-color: var(--readonly_border-color)
+}
+
+.controls-Render_background-contrast.controls-Render_state-readonly-field-multiline,.controls-Render_background-contrast.controls-Render_state-readonly-text-multiline {
+    background-color: var(--readonly_background-color_inputText)
+}
+
+.controls-Render_state-readonly-text-multiline {
+    border-color: transparent
+}
+
+.controls-Render_state-readonly-field-multiline {
+    border-bottom-color: var(--readonly_border-color)
+}
+
+.controls-Render_background-contrast.controls-Render_state-valid:focus-within {
+    background-color: var(--background-color_focus_inputText)
+}
+
+.controls-Render_state-valid:focus-within {
+    border-style: var(--border-style_focus_inputText);
+    border-bottom-color: var(--unaccented_hover_border-color)
+}
+
+.controls-Render_background-contrast.controls-Render_state-invalid:focus-within {
+    background-color: var(--background-color_focus_inputText)
+}
+
+.controls-Render_state-invalid:focus-within {
+    border-style: var(--invalid_border-style_inputText);
+    border-color: var(--invalid_border-color)
+}
+
+.controls-Render_background-contrast.controls-Render_state-valid-active {
+    background-color: var(--background-color_focus_inputText)
+}
+
+.controls-Render_state-valid-active {
+    border-style: var(--border-style_focus_inputText);
+    border-bottom-color: var(--unaccented_hover_border-color)
+}
+
+.controls-Render_background-contrast.controls-Render_state-invalid-active {
+    background-color: var(--background-color_focus_inputText)
+}
+
+.controls-Render_state-invalid-active,.controls-Render_state-invalidAccent-active {
+    border-style: var(--invalid_border-style_inputText);
+    border-color: var(--invalid_border-color)
+}
+
+.controls-Render_background-contrast.controls-Render_state-invalidAccent-active {
+    background-color: var(--invalid_focus_background-color)
+}
+
+.controls-Render_background-contrast.controls-Render_state-invalidAccent-active:focus-within {
+    background-color: var(--invalid_focus_background-color)
+}
+
+.controls-Render_state-invalidAccent-active:focus-within {
+    border-style: var(--invalid_border-style_inputText);
+    border-color: var(--invalid_border-color)
+}
+
+.controls-Render_textAlign-center {
+    text-align: center
+}
+
+.controls-Render_textAlign-left {
+    text-align: left
+}
+
+.controls-Render_textAlign-right {
+    text-align: right
+}
+
+.controls-Render-focused-item:focus-within {
+    transition: border-color .5s;
+    border-color: var(--focused_border-color)
+}
+
+.controls-Render_borderRadius {
+    border-radius: var(--border-radius_default_inputText)
+}
+
+.controls-Render_tag_padding-right {
+    right: calc(var(--offset_2xs) * -1)
+}
+
+.ws-is-hover .controls-Render_background-contrast.controls-Render_state-valid:hover {
+    background-color: var(--background-color_hover_inputText)
+}
+
+.ws-is-hover .controls-Render_state-valid:hover {
+    border-style: var(--border-style_hover_inputText);
+    border-bottom-color: var(--unaccented_hover_border-color)
+}
+
+.ws-is-hover .controls-Render_state-invalid:hover,.ws-is-hover .controls-Render_state-invalidAccent:hover {
+    border-style: var(--invalid_border-style_inputText)
+}
+
+.ws-is-hover .controls-Render.controls-Render-focused-item:focus-within {
+    border-color: var(--focused_border-color)
+}
+
+.controls-fontsize-xs.controls-Render-fontsize-xs {
+    font-size: var(--font-size_xs_input)
+}
+
+.controls-fontsize-s.controls-Render-fontsize-s {
+    font-size: var(--font-size_s_input)
+}
+
+.controls-fontsize-m.controls-Render-fontsize-m {
+    font-size: var(--font-size_m_input)
+}
+
+.controls-fontsize-l.controls-Render-fontsize-l {
+    font-size: var(--font-size_l)
+}
+
+.controls-fontsize-xl.controls-Render-fontsize-xl {
+    font-size: var(--font-size_xl)
+}
+
+.controls-fontsize-2xl.controls-Render-fontsize-2xl {
+    font-size: var(--font-size_2xl)
+}
+
+.controls-fontsize-3xl.controls-Render-fontsize-3xl {
+    font-size: var(--font-size_3xl)
+}
+
+.controls-fontsize-4xl.controls-Render-fontsize-4xl {
+    font-size: var(--font-size_4xl)
+}
+
+.controls-fontsize-5xl.controls-Render-fontsize-5xl {
+    font-size: var(--font-size_5xl)
+}
+
+.controls-inlineheight-xs.controls-Render-inlineheight-xs {
+    height: var(--inline_height_xs)
+}
+
+.controls-inlineheight-s.controls-Render-inlineheight-s {
+    height: var(--inline_height_s)
+}
+
+.controls-inlineheight-m.controls-Render-inlineheight-m {
+    height: var(--inline_height_m)
+}
+
+.controls-inlineheight-l.controls-Render-inlineheight-l {
+    height: var(--inline_height_l)
+}
+
+.controls-inlineheight-xl.controls-Render-inlineheight-xl {
+    height: var(--inline_height_xl)
+}
+
+.controls-inlineheight-2xl.controls-Render-inlineheight-2xl {
+    height: var(--inline_height_2xl)
+}
+
+.controls-inlineheight-default.controls-Render-inlineheight-default {
+    height: var(--inline_height_m)
+}
+
+.controls-inlineheight-auto {
+    height: auto
+}
+
+.controls-Area__fieldWrapper {
+    z-index: 1;
+    height: auto;
+    position: relative;
+    word-wrap: break-word;
+    white-space: pre-wrap
+}
+
+.controls-Area__field_readOnly {
+    overflow: hidden
+}
+
+.controls-Area__realField {
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute
+}
+
+.controls-Area__scroll {
+    max-height: inherit
+}
+
+.ws-is-ie .controls-Area__realField {
+    height: calc(100% + 1px)
+}
+
+.controls-Area__wrapURLs_container {
+    max-width: 100%;
+    display: inline-flex
+}
+
+.controls-Area__wrapURLs {
+    flex-shrink: 1;
+    min-width: 1px
+}
+
+.controls-Area__emptySymbol {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.controls-Area__fakeField {
+    visibility: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.controls-Area__footer {
+    flex-grow: 1
+}
+
+.controls-Area_line-height_8xl {
+    line-height: var(--line-height_8xl_inputArea)
+}
+
+.controls-Area_line-height_7xl {
+    line-height: var(--line-height_7xl_inputArea)
+}
+
+.controls-Area_line-height_6xl {
+    line-height: var(--line-height_6xl_inputArea)
+}
+
+.controls-Area_line-height_5xl {
+    line-height: var(--line-height_5xl_inputArea)
+}
+
+.controls-Area_line-height_4xl {
+    line-height: var(--line-height_4xl_inputArea)
+}
+
+.controls-Area_line-height_3xl {
+    line-height: var(--line-height_3xl_inputArea)
+}
+
+.controls-Area_line-height_2xl {
+    line-height: var(--line-height_2xl_inputArea)
+}
+
+.controls-Area_line-height_xl {
+    line-height: var(--line-height_xl_inputArea)
+}
+
+.controls-Area_line-height_l {
+    line-height: var(--line-height_l_inputArea)
+}
+
+.controls-Area_line-height_m {
+    line-height: var(--line-height_m_inputArea)
+}
+
+.controls-Area_line-height_s {
+    line-height: var(--line-height_s_inputArea)
+}
+
+.controls-Area_line-height_xs {
+    line-height: var(--line-height_xs_inputArea)
+}
+
+.controls-Area__field_margin-xs {
+    margin: var(--padding-vertical_inputArea) var(--padding-horizontal_inputText) 0 var(--padding-horizontal_inputText);
+    padding-bottom: var(--padding-vertical_inputArea)
+}
+
+.controls-Area__field_margin-null {
+    margin: var(--padding-vertical_inputArea) 0
+}
+
+.ws-is-firefox .controls-Area__field_margin {
+    margin: calc(var(--padding-vertical_inputArea) - 1) var(--padding-horizontal_inputText) calc(var(--padding-vertical_inputArea) + 1) var(--padding-horizontal_inputText)
+}
+
+.controls-Area__realField_fixTextPosition {
+    margin-left: -3px;
+    width: calc(100% + 6px)
+}
+
+.controls-Label {
+    display: inline-block;
+    text-decoration: none
+}
+
+.controls-Label_underline_none {
+    height: var(--inline_height_default_label);
+    padding-right: var(--offset-horizontal_label)
+}
+
+.controls-Label__wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    display: inline-flex
+}
+
+.controls-Label__caption {
+    flex-shrink: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.controls-Label__caption_fontsize-default {
+    font-size: var(--font-size_default_label)
+}
+
+.controls-Label__caption_fontColorStyle-label {
+    color: var(--label_text-color)
+}
+
+.controls-Label__caption_fontColorStyle-readonly {
+    color: var(--readonly_color)
+}
+
+.controls-Label__caption_fontColorStyle-unaccented {
+    color: var(--unaccented_color)
+}
+
+.ws-is-hover .controls-Label__caption_underline_hovered_edit {
+    cursor: pointer
+}
+
+.controls-Label__caption_underline_hovered_edit:active,.ws-is-hover .controls-Label__caption_underline_hovered_edit:hover {
+    text-decoration: underline
+}
+
+.controls-Label__caption_underline_fixed {
+    text-decoration: underline
+}
+
+.ws-is-hover .controls-Label__caption_underline_fixed_edit {
+    cursor: pointer
+}
+
+.controls-Label__caption_underline_fixed_edit:active,.ws-is-hover .controls-Label__caption_underline_fixed_edit:hover {
+    color: var(--link_hover_text-color)
+}
+
+.controls-Label__asterisk {
+    color: var(--danger_text-color)
+}
+
+.controls-Label__fakeLink {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute
+}
+
+.controls-PasswordInput__showPassword {
+    cursor: pointer;
+    -ms-grid-row-align: center;
+    align-self: center;
+    color: var(--trigger-color_inputPassword);
+    font-size: var(--icon-size_m);
+    font-family: var(--icon_font-family_m);
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    width: var(--icon-size_m);
+    height: var(--icon-size_m);
+    display: inline-block
+}
+
+.controls-PasswordInput__showPassword_margin-xs {
+    margin-right: var(--padding-horizontal_inputText)
+}
+
+.controls-PasswordInput__showPassword_margin-null {
+    margin-right: 0
+}
+
+.controls-Password__nativeField_caretFilled {
+    caret-color: var(--caret-color_fill_inputText)
+}
+
+.controls-Password__nativeField_caretEmpty {
+    caret-color: var(--caret-color_empty_inputText)
+}
+
+.controls-Password__field_margin-xs {
+    margin: 0 var(--offset_2xs) 0 var(--padding-horizontal_inputText)
+}
+
+.controls-Password__field_margin-null {
+    margin: 0
+}
+
+.controls-Money__fractionPart_readOnly {
+    color: var(--readonly_color);
+    font-size: var(--font-size_xs);
+    font-weight: 400
+}
+
+.controls-InputMoney__field_readOnly.controls-DecoratorMoney .controls-fontsize-m {
+    font-size: var(--font-size_m_input)
+}
+
+.controls-Field {
+    width: 100%;
+    height: 100%;
+    text-overflow: ellipsis;
+    border: none;
+    resize: none;
+    font: inherit;
+    color: inherit;
+    text-align: inherit;
+    letter-spacing: inherit;
+    background: 0 0;
+    box-shadow: none;
+    min-width: 0;
+    cursor: default
+}
+
+.controls-Field::-webkit-passman-key {
+    display: none
+}
+
+.controls-Field::-webkit-contacts-auto-fill-button {
+    display: none
+}
+
+.controls-Field::-ms-clear {
+    display: none
+}
+
+.controls-Field::-ms-reveal {
+    display: none
+}
+
+.controls-Field::-webkit-inner-spin-button,.controls-Field::-webkit-outer-spin-button {
+    -webkit-appearance: none
+}
+
+.ws-is-hover .controls-Field {
+    cursor: text
+}
+
+.controls-Field_money {
+    display: block
+}
+
+.controls-Field_moneyNew {
+    overflow: hidden
+}
+
+.controls-Field_moneyNew:focus-within {
+    overflow: unset
+}
+
+.controls-Field_moneyNew::before {
+    content: '\200b'
+}
+
+.controls-Field-focused-item::-moz-selection {
+    background: var(--focused_background-color)
+}
+
+.controls-Field-focused-item::selection {
+    background: var(--focused_background-color)
+}

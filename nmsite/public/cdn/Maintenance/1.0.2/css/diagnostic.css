@@ -1,0 +1,91 @@
+.Diagnostics {
+   position  : absolute;
+   overflow  : hidden;
+   box-sizing: border-box;
+   min-width : 1024px;
+   bottom    : 0;
+   right     : 0;
+   left      : 0;
+   top       : 0;
+}
+
+.Diagnostics__layout {
+   min-width : 1024px;
+   text-align: center;
+}
+
+#Diagnostics__body-wrapper {
+   overflow: hidden;
+}
+
+.Diagnostics__body {
+   margin       : auto;
+   text-align   : left;
+   width        : 1024px;
+   height       : 100%;
+   box-sizing   : border-box;
+   padding-top  : 130px;
+   padding-right: 70px;
+   padding-left : 70px;
+   bottom       : 0;
+}
+
+.Diagnostics__image {
+   height: 300px;
+   width : 300px;
+}
+
+.Diagnostics__content {
+   float      : right;
+   margin-left: 12px;
+   width      : 512px;
+}
+
+.Diagnostics__content-header span {
+   line-height: 32px;
+   font-weight: 400;
+   font-size  : 32px;
+   color      : #000000;
+}
+
+.Diagnostics__content-subheader span {
+   line-height: normal;
+   font-weight: 700;
+   font-size  : 18px;
+   color      : #313e78;
+}
+
+.Diagnostics__content-header,
+.Diagnostics__content-subheader,
+.Diagnostics__content-message,
+.Diagnostics__content-action {
+   padding-bottom: 16px;
+}
+
+.Diagnostics__content-message,
+.Diagnostics__content-action {
+   padding-left: 24px;
+}
+
+.Diagnostics__content-message p {
+   font-weight: 400;
+   font-size  : 16px;
+   color      : #999999;
+}
+
+.Diagnostics__head-tooltip {
+   position: absolute;
+   top     : 0;
+   right   : 10px;
+   z-index : 10;
+}
+
+.Diagnostics__bottom-tooltip {
+   position: absolute;
+   bottom  : 0;
+   left    : 10px;
+}
+
+.Diagnostics__infobox {
+   max-width: 175px;
+}

@@ -1,0 +1,422 @@
+.dashboard-Marker__transparent {
+    --marker-color: transparent;
+    --widget-default-background-hover-color: var(--hover_background-color)
+}
+
+.dashboard-Widget__transparent {
+    --widget_background-color: transparent
+}
+
+.dashboard-Widget__default {
+    --widget_background-color: var(--background-color)
+}
+
+.dashboard-Marker__primary {
+    --widget-color: var(--primary_icon-color);
+    --marker-color: var(--primary_icon-color);
+    --widget-default-background-hover-color: var(--primary_hover_background-color)
+}
+
+.dashboard-Widget__primary {
+    --widget_background-color: var(--primary_hover_background-color)
+}
+
+.dashboard-Marker__brand {
+    --widget-color: #0c94ff;
+    --marker-color: #0c94ff;
+    --widget-default-background-hover-color: var(--secondary_hover_background-color)
+}
+
+.dashboard-Widget__brand {
+    --widget_background-color: var(--secondary_hover_background-color)
+}
+
+.dashboard-Marker__info {
+    --widget-color: var(--info_icon-color);
+    --marker-color: var(--info_icon-color);
+    --widget-default-background-hover-color: var(--info_hover_background-color)
+}
+
+.dashboard-Widget__info {
+    --widget_background-color: var(--info_hover_background-color)
+}
+
+.dashboard-Marker__danger {
+    --widget-color: var(--danger_icon-color);
+    --marker-color: var(--danger_icon-color);
+    --widget-default-background-hover-color: var(--danger_hover_background-color)
+}
+
+.dashboard-Widget__danger {
+    --widget_background-color: var(--danger_hover_background-color)
+}
+
+.dashboard-Marker__success {
+    --widget-color: var(--success_icon-color);
+    --marker-color: var(--success_icon-color);
+    --widget-default-background-hover-color: var(--success_hover_background-color)
+}
+
+.dashboard-Widget__success {
+    --widget_background-color: var(--success_hover_background-color)
+}
+
+.dashboard-Marker__warning {
+    --widget-color: var(--warning_icon-color);
+    --marker-color: var(--warning_icon-color);
+    --widget-default-background-hover-color: var(--warning_hover_background-color)
+}
+
+.dashboard-Widget__warning {
+    --widget_background-color: var(--warning_hover_background-color)
+}
+
+.dashboard-Marker__unaccented {
+    --widget-color: var(--unaccented_hover_icon-color);
+    --marker-color: var(--unaccented_hover_icon-color);
+    --widget-default-background-hover-color: var(--unaccented_background-color)
+}
+
+.dashboard-Widget__unaccented {
+    --widget_background-color: var(--unaccented_background-color)
+}
+
+.dashboard-BaseWidget_defaultBackgroundColor {
+    --widget_background-color: var(--background-color)
+}
+
+.dashboard-BaseWidget__container_withFlexGrow {
+    position: relative;
+    flex-grow: 1
+}
+
+.dashboard-BaseWidget {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: var(--border-radius_default_block);
+    z-index: 1
+}
+
+.dashboard-BaseWidget_withFlexGrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0
+}
+
+.dashboard-BaseWidget_withFlexGrow.dashboard-BaseWidget_endlessScroll {
+    position: relative;
+    min-height: 100%
+}
+
+.dashboard-BaseWidget_clickable {
+    cursor: pointer
+}
+
+.ws-is-hover .dashboard-BaseWidget_clickable:hover {
+    background: radial-gradient(210% 260% at 25% -15%,rgba(255,255,255,.9) 0,rgba(255,255,255,0) 100%),var(--widget_background-color);
+    outline: var(--border-thickness) solid var(--pale_border-color)
+}
+
+.ws-is-hover .dashboard-BaseWidget_clickable.dashboard-BaseWidget_defaultBackgroundColor:hover {
+    background: radial-gradient(210% 260% at 25% -15%,rgba(255,255,255,.9) 0,rgba(255,255,255,.9) 100%),var(--widget-default-background-hover-color)
+}
+
+.ws-is-hover .dashboard-BaseWidget_clickable.dashboard-BaseWidget_transparentBackground:hover {
+    background: radial-gradient(210% 260% at 25% -15%,rgba(255,255,255,.9) 0,rgba(255,255,255,.9) 100%),var(--hover_background-color)
+}
+
+.dashboard-BaseWidget_background {
+    background: radial-gradient(210% 260% at 25% -15%,#fff 0,rgba(255,255,255,0) 100%),var(--widget_background-color)
+}
+
+.dashboard-BaseWidget_withBackground {
+    box-shadow: var(--shadow_c)
+}
+
+.dashboard-BaseWidget_transparentBackground {
+    background: 0 0
+}
+
+.dashboard-BaseWidget_designtime.dashboard-BaseWidget_transparentBackground {
+    background: var(--unaccented_background-color)
+}
+
+.dashboard-BaseWidget_designtime {
+    box-shadow: none;
+    cursor: pointer
+}
+
+.dashboard-BaseWidget__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4
+}
+
+.dashboard-BaseWidget__restrictedSizeContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none
+}
+
+.dashboard-BaseWidget__restrictedSize {
+    pointer-events: all
+}
+
+.dashboard-BaseWidget__contentWrapper {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    max-height: 100%;
+    flex-shrink: 1;
+    min-height: 0;
+    z-index: 1
+}
+
+.dashboard-BaseWidget__withOverflow {
+    overflow: hidden
+}
+
+.dashboard-BaseWidget__content {
+    flex-shrink: 0;
+    min-height: 0;
+    box-sizing: border-box
+}
+
+.dashboard-BaseWidget__marker {
+    -ms-grid-row-align: center;
+    align-self: center;
+    height: 22px;
+    margin-right: var(--offset_2xs);
+    border: 4px solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    box-sizing: border-box;
+    border-left-color: var(--marker-color);
+    position: absolute;
+    top: var(--offset_m);
+    left: 0;
+    z-index: 3
+}
+
+.dashboard-BaseWidget__titleContainer {
+    flex-shrink: 0;
+    padding-left: var(--offset_m);
+    height: var(--inline_height_2xl);
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box
+}
+
+.dashboard-BaseWidget__titleContainer::before {
+    content: '\200b';
+    width: 0;
+    display: inline-block;
+    visibility: hidden
+}
+
+.dashboard-BaseWidget__title {
+    flex-shrink: 1;
+    min-width: 56px;
+    margin-right: var(--offset_m);
+    margin-top: var(--offset_m);
+    z-index: 3
+}
+
+.dashboard-BaseWidget__headerContentTemplate {
+    margin-right: var(--offset_m)
+}
+
+.dashboard-BaseWidget__restrictedBlock {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .9;
+    background-color: var(--background-color);
+    pointer-events: none;
+    z-index: 2
+}
+
+.dashboard-BaseWidget__restrictedBlock_iconContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--unaccented_background-color)
+}
+
+.dashboard-BaseWidget__restrictedBlock_icon {
+    color: var(--readonly_color);
+    z-index: 1
+}
+
+.dashboard-BaseWidget__moreButtonWrapBlock {
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    flex-shrink: 1;
+    height: 2px;
+    margin-left: 100%;
+    z-index: 1
+}
+
+.dashboard-BaseWidget__moreButtonWrapBlock_left,.dashboard-BaseWidget__moreButtonWrapBlock_right {
+    height: 1px;
+    width: 100%;
+    flex-shrink: 0
+}
+
+.dashboard-BaseWidget__shadow {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: var(--inline_height_l);
+    background: linear-gradient(to top,var(--dashboard_background-color,var(--widget_background-color)),rgba(255,255,255,0))
+}
+
+.dashboard-BaseWidget__shadow_transparentBackground {
+    background: linear-gradient(to top,var(--dashboard_background-color,var(--unaccented_background-color)),rgba(255,255,255,0))
+}
+
+.dashboard-BaseWidget__shadow_notClickable {
+    pointer-events: none
+}
+
+.dashboard-BaseWidget__shadow_right {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    width: var(--inline_height_l);
+    background: linear-gradient(to left,var(--dashboard_background-color,var(--widget_background-color)),rgba(255,255,255,0));
+    pointer-events: none
+}
+
+.dashboard-BaseWidget__shadow_right_transparentBackground {
+    background: linear-gradient(to left,var(--dashboard_background-color,var(--unaccented_background-color)),rgba(255,255,255,0))
+}
+
+.dashboard-BaseWidget__moreButtonContainer {
+    width: 100%
+}
+
+.dashboard-BaseWidget__moreButton {
+    z-index: 1;
+    margin-bottom: var(--offset_s);
+    position: absolute;
+    bottom: 0
+}
+
+.dashboard-BaseWidget__restrictedSize-heightShadow {
+    position: absolute;
+    bottom: 0;
+    height: var(--inline_height_m);
+    width: 100%;
+    background: linear-gradient(0deg,rgba(230,161,25,.5) -40%,rgba(230,161,25,0) 100%)
+}
+
+.dashboard-BaseWidget__restrictedSize-widthShadow {
+    position: absolute;
+    right: 0;
+    width: var(--inline_height_m);
+    height: 100%;
+    background: linear-gradient(-90deg,rgba(230,161,25,.5) -40%,rgba(230,161,25,0) 100%)
+}
+
+.dashboard-BaseWidget__restrictedSize-icon {
+    height: 40px;
+    width: 40px
+}
+
+.dashboard-BaseWidget__restrictedSize-iconContainer {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: var(--warning_same_background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.dashboard-BaseWidget__restrictedSize-hint {
+    width: 185px
+}
+
+.dashboard-BaseWidget__restrictedSize-hintTitle {
+    font-weight: 700
+}
+
+.ws-is-ie11 .dashboard-BaseWidget_withBackground {
+    background: var(--background-color)
+}
+
+.ws-is-ie11 .dashboard-BaseWidget__shadow {
+    background: linear-gradient(to top,var(--background-color),rgba(255,255,255,0));
+    z-index: 1
+}
+
+.ws-is-ie11 .dashboard-BaseWidget__marker {
+    border-left-color: #0c94ff
+}
+
+.dashboard-BaseWidget__widgetResizingLine {
+    position: absolute;
+    bottom: calc(-1 * var(--offset_s));
+    left: 0;
+    width: 100%;
+    height: var(--inline_height_xs);
+    z-index: 4
+}
+
+.ws-is-touch .dashboard-BaseWidget__widgetResizingLine {
+    height: var(--inline_height_2xl)
+}
+
+.dashboard-BaseWidget__widgetContainerBorder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-radius_s);
+    border: 2px dashed rgba(125,102,198,.5);
+    z-index: 3;
+    box-sizing: border-box
+}
+
+.ws-is-hover .dashboard-BaseWidget__widgetContainerBorder {
+    cursor: n-resize
+}
+
+.dashboard-Heading {
+    color: var(--default_text-color_heading);
+    font-size: var(--font-size_3xl);
+    font-weight: var(--font-weight_heading)
+}
+
+.ws-is-hover .dashboard-Heading_clickable {
+    cursor: pointer
+}
+
+.ws-is-hover .dashboard-Heading_clickable:hover {
+    color: var(--default_hover_text-color_heading)
+}
